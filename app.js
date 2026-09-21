@@ -53,8 +53,6 @@ const renderQuestion = () => {
   domainEl.textContent = question.domain || '';
   questionTextEl.textContent = question.text;
 
-  const multi = isMulti(question);
-
   optionsForm.innerHTML = '';
   question.options.forEach((option) => {
     const optionId = `option-${question.number}-${option.letter}`;
@@ -62,8 +60,10 @@ const renderQuestion = () => {
     wrapper.className = 'option';
     wrapper.dataset.letter = option.letter;
 
+    // Every question uses checkboxes, whether it has one correct answer or
+    // several, so the input type itself never gives away how many to pick.
     const input = document.createElement('input');
-    input.type = multi ? 'checkbox' : 'radio';
+    input.type = 'checkbox';
     input.name = 'answer';
     input.value = option.letter;
     input.id = optionId;
