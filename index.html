@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Git Essentials Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Git Essentials Test</h1>
+        <p class="subtitle">
+          Pick an answer, click "Check" and see your result instantly.
+        </p>
+        <p class="source">A practice quiz covering core Git concepts and commands for certificate preparation.</p>
+      </header>
+
+      <section id="selection-screen" class="card">
+        <h2>Choose test length</h2>
+        <p>How many questions would you like to answer?</p>
+        <div class="selection-buttons">
+          <button class="selection-btn" data-count="10">10 questions</button>
+          <button class="selection-btn" data-count="20">20 questions</button>
+          <button class="selection-btn" data-count="40">40 questions</button>
+          <button class="selection-btn" data-count="60">60 questions</button>
+          <button class="selection-btn" data-count="90">90 questions (all)</button>
+        </div>
+      </section>
+
+      <section class="status" aria-live="polite" style="display: none;">
+        <span id="progress">Question 0 of 0</span>
+        <span id="score">Correct: 0</span>
+      </section>
+
+      <section id="question-card" class="card" aria-live="polite" style="display: none;">
+        <h2 id="question-number">Question</h2>
+        <p id="question-text"></p>
+        <form id="options-form" class="options"></form>
+        <div id="feedback" class="feedback" role="status"></div>
+        <div class="actions">
+          <button id="submit-btn" type="button">Check</button>
+          <button id="next-btn" type="button" disabled>Next question</button>
+          <button id="restart-btn" type="button" class="secondary">Start over</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

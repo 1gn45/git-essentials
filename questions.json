@@ -1,0 +1,2072 @@
+[
+  {
+    "number": 1,
+    "text": "What is Git?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A distributed version control system"
+      },
+      {
+        "letter": "b",
+        "text": "A cloud hosting service for websites"
+      },
+      {
+        "letter": "c",
+        "text": "A centralized version control system"
+      },
+      {
+        "letter": "d",
+        "text": "A programming language"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 2,
+    "text": "Which of these best describes a Git repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A database that only Git's servers can access"
+      },
+      {
+        "letter": "b",
+        "text": "A directory tracked by Git that stores the full history of a project"
+      },
+      {
+        "letter": "c",
+        "text": "A single file containing all project code"
+      },
+      {
+        "letter": "d",
+        "text": "A backup folder created automatically by the operating system"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 3,
+    "text": "What is the main difference between Git and a centralized version control system like SVN?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Git only works with text files, SVN works with any file"
+      },
+      {
+        "letter": "b",
+        "text": "Git requires an internet connection for every operation"
+      },
+      {
+        "letter": "c",
+        "text": "In Git every clone has a full copy of the project history, not just the latest snapshot"
+      },
+      {
+        "letter": "d",
+        "text": "SVN supports branching, Git does not"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "number": 4,
+    "text": "What is GitHub in relation to Git?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "GitHub is another name for the same program as Git"
+      },
+      {
+        "letter": "b",
+        "text": "GitHub is a hosting platform for Git repositories with added collaboration features"
+      },
+      {
+        "letter": "c",
+        "text": "GitHub is required to use Git locally"
+      },
+      {
+        "letter": "d",
+        "text": "GitHub is a command inside Git"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 5,
+    "text": "Which command shows the installed Git version?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git version check"
+      },
+      {
+        "letter": "b",
+        "text": "git --version"
+      },
+      {
+        "letter": "c",
+        "text": "git info"
+      },
+      {
+        "letter": "d",
+        "text": "git show version"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 6,
+    "text": "What does the 'working directory' (working tree) in Git refer to?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The folder where Git itself is installed"
+      },
+      {
+        "letter": "b",
+        "text": "The remote server that stores the repository"
+      },
+      {
+        "letter": "c",
+        "text": "The current set of files on disk that you are editing"
+      },
+      {
+        "letter": "d",
+        "text": "The hidden .git folder"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "number": 7,
+    "text": "What is the '.git' folder?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A temporary cache that can be safely deleted at any time"
+      },
+      {
+        "letter": "b",
+        "text": "The hidden directory where Git stores all repository metadata and history"
+      },
+      {
+        "letter": "c",
+        "text": "A folder that contains only ignored files"
+      },
+      {
+        "letter": "d",
+        "text": "The folder shown on GitHub's website"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 8,
+    "text": "Which area in Git sits between the working directory and the repository history, holding changes prepared for the next commit?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The stash"
+      },
+      {
+        "letter": "b",
+        "text": "The staging area (index)"
+      },
+      {
+        "letter": "c",
+        "text": "The remote"
+      },
+      {
+        "letter": "d",
+        "text": "The reflog"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 9,
+    "text": "What uniquely identifies a Git commit?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A sequential integer, like commit #1, #2, #3"
+      },
+      {
+        "letter": "b",
+        "text": "The file name that was changed"
+      },
+      {
+        "letter": "c",
+        "text": "A SHA-1 (or SHA-256) hash of its contents and metadata"
+      },
+      {
+        "letter": "d",
+        "text": "The author's email address"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "number": 10,
+    "text": "Which command displays the current state of the working directory and staging area?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git state"
+      },
+      {
+        "letter": "b",
+        "text": "git status"
+      },
+      {
+        "letter": "c",
+        "text": "git info"
+      },
+      {
+        "letter": "d",
+        "text": "git check"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 11,
+    "text": "Which command sets your Git username globally for all repositories?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git config --global user.name \"Your Name\""
+      },
+      {
+        "letter": "b",
+        "text": "git user set \"Your Name\""
+      },
+      {
+        "letter": "c",
+        "text": "git set-name \"Your Name\""
+      },
+      {
+        "letter": "d",
+        "text": "git config user \"Your Name\""
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 12,
+    "text": "What does 'git init' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Downloads a repository from a remote server"
+      },
+      {
+        "letter": "b",
+        "text": "Initializes a new, empty Git repository in the current directory"
+      },
+      {
+        "letter": "c",
+        "text": "Installs Git on the system"
+      },
+      {
+        "letter": "d",
+        "text": "Creates a new GitHub account"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 13,
+    "text": "Which file lets you tell Git which files or folders to never track?",
+    "options": [
+      {
+        "letter": "a",
+        "text": ".gitconfig"
+      },
+      {
+        "letter": "b",
+        "text": ".gitattributes"
+      },
+      {
+        "letter": "c",
+        "text": ".gitignore"
+      },
+      {
+        "letter": "d",
+        "text": ".gitkeep"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "number": 14,
+    "text": "Where is a repository-specific (local) Git configuration typically stored?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In ~/.gitconfig"
+      },
+      {
+        "letter": "b",
+        "text": "In /etc/gitconfig"
+      },
+      {
+        "letter": "c",
+        "text": "In .git/config inside the repository"
+      },
+      {
+        "letter": "d",
+        "text": "In the GitHub account settings"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "number": 15,
+    "text": "What is the purpose of 'git config --global core.editor'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To choose which text editor Git opens for commit messages and interactive operations"
+      },
+      {
+        "letter": "b",
+        "text": "To set the default branch name"
+      },
+      {
+        "letter": "c",
+        "text": "To pick the default merge tool only"
+      },
+      {
+        "letter": "d",
+        "text": "To configure the remote repository URL"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 16,
+    "text": "Which command stages a specific file for the next commit?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git commit <file>"
+      },
+      {
+        "letter": "b",
+        "text": "git add <file>"
+      },
+      {
+        "letter": "c",
+        "text": "git stage-only <file>"
+      },
+      {
+        "letter": "d",
+        "text": "git track <file>"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 17,
+    "text": "Which command stages all changed and new files in the current directory?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git add ."
+      },
+      {
+        "letter": "b",
+        "text": "git commit -a"
+      },
+      {
+        "letter": "c",
+        "text": "git stage all"
+      },
+      {
+        "letter": "d",
+        "text": "git push ."
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 18,
+    "text": "What does 'git commit -m \"message\"' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Stages all files and pushes them to the remote"
+      },
+      {
+        "letter": "b",
+        "text": "Records the staged changes as a new commit with the given message"
+      },
+      {
+        "letter": "c",
+        "text": "Creates a new branch named 'message'"
+      },
+      {
+        "letter": "d",
+        "text": "Merges the current branch into main"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 19,
+    "text": "What does the '-a' flag do when used with 'git commit -a -m \"...\"'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Automatically stages all tracked, modified files before committing"
+      },
+      {
+        "letter": "b",
+        "text": "Amends the previous commit"
+      },
+      {
+        "letter": "c",
+        "text": "Aborts the commit if there are conflicts"
+      },
+      {
+        "letter": "d",
+        "text": "Adds a tag to the commit"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 20,
+    "text": "Which command shows the commit history of the current branch?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git history"
+      },
+      {
+        "letter": "b",
+        "text": "git log"
+      },
+      {
+        "letter": "c",
+        "text": "git commits"
+      },
+      {
+        "letter": "d",
+        "text": "git show-all"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 21,
+    "text": "Which command shows the differences between the working directory and the staging area?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git diff"
+      },
+      {
+        "letter": "b",
+        "text": "git status --long"
+      },
+      {
+        "letter": "c",
+        "text": "git compare"
+      },
+      {
+        "letter": "d",
+        "text": "git delta"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 22,
+    "text": "How can you see the differences between the staging area and the last commit?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git diff --staged"
+      },
+      {
+        "letter": "b",
+        "text": "git diff --working"
+      },
+      {
+        "letter": "c",
+        "text": "git status --diff"
+      },
+      {
+        "letter": "d",
+        "text": "git log --diff"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 23,
+    "text": "What does 'git commit --amend' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the last commit permanently with no trace"
+      },
+      {
+        "letter": "b",
+        "text": "Creates a brand-new branch from the last commit"
+      },
+      {
+        "letter": "c",
+        "text": "Modifies the most recent commit, e.g. to fix its message or add staged changes"
+      },
+      {
+        "letter": "d",
+        "text": "Pushes the last commit to the remote again"
+      }
+    ],
+    "answer": "c"
+  },
+  {
+    "number": 24,
+    "text": "Why is it recommended to avoid amending a commit that has already been pushed and shared with others?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Amending is always technically impossible after a push"
+      },
+      {
+        "letter": "b",
+        "text": "It rewrites history, which can cause conflicts for collaborators who already have the original commit"
+      },
+      {
+        "letter": "c",
+        "text": "GitHub blocks amended commits automatically"
+      },
+      {
+        "letter": "d",
+        "text": "It permanently deletes the remote repository"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 25,
+    "text": "Which command removes a file from the working directory and stages the deletion?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git delete <file>"
+      },
+      {
+        "letter": "b",
+        "text": "git rm <file>"
+      },
+      {
+        "letter": "c",
+        "text": "git remove <file> --commit"
+      },
+      {
+        "letter": "d",
+        "text": "git clean <file>"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 26,
+    "text": "What is a Git branch?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A copy of the repository stored on a different server"
+      },
+      {
+        "letter": "b",
+        "text": "A movable pointer to a specific commit, representing an independent line of development"
+      },
+      {
+        "letter": "c",
+        "text": "A backup of the .git folder"
+      },
+      {
+        "letter": "d",
+        "text": "A synonym for a tag"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 27,
+    "text": "Which command creates a new branch called 'feature'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git branch feature"
+      },
+      {
+        "letter": "b",
+        "text": "git new-branch feature"
+      },
+      {
+        "letter": "c",
+        "text": "git create feature"
+      },
+      {
+        "letter": "d",
+        "text": "git checkout feature"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 28,
+    "text": "Which command creates a new branch called 'feature' AND switches to it in one step?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git branch -m feature"
+      },
+      {
+        "letter": "b",
+        "text": "git checkout -b feature"
+      },
+      {
+        "letter": "c",
+        "text": "git switch feature --new"
+      },
+      {
+        "letter": "d",
+        "text": "git merge -b feature"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 29,
+    "text": "What is 'HEAD' in Git?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The name of the main branch"
+      },
+      {
+        "letter": "b",
+        "text": "A pointer that usually references the tip of the currently checked-out branch"
+      },
+      {
+        "letter": "c",
+        "text": "The very first commit of the repository"
+      },
+      {
+        "letter": "d",
+        "text": "A file that lists all remote branches"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 30,
+    "text": "What does a 'detached HEAD' state mean?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "HEAD points directly to a specific commit instead of to a branch"
+      },
+      {
+        "letter": "b",
+        "text": "The repository has no commits yet"
+      },
+      {
+        "letter": "c",
+        "text": "The remote repository has been deleted"
+      },
+      {
+        "letter": "d",
+        "text": "The current branch has been merged and removed"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 31,
+    "text": "Which command lists all local branches?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git branch"
+      },
+      {
+        "letter": "b",
+        "text": "git branch -a --remote-only"
+      },
+      {
+        "letter": "c",
+        "text": "git list branches"
+      },
+      {
+        "letter": "d",
+        "text": "git show branches"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 32,
+    "text": "Which command lists both local and remote-tracking branches?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git branch -a"
+      },
+      {
+        "letter": "b",
+        "text": "git branch --local"
+      },
+      {
+        "letter": "c",
+        "text": "git remote branches"
+      },
+      {
+        "letter": "d",
+        "text": "git list -r"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 33,
+    "text": "Which command deletes a local branch named 'feature' that has already been merged?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git branch -D feature"
+      },
+      {
+        "letter": "b",
+        "text": "git branch -d feature"
+      },
+      {
+        "letter": "c",
+        "text": "git remove feature"
+      },
+      {
+        "letter": "d",
+        "text": "git delete-branch feature"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 34,
+    "text": "What is the difference between 'git branch -d' and 'git branch -D'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "There is no difference, they are aliases"
+      },
+      {
+        "letter": "b",
+        "text": "-D forces deletion even if the branch has unmerged changes; -d refuses to delete in that case"
+      },
+      {
+        "letter": "c",
+        "text": "-d deletes local branches, -D deletes remote branches"
+      },
+      {
+        "letter": "d",
+        "text": "-D only works on the main branch"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 35,
+    "text": "Which modern command is recommended for switching between existing branches (introduced as a clearer alternative to 'git checkout')?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git switch"
+      },
+      {
+        "letter": "b",
+        "text": "git move"
+      },
+      {
+        "letter": "c",
+        "text": "git jump"
+      },
+      {
+        "letter": "d",
+        "text": "git branch --to"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 36,
+    "text": "What does 'git merge feature' do when run on the main branch?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the feature branch"
+      },
+      {
+        "letter": "b",
+        "text": "Integrates the changes from the feature branch into the current branch"
+      },
+      {
+        "letter": "c",
+        "text": "Renames the current branch to 'feature'"
+      },
+      {
+        "letter": "d",
+        "text": "Uploads the feature branch to the remote"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 37,
+    "text": "What is a 'fast-forward' merge?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A merge that combines three or more branches at once"
+      },
+      {
+        "letter": "b",
+        "text": "A merge where the current branch pointer is simply moved forward because there is no divergent history"
+      },
+      {
+        "letter": "c",
+        "text": "A merge that is performed automatically by GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "A merge that skips running any hooks"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 38,
+    "text": "When does Git create a merge commit instead of doing a fast-forward merge?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Whenever git merge is used, always"
+      },
+      {
+        "letter": "b",
+        "text": "When the branches have diverged (both have commits the other doesn't)"
+      },
+      {
+        "letter": "c",
+        "text": "Only when using 'git rebase'"
+      },
+      {
+        "letter": "d",
+        "text": "Only when merging with a remote repository"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 39,
+    "text": "What causes a merge conflict?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Two branches change the same lines of a file (or one edits, one deletes) in different ways"
+      },
+      {
+        "letter": "b",
+        "text": "Two branches have completely unrelated files"
+      },
+      {
+        "letter": "c",
+        "text": "The repository has more than one remote"
+      },
+      {
+        "letter": "d",
+        "text": "A commit message is too long"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 40,
+    "text": "In a file with merge conflict markers, what does the section between '<<<<<<< HEAD' and '=======' represent?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The changes from the branch being merged in"
+      },
+      {
+        "letter": "b",
+        "text": "The changes from the current branch (HEAD)"
+      },
+      {
+        "letter": "c",
+        "text": "Lines that will be deleted automatically"
+      },
+      {
+        "letter": "d",
+        "text": "A comment that Git ignores"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 41,
+    "text": "After manually resolving a merge conflict in a file, what should you do next?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Delete the .git folder and start over"
+      },
+      {
+        "letter": "b",
+        "text": "Stage the resolved file with 'git add' and then complete the merge with 'git commit'"
+      },
+      {
+        "letter": "c",
+        "text": "Run 'git merge --force'"
+      },
+      {
+        "letter": "d",
+        "text": "Nothing, Git detects the resolution automatically without staging"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 42,
+    "text": "Which command aborts an in-progress merge and returns to the state before the merge started?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git merge --abort"
+      },
+      {
+        "letter": "b",
+        "text": "git reset --merge-cancel"
+      },
+      {
+        "letter": "c",
+        "text": "git checkout --abort"
+      },
+      {
+        "letter": "d",
+        "text": "git merge --undo"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 43,
+    "text": "What does 'git rebase main' do when run on a feature branch?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the main branch"
+      },
+      {
+        "letter": "b",
+        "text": "Replays the feature branch's commits on top of the latest main branch, creating a linear history"
+      },
+      {
+        "letter": "c",
+        "text": "Merges main into feature using a merge commit"
+      },
+      {
+        "letter": "d",
+        "text": "Renames main to feature"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 44,
+    "text": "What is a key difference between merging and rebasing?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Merge creates a merge commit and preserves branch history; rebase rewrites commits to create a linear history"
+      },
+      {
+        "letter": "b",
+        "text": "Rebase can only be used with remote branches"
+      },
+      {
+        "letter": "c",
+        "text": "Merge is only for bug fixes, rebase is only for features"
+      },
+      {
+        "letter": "d",
+        "text": "There is no functional difference"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 45,
+    "text": "Why is rebasing commits that have already been pushed and shared considered risky?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It permanently deletes the remote repository"
+      },
+      {
+        "letter": "b",
+        "text": "It rewrites commit history, which can cause conflicts and confusion for others who already pulled the original commits"
+      },
+      {
+        "letter": "c",
+        "text": "It is not risky at all"
+      },
+      {
+        "letter": "d",
+        "text": "Git does not allow pushing after a rebase under any circumstance"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 46,
+    "text": "What does an interactive rebase ('git rebase -i') allow you to do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only abort rebases, nothing else"
+      },
+      {
+        "letter": "b",
+        "text": "Reorder, squash, edit, or drop commits before they are replayed"
+      },
+      {
+        "letter": "c",
+        "text": "Automatically resolve all merge conflicts without review"
+      },
+      {
+        "letter": "d",
+        "text": "Convert the repository from Git to SVN"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 47,
+    "text": "What does 'squashing' commits during an interactive rebase mean?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deleting commits without any trace in the reflog"
+      },
+      {
+        "letter": "b",
+        "text": "Combining multiple commits into a single commit"
+      },
+      {
+        "letter": "c",
+        "text": "Splitting one commit into several smaller commits"
+      },
+      {
+        "letter": "d",
+        "text": "Pushing commits to multiple remotes at once"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 48,
+    "text": "Which command continues an interactive rebase after resolving a conflict?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git rebase --continue"
+      },
+      {
+        "letter": "b",
+        "text": "git rebase --resume"
+      },
+      {
+        "letter": "c",
+        "text": "git rebase --next"
+      },
+      {
+        "letter": "d",
+        "text": "git commit --rebase"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 49,
+    "text": "What does 'git clone <url>' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Creates an empty repository with the given name"
+      },
+      {
+        "letter": "b",
+        "text": "Downloads a full copy of a remote repository, including its history, to your local machine"
+      },
+      {
+        "letter": "c",
+        "text": "Copies only the current branch's latest file snapshot with no history"
+      },
+      {
+        "letter": "d",
+        "text": "Uploads your local repository to a new remote"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 50,
+    "text": "What is the conventional name Git gives to the remote a repository was cloned from?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "origin"
+      },
+      {
+        "letter": "b",
+        "text": "master"
+      },
+      {
+        "letter": "c",
+        "text": "upstream"
+      },
+      {
+        "letter": "d",
+        "text": "source"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 51,
+    "text": "Which command lists the remotes configured for a repository along with their URLs?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git remote -v"
+      },
+      {
+        "letter": "b",
+        "text": "git origin list"
+      },
+      {
+        "letter": "c",
+        "text": "git show remotes"
+      },
+      {
+        "letter": "d",
+        "text": "git config --remotes"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 52,
+    "text": "What is the difference between 'git fetch' and 'git pull'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They are identical in every way"
+      },
+      {
+        "letter": "b",
+        "text": "'git fetch' downloads new commits from the remote without merging them; 'git pull' fetches and then merges (or rebases) into the current branch"
+      },
+      {
+        "letter": "c",
+        "text": "'git pull' only works on the main branch"
+      },
+      {
+        "letter": "d",
+        "text": "'git fetch' also pushes local commits to the remote"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 53,
+    "text": "Which command uploads local commits on the current branch to the remote repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git upload"
+      },
+      {
+        "letter": "b",
+        "text": "git push"
+      },
+      {
+        "letter": "c",
+        "text": "git send"
+      },
+      {
+        "letter": "d",
+        "text": "git commit --remote"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 54,
+    "text": "What does 'git push -u origin feature' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the feature branch from the remote"
+      },
+      {
+        "letter": "b",
+        "text": "Pushes the feature branch to origin and sets up tracking so future 'git push'/'git pull' know the default remote branch"
+      },
+      {
+        "letter": "c",
+        "text": "Pushes the feature branch but forces overwrite of remote history"
+      },
+      {
+        "letter": "d",
+        "text": "Uploads only untracked files"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 55,
+    "text": "What is the purpose of adding an 'upstream' remote when working with a forked repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To point to your own fork so you can push your changes"
+      },
+      {
+        "letter": "b",
+        "text": "To reference the original repository you forked from, so you can pull in its latest changes"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically delete your fork"
+      },
+      {
+        "letter": "d",
+        "text": "It has no practical purpose"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 56,
+    "text": "Which command adds a new remote named 'upstream' pointing to a given URL?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git remote add upstream <url>"
+      },
+      {
+        "letter": "b",
+        "text": "git remote set upstream <url>"
+      },
+      {
+        "letter": "c",
+        "text": "git upstream add <url>"
+      },
+      {
+        "letter": "d",
+        "text": "git clone upstream <url>"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 57,
+    "text": "What typically happens if you try to 'git push' and the remote branch has commits that you don't have locally?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Git silently overwrites the remote branch"
+      },
+      {
+        "letter": "b",
+        "text": "Git rejects the push and asks you to fetch/pull and integrate the remote changes first"
+      },
+      {
+        "letter": "c",
+        "text": "Git automatically force-pushes"
+      },
+      {
+        "letter": "d",
+        "text": "Git deletes your local commits"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 58,
+    "text": "What does 'git push --force' do, and why is it considered dangerous on shared branches?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It pushes tags only; it is completely safe"
+      },
+      {
+        "letter": "b",
+        "text": "It overwrites the remote branch's history to match your local branch, potentially discarding others' commits"
+      },
+      {
+        "letter": "c",
+        "text": "It merges the remote branch into local automatically"
+      },
+      {
+        "letter": "d",
+        "text": "It only affects your local repository, never the remote"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 59,
+    "text": "What does 'git checkout -- <file>' (or 'git restore <file>') do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the file permanently"
+      },
+      {
+        "letter": "b",
+        "text": "Discards uncommitted changes in the working directory, restoring the file to its last committed state"
+      },
+      {
+        "letter": "c",
+        "text": "Stages the file for commit"
+      },
+      {
+        "letter": "d",
+        "text": "Creates a new branch from the file"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 60,
+    "text": "What does 'git reset --soft HEAD~1' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the last commit and all its changes permanently"
+      },
+      {
+        "letter": "b",
+        "text": "Undoes the last commit but keeps its changes staged"
+      },
+      {
+        "letter": "c",
+        "text": "Undoes the last commit and unstages the changes, keeping them in the working directory"
+      },
+      {
+        "letter": "d",
+        "text": "Removes the last commit from the remote repository"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 61,
+    "text": "What does 'git reset --hard HEAD~1' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Undoes the last commit but keeps the changes in the working directory"
+      },
+      {
+        "letter": "b",
+        "text": "Undoes the last commit and discards its changes completely from the working directory and staging area"
+      },
+      {
+        "letter": "c",
+        "text": "Only unstages files without touching commits"
+      },
+      {
+        "letter": "d",
+        "text": "Creates a backup branch automatically before resetting"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 62,
+    "text": "What is the key difference between 'git reset' and 'git revert' for undoing a commit?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They do exactly the same thing"
+      },
+      {
+        "letter": "b",
+        "text": "'git reset' moves the branch pointer and can rewrite history; 'git revert' creates a new commit that undoes the changes, preserving history"
+      },
+      {
+        "letter": "c",
+        "text": "'git revert' deletes the .git folder"
+      },
+      {
+        "letter": "d",
+        "text": "'git reset' only works on remote branches"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 63,
+    "text": "Why is 'git revert' generally safer than 'git reset' for undoing changes on a shared/public branch?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It does not rewrite existing history, so it won't conflict with what collaborators already have"
+      },
+      {
+        "letter": "b",
+        "text": "It is faster to execute"
+      },
+      {
+        "letter": "c",
+        "text": "It permanently deletes the unwanted commit"
+      },
+      {
+        "letter": "d",
+        "text": "It requires no network connection"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 64,
+    "text": "Which command removes untracked files from the working directory?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git clean -f"
+      },
+      {
+        "letter": "b",
+        "text": "git remove --untracked"
+      },
+      {
+        "letter": "c",
+        "text": "git reset --untracked"
+      },
+      {
+        "letter": "d",
+        "text": "git delete -u"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 65,
+    "text": "If you accidentally staged a file you didn't mean to, which command unstages it while keeping your edits?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git commit --undo <file>"
+      },
+      {
+        "letter": "b",
+        "text": "git reset <file>"
+      },
+      {
+        "letter": "c",
+        "text": "git rm <file>"
+      },
+      {
+        "letter": "d",
+        "text": "git branch -u <file>"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 66,
+    "text": "What does 'git restore --staged <file>' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the file from the working directory"
+      },
+      {
+        "letter": "b",
+        "text": "Unstages the file, moving its changes back to the working directory only"
+      },
+      {
+        "letter": "c",
+        "text": "Commits the file immediately"
+      },
+      {
+        "letter": "d",
+        "text": "Restores the file from the last tag"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 67,
+    "text": "What is the purpose of 'git stash'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To permanently delete uncommitted changes"
+      },
+      {
+        "letter": "b",
+        "text": "To temporarily save uncommitted changes so you can work on something else, then reapply them later"
+      },
+      {
+        "letter": "c",
+        "text": "To create a new remote repository"
+      },
+      {
+        "letter": "d",
+        "text": "To squash all commits into one"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 68,
+    "text": "Which command reapplies the most recently stashed changes and removes them from the stash list?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git stash pop"
+      },
+      {
+        "letter": "b",
+        "text": "git stash list"
+      },
+      {
+        "letter": "c",
+        "text": "git stash apply --keep"
+      },
+      {
+        "letter": "d",
+        "text": "git stash restore"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 69,
+    "text": "What is the difference between 'git stash apply' and 'git stash pop'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "'apply' reapplies the stash and keeps it in the stash list; 'pop' reapplies it and removes it from the list"
+      },
+      {
+        "letter": "b",
+        "text": "They are exactly the same"
+      },
+      {
+        "letter": "c",
+        "text": "'pop' only works on the main branch"
+      },
+      {
+        "letter": "d",
+        "text": "'apply' deletes the stash without reapplying it"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 70,
+    "text": "Which command lists all currently stashed changesets?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git stash list"
+      },
+      {
+        "letter": "b",
+        "text": "git stash show -all"
+      },
+      {
+        "letter": "c",
+        "text": "git stash log"
+      },
+      {
+        "letter": "d",
+        "text": "git list stash"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 71,
+    "text": "What is a Git tag typically used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Marking a specific commit as important, such as a release version (e.g. v1.0.0)"
+      },
+      {
+        "letter": "b",
+        "text": "Renaming a branch"
+      },
+      {
+        "letter": "c",
+        "text": "Deleting old commits"
+      },
+      {
+        "letter": "d",
+        "text": "Creating a pull request"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 72,
+    "text": "Which command creates an annotated tag named 'v1.0' with a message?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git tag v1.0"
+      },
+      {
+        "letter": "b",
+        "text": "git tag -a v1.0 -m \"Release 1.0\""
+      },
+      {
+        "letter": "c",
+        "text": "git commit --tag v1.0"
+      },
+      {
+        "letter": "d",
+        "text": "git branch --tag v1.0"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 73,
+    "text": "What is the difference between a lightweight tag and an annotated tag?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A lightweight tag is just a pointer to a commit; an annotated tag is a full object with a message, author, and date"
+      },
+      {
+        "letter": "b",
+        "text": "Lightweight tags can only be created on the main branch"
+      },
+      {
+        "letter": "c",
+        "text": "Annotated tags cannot be pushed to a remote"
+      },
+      {
+        "letter": "d",
+        "text": "There is no real difference"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 74,
+    "text": "Which command pushes all local tags to the remote repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git push --tags"
+      },
+      {
+        "letter": "b",
+        "text": "git tag --push-all"
+      },
+      {
+        "letter": "c",
+        "text": "git push origin --all-tags"
+      },
+      {
+        "letter": "d",
+        "text": "git send tags"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 75,
+    "text": "If a file matches a pattern in '.gitignore' but was already tracked by Git before the pattern was added, what happens?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Git automatically stops tracking it"
+      },
+      {
+        "letter": "b",
+        "text": "Git continues to track it; .gitignore only affects previously untracked files"
+      },
+      {
+        "letter": "c",
+        "text": "The file is deleted from disk"
+      },
+      {
+        "letter": "d",
+        "text": ".gitignore is ignored entirely if any tracked files match"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 76,
+    "text": "Which command shows a compact, one-line-per-commit history with a branch graph?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git log --oneline --graph"
+      },
+      {
+        "letter": "b",
+        "text": "git log --tree"
+      },
+      {
+        "letter": "c",
+        "text": "git history --compact"
+      },
+      {
+        "letter": "d",
+        "text": "git show --short"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 77,
+    "text": "What does 'git show <commit-hash>' display?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only the commit message"
+      },
+      {
+        "letter": "b",
+        "text": "The metadata and the actual changes (diff) introduced by that specific commit"
+      },
+      {
+        "letter": "c",
+        "text": "A list of all branches containing that commit"
+      },
+      {
+        "letter": "d",
+        "text": "The remote URL"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 78,
+    "text": "What is 'git blame <file>' used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deleting a file and blaming the last author"
+      },
+      {
+        "letter": "b",
+        "text": "Showing which commit and author last modified each line of a file"
+      },
+      {
+        "letter": "c",
+        "text": "Reverting a file to its original state"
+      },
+      {
+        "letter": "d",
+        "text": "Reporting bugs to GitHub support"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 79,
+    "text": "What does 'git cherry-pick <commit-hash>' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the specified commit from history"
+      },
+      {
+        "letter": "b",
+        "text": "Applies the changes introduced by a specific commit from another branch onto the current branch"
+      },
+      {
+        "letter": "c",
+        "text": "Creates a tag pointing to that commit"
+      },
+      {
+        "letter": "d",
+        "text": "Merges two entire branches together"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 80,
+    "text": "What is the purpose of 'git bisect'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To split a branch into two new branches"
+      },
+      {
+        "letter": "b",
+        "text": "To perform a binary search through commit history to find which commit introduced a bug"
+      },
+      {
+        "letter": "c",
+        "text": "To merge two unrelated repositories"
+      },
+      {
+        "letter": "d",
+        "text": "To compress the .git folder"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 81,
+    "text": "What is the 'reflog' in Git?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A log of all files ever ignored by .gitignore"
+      },
+      {
+        "letter": "b",
+        "text": "A local record of where HEAD and branch references have pointed over time, useful for recovering lost commits"
+      },
+      {
+        "letter": "c",
+        "text": "The commit history shown on GitHub's website"
+      },
+      {
+        "letter": "d",
+        "text": "A list of all remote repositories"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 82,
+    "text": "A commit was accidentally lost after a 'git reset --hard'. Which tool can often help recover it?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git gc"
+      },
+      {
+        "letter": "b",
+        "text": "git reflog"
+      },
+      {
+        "letter": "c",
+        "text": "git fsck --delete"
+      },
+      {
+        "letter": "d",
+        "text": "git clean -fd"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 83,
+    "text": "What does 'git log --author=\"name\"' do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Changes the author of all commits to 'name'"
+      },
+      {
+        "letter": "b",
+        "text": "Filters the commit history to show only commits by the given author"
+      },
+      {
+        "letter": "c",
+        "text": "Deletes commits by that author"
+      },
+      {
+        "letter": "d",
+        "text": "Creates a new branch owned by that author"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 84,
+    "text": "In a typical feature-branch workflow, what is a 'pull request' (or 'merge request')?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A Git command that pulls changes from a remote"
+      },
+      {
+        "letter": "b",
+        "text": "A request, usually made on a hosting platform like GitHub, to merge changes from one branch into another, often with review and discussion"
+      },
+      {
+        "letter": "c",
+        "text": "A synonym for 'git pull'"
+      },
+      {
+        "letter": "d",
+        "text": "A way to delete a remote branch"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 85,
+    "text": "What does 'forking' a repository on a platform like GitHub mean?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deleting the original repository"
+      },
+      {
+        "letter": "b",
+        "text": "Creating your own personal copy of someone else's repository on the platform, so you can make changes independently"
+      },
+      {
+        "letter": "c",
+        "text": "Splitting one repository into two unrelated ones locally"
+      },
+      {
+        "letter": "d",
+        "text": "Merging two repositories into one"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 86,
+    "text": "What is a Git 'submodule'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A smaller branch inside the main branch"
+      },
+      {
+        "letter": "b",
+        "text": "A reference to another Git repository embedded at a specific path and commit within a parent repository"
+      },
+      {
+        "letter": "c",
+        "text": "A private, encrypted section of a repository"
+      },
+      {
+        "letter": "d",
+        "text": "A type of Git hook"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 87,
+    "text": "What are Git 'hooks'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Remote servers that store repositories"
+      },
+      {
+        "letter": "b",
+        "text": "Scripts that Git runs automatically before or after events like commit, push, or merge"
+      },
+      {
+        "letter": "c",
+        "text": "Special branches used only for releases"
+      },
+      {
+        "letter": "d",
+        "text": "A way to hide files from 'git status'"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 88,
+    "text": "Which command shows only the file names that differ between two commits, without the full diff content?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "git diff --name-only"
+      },
+      {
+        "letter": "b",
+        "text": "git log --files"
+      },
+      {
+        "letter": "c",
+        "text": "git status --short-names"
+      },
+      {
+        "letter": "d",
+        "text": "git show --list"
+      }
+    ],
+    "answer": "a"
+  },
+  {
+    "number": 89,
+    "text": "What does 'git log -p' show in addition to the commit list?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only the parent commit hashes"
+      },
+      {
+        "letter": "b",
+        "text": "The full patch (diff) introduced by each commit"
+      },
+      {
+        "letter": "c",
+        "text": "A performance report of the repository"
+      },
+      {
+        "letter": "d",
+        "text": "The list of pull requests"
+      }
+    ],
+    "answer": "b"
+  },
+  {
+    "number": 90,
+    "text": "Why is it good practice to write a clear, descriptive commit message?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Git requires a minimum message length or it rejects the commit"
+      },
+      {
+        "letter": "b",
+        "text": "It helps collaborators (and your future self) understand the history and reason behind each change"
+      },
+      {
+        "letter": "c",
+        "text": "Commit messages are compiled into the application"
+      },
+      {
+        "letter": "d",
+        "text": "It automatically fixes any bugs introduced"
+      }
+    ],
+    "answer": "b"
+  }
+]
