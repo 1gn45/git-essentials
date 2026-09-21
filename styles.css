@@ -71,6 +71,23 @@ h1 {
   color: var(--primary);
 }
 
+.domain-badge {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(31, 79, 139, 0.1);
+  color: var(--primary-dark);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.domain-badge:empty {
+  display: none;
+}
+
 #question-text {
   margin: 0 0 20px;
   font-size: 18px;

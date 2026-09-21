@@ -1,6 +1,7 @@
 const progressEl = document.getElementById('progress');
 const scoreEl = document.getElementById('score');
 const questionNumberEl = document.getElementById('question-number');
+const domainEl = document.getElementById('question-domain');
 const questionTextEl = document.getElementById('question-text');
 const optionsForm = document.getElementById('options-form');
 const feedbackEl = document.getElementById('feedback');
@@ -46,6 +47,7 @@ const renderQuestion = () => {
   const question = questions[currentIndex];
   progressEl.textContent = `Question ${currentIndex + 1} of ${questions.length}`;
   questionNumberEl.textContent = `Question ${question.number}`;
+  domainEl.textContent = question.domain || '';
   questionTextEl.textContent = question.text;
 
   optionsForm.innerHTML = '';
@@ -73,6 +75,7 @@ const renderQuestion = () => {
 const showSummary = () => {
   progressEl.textContent = `Finished: ${questions.length} questions`;
   questionNumberEl.textContent = 'Test complete';
+  domainEl.textContent = '';
   questionTextEl.textContent = '';
   optionsForm.innerHTML = '';
   feedbackEl.className = 'feedback success summary';

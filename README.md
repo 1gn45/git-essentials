@@ -1,10 +1,28 @@
-# Git Essentials Test
+# GitHub Foundations Practice Test
 
-A self-check practice quiz for preparing for a "Git Essentials" certificate. It covers core Git
-concepts and commands: repositories, staging and commits, branching, merging, rebasing, remotes,
-undoing changes, stashing, tagging, and common collaboration workflows.
+A self-check practice quiz for preparing for the **GitHub Foundations (GH-900)** certification.
+140 original multiple-choice questions, written from scratch and mapped to the seven official
+exam domains and their published weightings from Microsoft Learn's public
+[GH-900 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900):
 
-Pick how many questions you want (10 to all 90), answer them one at a time, and get instant
+| Domain | Weight | Questions here |
+|---|---|---|
+| Understand Git and GitHub basics | 25–30% | 39 |
+| Work with GitHub repositories | 10–15% | 22 |
+| Collaborate using GitHub | 10–15% | 21 |
+| Apply modern development practices | 10–15% | 17 |
+| Manage projects with GitHub | 5–10% | 10 |
+| Understand privacy, security, and administration | 10–15% | 21 |
+| Explore the GitHub community | 5–10% | 10 |
+
+Each question shows which domain it belongs to, so you can see where you're weak.
+
+**Note on sourcing:** GH-900 is a proctored certification exam under NDA. These questions are
+original and written from the *public, official exam objectives* plus general GitHub product
+knowledge — none of it is copied or reconstructed from leaked/real exam questions. Treat this as
+a study aid for the topics, not a guarantee of the exact questions you'll see on exam day.
+
+Pick how many questions you want (15 to all 140), answer them one at a time, and get instant
 feedback with the correct answer. At the end you can see your score and retry only the
 questions you got wrong.
 

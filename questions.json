@@ -1,1525 +1,847 @@
 [
   {
     "number": 1,
-    "text": "What is Git?",
+    "text": "What is the main purpose of a version control system like Git?",
     "options": [
       {
         "letter": "a",
-        "text": "A distributed version control system"
+        "text": "To host websites"
       },
       {
         "letter": "b",
-        "text": "A cloud hosting service for websites"
+        "text": "To track changes to files over time and let multiple people collaborate without overwriting each other's work"
       },
       {
         "letter": "c",
-        "text": "A centralized version control system"
+        "text": "To compile source code into an executable"
       },
       {
         "letter": "d",
-        "text": "A programming language"
+        "text": "To manage cloud billing"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 2,
-    "text": "Which of these best describes a Git repository?",
+    "text": "What is the key difference between Git and GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "A database that only Git's servers can access"
+        "text": "They are the same product with two different names"
       },
       {
         "letter": "b",
-        "text": "A directory tracked by Git that stores the full history of a project"
+        "text": "Git is the distributed version control system; GitHub is a cloud platform that hosts Git repositories and adds collaboration features"
       },
       {
         "letter": "c",
-        "text": "A single file containing all project code"
+        "text": "Git only works with private repositories, GitHub only with public ones"
       },
       {
         "letter": "d",
-        "text": "A backup folder created automatically by the operating system"
+        "text": "GitHub is required to install Git"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 3,
-    "text": "What is the main difference between Git and a centralized version control system like SVN?",
+    "text": "Why is Git described as a 'distributed' version control system?",
     "options": [
       {
         "letter": "a",
-        "text": "Git only works with text files, SVN works with any file"
+        "text": "Because it only runs on distributed cloud servers"
       },
       {
         "letter": "b",
-        "text": "Git requires an internet connection for every operation"
+        "text": "Because every clone contains the full project history, not just a pointer to a central server's latest snapshot"
       },
       {
         "letter": "c",
-        "text": "In Git every clone has a full copy of the project history, not just the latest snapshot"
+        "text": "Because commits are automatically distributed to every branch"
       },
       {
         "letter": "d",
-        "text": "SVN supports branching, Git does not"
+        "text": "Because it requires multiple servers to function at all"
       }
     ],
-    "answer": "c"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 4,
-    "text": "What is GitHub in relation to Git?",
+    "text": "What is a Git 'repository'?",
     "options": [
       {
         "letter": "a",
-        "text": "GitHub is another name for the same program as Git"
+        "text": "A single commit"
       },
       {
         "letter": "b",
-        "text": "GitHub is a hosting platform for Git repositories with added collaboration features"
+        "text": "A project's directory tracked by Git, containing its files and their full history"
       },
       {
         "letter": "c",
-        "text": "GitHub is required to use Git locally"
+        "text": "A GitHub organization"
       },
       {
         "letter": "d",
-        "text": "GitHub is a command inside Git"
+        "text": "A backup copy stored only on GitHub's servers"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 5,
-    "text": "Which command shows the installed Git version?",
+    "text": "What does a Git 'commit' represent?",
     "options": [
       {
         "letter": "a",
-        "text": "git version check"
+        "text": "A saved snapshot of staged changes, with a message describing what changed"
       },
       {
         "letter": "b",
-        "text": "git --version"
+        "text": "A branch that has been deleted"
       },
       {
         "letter": "c",
-        "text": "git info"
+        "text": "A pull request that has been merged"
       },
       {
         "letter": "d",
-        "text": "git show version"
+        "text": "A GitHub Actions workflow run"
       }
     ],
-    "answer": "b"
+    "answer": "a",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 6,
-    "text": "What does the 'working directory' (working tree) in Git refer to?",
+    "text": "What is the Git 'staging area' (index) used for?",
     "options": [
       {
         "letter": "a",
-        "text": "The folder where Git itself is installed"
+        "text": "Permanently storing old commits"
       },
       {
         "letter": "b",
-        "text": "The remote server that stores the repository"
+        "text": "Holding changes you have selected to include in the next commit"
       },
       {
         "letter": "c",
-        "text": "The current set of files on disk that you are editing"
+        "text": "Storing GitHub Actions secrets"
       },
       {
         "letter": "d",
-        "text": "The hidden .git folder"
+        "text": "Listing collaborators on a repository"
       }
     ],
-    "answer": "c"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 7,
-    "text": "What is the '.git' folder?",
+    "text": "In Git terminology, what does 'clone' mean?",
     "options": [
       {
         "letter": "a",
-        "text": "A temporary cache that can be safely deleted at any time"
+        "text": "Deleting a repository"
       },
       {
         "letter": "b",
-        "text": "The hidden directory where Git stores all repository metadata and history"
+        "text": "Downloading a full copy of a remote repository, including its history, to your local machine"
       },
       {
         "letter": "c",
-        "text": "A folder that contains only ignored files"
+        "text": "Copying a single file from another repository"
       },
       {
         "letter": "d",
-        "text": "The folder shown on GitHub's website"
+        "text": "Renaming a branch"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 8,
-    "text": "Which area in Git sits between the working directory and the repository history, holding changes prepared for the next commit?",
+    "text": "In Git terminology, what does 'branch' mean?",
     "options": [
       {
         "letter": "a",
-        "text": "The stash"
+        "text": "A separate line of development that diverges from the main line of work"
       },
       {
         "letter": "b",
-        "text": "The staging area (index)"
+        "text": "A synonym for a commit"
       },
       {
         "letter": "c",
-        "text": "The remote"
+        "text": "A GitHub organization team"
       },
       {
         "letter": "d",
-        "text": "The reflog"
+        "text": "A type of pull request"
       }
     ],
-    "answer": "b"
+    "answer": "a",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 9,
-    "text": "What uniquely identifies a Git commit?",
+    "text": "In Git terminology, what does 'merge' mean?",
     "options": [
       {
         "letter": "a",
-        "text": "A sequential integer, like commit #1, #2, #3"
+        "text": "Deleting a branch"
       },
       {
         "letter": "b",
-        "text": "The file name that was changed"
+        "text": "Combining the changes from one branch into another"
       },
       {
         "letter": "c",
-        "text": "A SHA-1 (or SHA-256) hash of its contents and metadata"
+        "text": "Uploading a repository to GitHub for the first time"
       },
       {
         "letter": "d",
-        "text": "The author's email address"
+        "text": "Renaming a repository"
       }
     ],
-    "answer": "c"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 10,
-    "text": "Which command displays the current state of the working directory and staging area?",
+    "text": "What does 'HEAD' refer to in Git?",
     "options": [
       {
         "letter": "a",
-        "text": "git state"
+        "text": "The oldest commit in the repository"
       },
       {
         "letter": "b",
-        "text": "git status"
+        "text": "A reference to the current commit/branch you have checked out"
       },
       {
         "letter": "c",
-        "text": "git info"
+        "text": "The name of the default remote"
       },
       {
         "letter": "d",
-        "text": "git check"
+        "text": "The main GitHub organization owner"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 11,
-    "text": "Which command sets your Git username globally for all repositories?",
+    "text": "What does 'origin' conventionally refer to in Git?",
     "options": [
       {
         "letter": "a",
-        "text": "git config --global user.name \"Your Name\""
+        "text": "The very first commit ever made"
       },
       {
         "letter": "b",
-        "text": "git user set \"Your Name\""
+        "text": "The default name given to the remote repository a project was cloned from"
       },
       {
         "letter": "c",
-        "text": "git set-name \"Your Name\""
+        "text": "The main branch"
       },
       {
         "letter": "d",
-        "text": "git config user \"Your Name\""
+        "text": "A GitHub Enterprise server"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 12,
-    "text": "What does 'git init' do?",
+    "text": "What is 'fork' in the context of GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Downloads a repository from a remote server"
+        "text": "Deleting your local copy of a repository"
       },
       {
         "letter": "b",
-        "text": "Initializes a new, empty Git repository in the current directory"
+        "text": "Creating your own personal copy of someone else's repository on GitHub, so you can experiment or contribute independently"
       },
       {
         "letter": "c",
-        "text": "Installs Git on the system"
+        "text": "A conflict between two branches"
       },
       {
         "letter": "d",
-        "text": "Creates a new GitHub account"
+        "text": "A type of GitHub Actions runner"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 13,
-    "text": "Which file lets you tell Git which files or folders to never track?",
+    "text": "Which of the following best describes 'pull' in Git?",
     "options": [
       {
         "letter": "a",
-        "text": ".gitconfig"
+        "text": "Uploading local commits to a remote repository"
       },
       {
         "letter": "b",
-        "text": ".gitattributes"
+        "text": "Downloading changes from a remote repository and merging them into your current branch"
       },
       {
         "letter": "c",
-        "text": ".gitignore"
+        "text": "Deleting untracked files"
       },
       {
         "letter": "d",
-        "text": ".gitkeep"
+        "text": "Creating a new tag"
       }
     ],
-    "answer": "c"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 14,
-    "text": "Where is a repository-specific (local) Git configuration typically stored?",
+    "text": "Which of the following best describes 'push' in Git?",
     "options": [
       {
         "letter": "a",
-        "text": "In ~/.gitconfig"
+        "text": "Downloading changes from a remote repository"
       },
       {
         "letter": "b",
-        "text": "In /etc/gitconfig"
+        "text": "Uploading local commits to a remote repository"
       },
       {
         "letter": "c",
-        "text": "In .git/config inside the repository"
+        "text": "Reverting the last commit"
       },
       {
         "letter": "d",
-        "text": "In the GitHub account settings"
+        "text": "Creating a new issue on GitHub"
       }
     ],
-    "answer": "c"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 15,
-    "text": "What is the purpose of 'git config --global core.editor'?",
+    "text": "What type of GitHub account is intended for a single individual's projects?",
     "options": [
       {
         "letter": "a",
-        "text": "To choose which text editor Git opens for commit messages and interactive operations"
+        "text": "Organization account"
       },
       {
         "letter": "b",
-        "text": "To set the default branch name"
+        "text": "Personal account"
       },
       {
         "letter": "c",
-        "text": "To pick the default merge tool only"
+        "text": "Enterprise account"
       },
       {
         "letter": "d",
-        "text": "To configure the remote repository URL"
+        "text": "Team account"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 16,
-    "text": "Which command stages a specific file for the next commit?",
+    "text": "What is the purpose of a GitHub 'organization' account?",
     "options": [
       {
         "letter": "a",
-        "text": "git commit <file>"
+        "text": "It represents a single developer's personal profile"
       },
       {
         "letter": "b",
-        "text": "git add <file>"
+        "text": "It lets multiple people collaborate across many repositories with shared ownership, teams, and permissions"
       },
       {
         "letter": "c",
-        "text": "git stage-only <file>"
+        "text": "It is only used for billing, not for hosting repositories"
       },
       {
         "letter": "d",
-        "text": "git track <file>"
+        "text": "It replaces the need for a personal account entirely"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 17,
-    "text": "Which command stages all changed and new files in the current directory?",
+    "text": "What is GitHub Enterprise generally used for, compared to GitHub Free or Team?",
     "options": [
       {
         "letter": "a",
-        "text": "git add ."
+        "text": "It is a free tier for personal open-source projects only"
       },
       {
         "letter": "b",
-        "text": "git commit -a"
+        "text": "It provides advanced security, compliance, and administrative controls for large organizations, including options like Enterprise Managed Users"
       },
       {
         "letter": "c",
-        "text": "git stage all"
+        "text": "It only allows read access to repositories"
       },
       {
         "letter": "d",
-        "text": "git push ."
+        "text": "It removes the ability to use GitHub Actions"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 18,
-    "text": "What does 'git commit -m \"message\"' do?",
+    "text": "Which GitHub product tier typically restricts private repository collaborators the least while still offering core Git hosting for free?",
     "options": [
       {
         "letter": "a",
-        "text": "Stages all files and pushes them to the remote"
+        "text": "GitHub Enterprise Cloud"
       },
       {
         "letter": "b",
-        "text": "Records the staged changes as a new commit with the given message"
+        "text": "GitHub Free"
       },
       {
         "letter": "c",
-        "text": "Creates a new branch named 'message'"
+        "text": "GitHub Enterprise Server only"
       },
       {
         "letter": "d",
-        "text": "Merges the current branch into main"
+        "text": "GitHub Team exclusively"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 19,
-    "text": "What does the '-a' flag do when used with 'git commit -a -m \"...\"'?",
+    "text": "What is GitHub Desktop?",
     "options": [
       {
         "letter": "a",
-        "text": "Automatically stages all tracked, modified files before committing"
+        "text": "A web-only interface with no local application"
       },
       {
         "letter": "b",
-        "text": "Amends the previous commit"
+        "text": "A graphical desktop application that lets you perform common Git/GitHub tasks (clone, commit, push, pull, branch) without the command line"
       },
       {
         "letter": "c",
-        "text": "Aborts the commit if there are conflicts"
+        "text": "A mobile-only app for reviewing pull requests"
       },
       {
         "letter": "d",
-        "text": "Adds a tag to the commit"
+        "text": "A GitHub Actions runner type"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 20,
-    "text": "Which command shows the commit history of the current branch?",
+    "text": "What can you typically do with the GitHub Mobile app?",
     "options": [
       {
         "letter": "a",
-        "text": "git history"
+        "text": "Run GitHub Actions workflows on your phone's hardware"
       },
       {
         "letter": "b",
-        "text": "git log"
+        "text": "Review and manage issues, pull requests, and notifications from a phone or tablet"
       },
       {
         "letter": "c",
-        "text": "git commits"
+        "text": "Host a repository directly from the phone's storage"
       },
       {
         "letter": "d",
-        "text": "git show-all"
+        "text": "Compile and deploy applications without a computer"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 21,
-    "text": "Which command shows the differences between the working directory and the staging area?",
+    "text": "Which markup language does GitHub use to format README files, issues, and pull request descriptions?",
     "options": [
       {
         "letter": "a",
-        "text": "git diff"
+        "text": "YAML"
       },
       {
         "letter": "b",
-        "text": "git status --long"
+        "text": "Markdown"
       },
       {
         "letter": "c",
-        "text": "git compare"
+        "text": "XML"
       },
       {
         "letter": "d",
-        "text": "git delta"
+        "text": "LaTeX"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 22,
-    "text": "How can you see the differences between the staging area and the last commit?",
+    "text": "In GitHub-flavored Markdown, how do you create a heading?",
     "options": [
       {
         "letter": "a",
-        "text": "git diff --staged"
+        "text": "Wrap the text in double asterisks, like **Heading**"
       },
       {
         "letter": "b",
-        "text": "git diff --working"
+        "text": "Start the line with one or more '#' characters, like '# Heading'"
       },
       {
         "letter": "c",
-        "text": "git status --diff"
+        "text": "Wrap the text in square brackets, like [Heading]"
       },
       {
         "letter": "d",
-        "text": "git log --diff"
+        "text": "Indent the text with a tab"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 23,
-    "text": "What does 'git commit --amend' do?",
+    "text": "In GitHub-flavored Markdown, how do you create a task list checkbox?",
     "options": [
       {
         "letter": "a",
-        "text": "Deletes the last commit permanently with no trace"
+        "text": "- [ ] Task description"
       },
       {
         "letter": "b",
-        "text": "Creates a brand-new branch from the last commit"
+        "text": "## Task description"
       },
       {
         "letter": "c",
-        "text": "Modifies the most recent commit, e.g. to fix its message or add staged changes"
+        "text": "> Task description"
       },
       {
         "letter": "d",
-        "text": "Pushes the last commit to the remote again"
+        "text": "{{Task description}}"
       }
     ],
-    "answer": "c"
+    "answer": "a",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 24,
-    "text": "Why is it recommended to avoid amending a commit that has already been pushed and shared with others?",
+    "text": "In GitHub Markdown, what does typing '@username' in a comment do?",
     "options": [
       {
         "letter": "a",
-        "text": "Amending is always technically impossible after a push"
+        "text": "Deletes that user's comment"
       },
       {
         "letter": "b",
-        "text": "It rewrites history, which can cause conflicts for collaborators who already have the original commit"
+        "text": "Mentions the user and typically sends them a notification"
       },
       {
         "letter": "c",
-        "text": "GitHub blocks amended commits automatically"
+        "text": "Assigns the issue to that user automatically"
       },
       {
         "letter": "d",
-        "text": "It permanently deletes the remote repository"
+        "text": "Blocks the user from the repository"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 25,
-    "text": "Which command removes a file from the working directory and stages the deletion?",
+    "text": "In GitHub Markdown, what does typing '#123' in a comment or commit message usually do (within the same repository)?",
     "options": [
       {
         "letter": "a",
-        "text": "git delete <file>"
+        "text": "Nothing, it is just plain text"
       },
       {
         "letter": "b",
-        "text": "git rm <file>"
+        "text": "Automatically links to issue or pull request number 123"
       },
       {
         "letter": "c",
-        "text": "git remove <file> --commit"
+        "text": "Deletes issue number 123"
       },
       {
         "letter": "d",
-        "text": "git clean <file>"
+        "text": "Creates a new milestone named 123"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 26,
-    "text": "What is a Git branch?",
+    "text": "What is a Git commit SHA (hash) used for?",
     "options": [
       {
         "letter": "a",
-        "text": "A copy of the repository stored on a different server"
+        "text": "To encrypt the repository"
       },
       {
         "letter": "b",
-        "text": "A movable pointer to a specific commit, representing an independent line of development"
+        "text": "To uniquely identify a specific commit based on its content and metadata"
       },
       {
         "letter": "c",
-        "text": "A backup of the .git folder"
+        "text": "To identify which GitHub plan a repository is on"
       },
       {
         "letter": "d",
-        "text": "A synonym for a tag"
+        "text": "To generate a repository's README file"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 27,
-    "text": "Which command creates a new branch called 'feature'?",
+    "text": "Which of these is NOT one of Git's three core areas for tracking changes?",
     "options": [
       {
         "letter": "a",
-        "text": "git branch feature"
+        "text": "Working directory"
       },
       {
         "letter": "b",
-        "text": "git new-branch feature"
+        "text": "Staging area"
       },
       {
         "letter": "c",
-        "text": "git create feature"
+        "text": "Repository (commit history)"
       },
       {
         "letter": "d",
-        "text": "git checkout feature"
+        "text": "Marketplace"
       }
     ],
-    "answer": "a"
+    "answer": "d",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 28,
-    "text": "Which command creates a new branch called 'feature' AND switches to it in one step?",
+    "text": "What does 'checkout' generally mean in Git?",
     "options": [
       {
         "letter": "a",
-        "text": "git branch -m feature"
+        "text": "Permanently deleting a branch"
       },
       {
         "letter": "b",
-        "text": "git checkout -b feature"
+        "text": "Switching your working directory to a different branch or commit"
       },
       {
         "letter": "c",
-        "text": "git switch feature --new"
+        "text": "Publishing a release"
       },
       {
         "letter": "d",
-        "text": "git merge -b feature"
+        "text": "Approving a pull request"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 29,
-    "text": "What is 'HEAD' in Git?",
+    "text": "Which of the following is an example of a valid Git remote URL protocol?",
     "options": [
       {
         "letter": "a",
-        "text": "The name of the main branch"
+        "text": "ftp://"
       },
       {
         "letter": "b",
-        "text": "A pointer that usually references the tip of the currently checked-out branch"
+        "text": "https://"
       },
       {
         "letter": "c",
-        "text": "The very first commit of the repository"
+        "text": "smtp://"
       },
       {
         "letter": "d",
-        "text": "A file that lists all remote branches"
+        "text": "imap://"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 30,
-    "text": "What does a 'detached HEAD' state mean?",
+    "text": "What is the general recommended name for the default/main branch in newer Git and GitHub repositories?",
     "options": [
       {
         "letter": "a",
-        "text": "HEAD points directly to a specific commit instead of to a branch"
-      },
-      {
-        "letter": "b",
-        "text": "The repository has no commits yet"
-      },
-      {
-        "letter": "c",
-        "text": "The remote repository has been deleted"
-      },
-      {
-        "letter": "d",
-        "text": "The current branch has been merged and removed"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 31,
-    "text": "Which command lists all local branches?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git branch"
-      },
-      {
-        "letter": "b",
-        "text": "git branch -a --remote-only"
-      },
-      {
-        "letter": "c",
-        "text": "git list branches"
-      },
-      {
-        "letter": "d",
-        "text": "git show branches"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 32,
-    "text": "Which command lists both local and remote-tracking branches?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git branch -a"
-      },
-      {
-        "letter": "b",
-        "text": "git branch --local"
-      },
-      {
-        "letter": "c",
-        "text": "git remote branches"
-      },
-      {
-        "letter": "d",
-        "text": "git list -r"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 33,
-    "text": "Which command deletes a local branch named 'feature' that has already been merged?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git branch -D feature"
-      },
-      {
-        "letter": "b",
-        "text": "git branch -d feature"
-      },
-      {
-        "letter": "c",
-        "text": "git remove feature"
-      },
-      {
-        "letter": "d",
-        "text": "git delete-branch feature"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 34,
-    "text": "What is the difference between 'git branch -d' and 'git branch -D'?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "There is no difference, they are aliases"
-      },
-      {
-        "letter": "b",
-        "text": "-D forces deletion even if the branch has unmerged changes; -d refuses to delete in that case"
-      },
-      {
-        "letter": "c",
-        "text": "-d deletes local branches, -D deletes remote branches"
-      },
-      {
-        "letter": "d",
-        "text": "-D only works on the main branch"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 35,
-    "text": "Which modern command is recommended for switching between existing branches (introduced as a clearer alternative to 'git checkout')?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git switch"
-      },
-      {
-        "letter": "b",
-        "text": "git move"
-      },
-      {
-        "letter": "c",
-        "text": "git jump"
-      },
-      {
-        "letter": "d",
-        "text": "git branch --to"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 36,
-    "text": "What does 'git merge feature' do when run on the main branch?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Deletes the feature branch"
-      },
-      {
-        "letter": "b",
-        "text": "Integrates the changes from the feature branch into the current branch"
-      },
-      {
-        "letter": "c",
-        "text": "Renames the current branch to 'feature'"
-      },
-      {
-        "letter": "d",
-        "text": "Uploads the feature branch to the remote"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 37,
-    "text": "What is a 'fast-forward' merge?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "A merge that combines three or more branches at once"
-      },
-      {
-        "letter": "b",
-        "text": "A merge where the current branch pointer is simply moved forward because there is no divergent history"
-      },
-      {
-        "letter": "c",
-        "text": "A merge that is performed automatically by GitHub Actions"
-      },
-      {
-        "letter": "d",
-        "text": "A merge that skips running any hooks"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 38,
-    "text": "When does Git create a merge commit instead of doing a fast-forward merge?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Whenever git merge is used, always"
-      },
-      {
-        "letter": "b",
-        "text": "When the branches have diverged (both have commits the other doesn't)"
-      },
-      {
-        "letter": "c",
-        "text": "Only when using 'git rebase'"
-      },
-      {
-        "letter": "d",
-        "text": "Only when merging with a remote repository"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 39,
-    "text": "What causes a merge conflict?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Two branches change the same lines of a file (or one edits, one deletes) in different ways"
-      },
-      {
-        "letter": "b",
-        "text": "Two branches have completely unrelated files"
-      },
-      {
-        "letter": "c",
-        "text": "The repository has more than one remote"
-      },
-      {
-        "letter": "d",
-        "text": "A commit message is too long"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 40,
-    "text": "In a file with merge conflict markers, what does the section between '<<<<<<< HEAD' and '=======' represent?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "The changes from the branch being merged in"
-      },
-      {
-        "letter": "b",
-        "text": "The changes from the current branch (HEAD)"
-      },
-      {
-        "letter": "c",
-        "text": "Lines that will be deleted automatically"
-      },
-      {
-        "letter": "d",
-        "text": "A comment that Git ignores"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 41,
-    "text": "After manually resolving a merge conflict in a file, what should you do next?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Delete the .git folder and start over"
-      },
-      {
-        "letter": "b",
-        "text": "Stage the resolved file with 'git add' and then complete the merge with 'git commit'"
-      },
-      {
-        "letter": "c",
-        "text": "Run 'git merge --force'"
-      },
-      {
-        "letter": "d",
-        "text": "Nothing, Git detects the resolution automatically without staging"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 42,
-    "text": "Which command aborts an in-progress merge and returns to the state before the merge started?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git merge --abort"
-      },
-      {
-        "letter": "b",
-        "text": "git reset --merge-cancel"
-      },
-      {
-        "letter": "c",
-        "text": "git checkout --abort"
-      },
-      {
-        "letter": "d",
-        "text": "git merge --undo"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 43,
-    "text": "What does 'git rebase main' do when run on a feature branch?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Deletes the main branch"
-      },
-      {
-        "letter": "b",
-        "text": "Replays the feature branch's commits on top of the latest main branch, creating a linear history"
-      },
-      {
-        "letter": "c",
-        "text": "Merges main into feature using a merge commit"
-      },
-      {
-        "letter": "d",
-        "text": "Renames main to feature"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 44,
-    "text": "What is a key difference between merging and rebasing?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Merge creates a merge commit and preserves branch history; rebase rewrites commits to create a linear history"
-      },
-      {
-        "letter": "b",
-        "text": "Rebase can only be used with remote branches"
-      },
-      {
-        "letter": "c",
-        "text": "Merge is only for bug fixes, rebase is only for features"
-      },
-      {
-        "letter": "d",
-        "text": "There is no functional difference"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 45,
-    "text": "Why is rebasing commits that have already been pushed and shared considered risky?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "It permanently deletes the remote repository"
-      },
-      {
-        "letter": "b",
-        "text": "It rewrites commit history, which can cause conflicts and confusion for others who already pulled the original commits"
-      },
-      {
-        "letter": "c",
-        "text": "It is not risky at all"
-      },
-      {
-        "letter": "d",
-        "text": "Git does not allow pushing after a rebase under any circumstance"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 46,
-    "text": "What does an interactive rebase ('git rebase -i') allow you to do?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Only abort rebases, nothing else"
-      },
-      {
-        "letter": "b",
-        "text": "Reorder, squash, edit, or drop commits before they are replayed"
-      },
-      {
-        "letter": "c",
-        "text": "Automatically resolve all merge conflicts without review"
-      },
-      {
-        "letter": "d",
-        "text": "Convert the repository from Git to SVN"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 47,
-    "text": "What does 'squashing' commits during an interactive rebase mean?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Deleting commits without any trace in the reflog"
-      },
-      {
-        "letter": "b",
-        "text": "Combining multiple commits into a single commit"
-      },
-      {
-        "letter": "c",
-        "text": "Splitting one commit into several smaller commits"
-      },
-      {
-        "letter": "d",
-        "text": "Pushing commits to multiple remotes at once"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 48,
-    "text": "Which command continues an interactive rebase after resolving a conflict?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git rebase --continue"
-      },
-      {
-        "letter": "b",
-        "text": "git rebase --resume"
-      },
-      {
-        "letter": "c",
-        "text": "git rebase --next"
-      },
-      {
-        "letter": "d",
-        "text": "git commit --rebase"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 49,
-    "text": "What does 'git clone <url>' do?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Creates an empty repository with the given name"
-      },
-      {
-        "letter": "b",
-        "text": "Downloads a full copy of a remote repository, including its history, to your local machine"
-      },
-      {
-        "letter": "c",
-        "text": "Copies only the current branch's latest file snapshot with no history"
-      },
-      {
-        "letter": "d",
-        "text": "Uploads your local repository to a new remote"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 50,
-    "text": "What is the conventional name Git gives to the remote a repository was cloned from?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "origin"
-      },
-      {
-        "letter": "b",
         "text": "master"
       },
       {
+        "letter": "b",
+        "text": "main"
+      },
+      {
         "letter": "c",
-        "text": "upstream"
+        "text": "trunk"
       },
       {
         "letter": "d",
-        "text": "source"
+        "text": "release"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 51,
-    "text": "Which command lists the remotes configured for a repository along with their URLs?",
+    "number": 31,
+    "text": "What best describes a 'commit message'?",
     "options": [
       {
         "letter": "a",
-        "text": "git remote -v"
+        "text": "A private note visible only to the repository owner"
       },
       {
         "letter": "b",
-        "text": "git origin list"
+        "text": "A short description attached to a commit explaining what changed and why"
       },
       {
         "letter": "c",
-        "text": "git show remotes"
+        "text": "An automatically generated changelog for the whole repository"
       },
       {
         "letter": "d",
-        "text": "git config --remotes"
+        "text": "The name of the GitHub Actions workflow that ran"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 52,
-    "text": "What is the difference between 'git fetch' and 'git pull'?",
+    "number": 32,
+    "text": "Which GitHub feature lets you browse and edit a repository's code directly in a lightweight, web-based editor without cloning it locally?",
     "options": [
       {
         "letter": "a",
-        "text": "They are identical in every way"
+        "text": "GitHub Codespaces only"
       },
       {
         "letter": "b",
-        "text": "'git fetch' downloads new commits from the remote without merging them; 'git pull' fetches and then merges (or rebases) into the current branch"
+        "text": "github.dev (press '.' on a repository page)"
       },
       {
         "letter": "c",
-        "text": "'git pull' only works on the main branch"
+        "text": "GitHub Desktop"
       },
       {
         "letter": "d",
-        "text": "'git fetch' also pushes local commits to the remote"
+        "text": "GitHub Mobile"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 53,
-    "text": "Which command uploads local commits on the current branch to the remote repository?",
+    "number": 33,
+    "text": "What best describes 'version control' benefits for a team?",
     "options": [
       {
         "letter": "a",
-        "text": "git upload"
+        "text": "It prevents any two people from ever editing the same file"
       },
       {
         "letter": "b",
-        "text": "git push"
+        "text": "It tracks who changed what and when, allows reverting mistakes, and supports working in parallel via branches"
       },
       {
         "letter": "c",
-        "text": "git send"
+        "text": "It automatically writes documentation for the project"
       },
       {
         "letter": "d",
-        "text": "git commit --remote"
+        "text": "It replaces the need for code review"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 54,
-    "text": "What does 'git push -u origin feature' do?",
+    "number": 34,
+    "text": "What is the difference between a public and a private repository on GitHub, at a basic level?",
     "options": [
       {
         "letter": "a",
-        "text": "Deletes the feature branch from the remote"
+        "text": "Public repositories cannot have issues, private ones can"
       },
       {
         "letter": "b",
-        "text": "Pushes the feature branch to origin and sets up tracking so future 'git push'/'git pull' know the default remote branch"
+        "text": "A public repository is visible to everyone on the internet; a private repository is visible only to people explicitly given access"
       },
       {
         "letter": "c",
-        "text": "Pushes the feature branch but forces overwrite of remote history"
+        "text": "Private repositories cannot use Git at all"
       },
       {
         "letter": "d",
-        "text": "Uploads only untracked files"
+        "text": "There is no difference other than the color of the repository icon"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 55,
-    "text": "What is the purpose of adding an 'upstream' remote when working with a forked repository?",
+    "number": 35,
+    "text": "Which of the following is true about GitHub's free plan for public repositories?",
     "options": [
       {
         "letter": "a",
-        "text": "To point to your own fork so you can push your changes"
+        "text": "Public repositories are not allowed on the free plan"
       },
       {
         "letter": "b",
-        "text": "To reference the original repository you forked from, so you can pull in its latest changes"
+        "text": "Unlimited public repositories are allowed, along with core collaboration features like issues and pull requests"
       },
       {
         "letter": "c",
-        "text": "To automatically delete your fork"
+        "text": "Only one public repository per account is allowed"
       },
       {
         "letter": "d",
-        "text": "It has no practical purpose"
+        "text": "Public repositories on the free plan cannot use GitHub Actions at all"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 56,
-    "text": "Which command adds a new remote named 'upstream' pointing to a given URL?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git remote add upstream <url>"
-      },
-      {
-        "letter": "b",
-        "text": "git remote set upstream <url>"
-      },
-      {
-        "letter": "c",
-        "text": "git upstream add <url>"
-      },
-      {
-        "letter": "d",
-        "text": "git clone upstream <url>"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 57,
-    "text": "What typically happens if you try to 'git push' and the remote branch has commits that you don't have locally?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Git silently overwrites the remote branch"
-      },
-      {
-        "letter": "b",
-        "text": "Git rejects the push and asks you to fetch/pull and integrate the remote changes first"
-      },
-      {
-        "letter": "c",
-        "text": "Git automatically force-pushes"
-      },
-      {
-        "letter": "d",
-        "text": "Git deletes your local commits"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 58,
-    "text": "What does 'git push --force' do, and why is it considered dangerous on shared branches?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "It pushes tags only; it is completely safe"
-      },
-      {
-        "letter": "b",
-        "text": "It overwrites the remote branch's history to match your local branch, potentially discarding others' commits"
-      },
-      {
-        "letter": "c",
-        "text": "It merges the remote branch into local automatically"
-      },
-      {
-        "letter": "d",
-        "text": "It only affects your local repository, never the remote"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 59,
-    "text": "What does 'git checkout -- <file>' (or 'git restore <file>') do?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Deletes the file permanently"
-      },
-      {
-        "letter": "b",
-        "text": "Discards uncommitted changes in the working directory, restoring the file to its last committed state"
-      },
-      {
-        "letter": "c",
-        "text": "Stages the file for commit"
-      },
-      {
-        "letter": "d",
-        "text": "Creates a new branch from the file"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 60,
-    "text": "What does 'git reset --soft HEAD~1' do?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Deletes the last commit and all its changes permanently"
-      },
-      {
-        "letter": "b",
-        "text": "Undoes the last commit but keeps its changes staged"
-      },
-      {
-        "letter": "c",
-        "text": "Undoes the last commit and unstages the changes, keeping them in the working directory"
-      },
-      {
-        "letter": "d",
-        "text": "Removes the last commit from the remote repository"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 61,
-    "text": "What does 'git reset --hard HEAD~1' do?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Undoes the last commit but keeps the changes in the working directory"
-      },
-      {
-        "letter": "b",
-        "text": "Undoes the last commit and discards its changes completely from the working directory and staging area"
-      },
-      {
-        "letter": "c",
-        "text": "Only unstages files without touching commits"
-      },
-      {
-        "letter": "d",
-        "text": "Creates a backup branch automatically before resetting"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 62,
-    "text": "What is the key difference between 'git reset' and 'git revert' for undoing a commit?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "They do exactly the same thing"
-      },
-      {
-        "letter": "b",
-        "text": "'git reset' moves the branch pointer and can rewrite history; 'git revert' creates a new commit that undoes the changes, preserving history"
-      },
-      {
-        "letter": "c",
-        "text": "'git revert' deletes the .git folder"
-      },
-      {
-        "letter": "d",
-        "text": "'git reset' only works on remote branches"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 63,
-    "text": "Why is 'git revert' generally safer than 'git reset' for undoing changes on a shared/public branch?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "It does not rewrite existing history, so it won't conflict with what collaborators already have"
-      },
-      {
-        "letter": "b",
-        "text": "It is faster to execute"
-      },
-      {
-        "letter": "c",
-        "text": "It permanently deletes the unwanted commit"
-      },
-      {
-        "letter": "d",
-        "text": "It requires no network connection"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 64,
-    "text": "Which command removes untracked files from the working directory?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git clean -f"
-      },
-      {
-        "letter": "b",
-        "text": "git remove --untracked"
-      },
-      {
-        "letter": "c",
-        "text": "git reset --untracked"
-      },
-      {
-        "letter": "d",
-        "text": "git delete -u"
-      }
-    ],
-    "answer": "a"
-  },
-  {
-    "number": 65,
-    "text": "If you accidentally staged a file you didn't mean to, which command unstages it while keeping your edits?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "git commit --undo <file>"
-      },
-      {
-        "letter": "b",
-        "text": "git reset <file>"
-      },
-      {
-        "letter": "c",
-        "text": "git rm <file>"
-      },
-      {
-        "letter": "d",
-        "text": "git branch -u <file>"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 66,
-    "text": "What does 'git restore --staged <file>' do?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Deletes the file from the working directory"
-      },
-      {
-        "letter": "b",
-        "text": "Unstages the file, moving its changes back to the working directory only"
-      },
-      {
-        "letter": "c",
-        "text": "Commits the file immediately"
-      },
-      {
-        "letter": "d",
-        "text": "Restores the file from the last tag"
-      }
-    ],
-    "answer": "b"
-  },
-  {
-    "number": 67,
-    "text": "What is the purpose of 'git stash'?",
+    "number": 36,
+    "text": "What is the purpose of the 'git status' command?",
     "options": [
       {
         "letter": "a",
@@ -1527,546 +849,2514 @@
       },
       {
         "letter": "b",
-        "text": "To temporarily save uncommitted changes so you can work on something else, then reapply them later"
+        "text": "To show which files are staged, unstaged, or untracked in the working directory"
       },
       {
         "letter": "c",
-        "text": "To create a new remote repository"
+        "text": "To display the remote repository's server status/uptime"
       },
       {
         "letter": "d",
-        "text": "To squash all commits into one"
+        "text": "To list all GitHub organizations you belong to"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 37,
+    "text": "What does 'tracked' mean for a file in Git?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The file has been reported to GitHub Support"
+      },
+      {
+        "letter": "b",
+        "text": "The file is known to Git because it has been added/committed at least once, so Git watches it for changes"
+      },
+      {
+        "letter": "c",
+        "text": "The file is listed in .gitignore"
+      },
+      {
+        "letter": "d",
+        "text": "The file has been starred by another user"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 38,
+    "text": "Which of these is an accurate general description of GitHub Copilot from an account-type perspective?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is only available to GitHub Enterprise customers"
+      },
+      {
+        "letter": "b",
+        "text": "It is offered in different plans, such as Individual, Business, and Enterprise, with different features and controls"
+      },
+      {
+        "letter": "c",
+        "text": "It replaces the need for a GitHub account entirely"
+      },
+      {
+        "letter": "d",
+        "text": "It can only be used inside GitHub Codespaces"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 39,
+    "text": "Which best describes the relationship between a GitHub 'organization' and 'teams' within it?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Teams and organizations are unrelated concepts"
+      },
+      {
+        "letter": "b",
+        "text": "Teams are groups of organization members used to manage access to repositories and mentions more easily"
+      },
+      {
+        "letter": "c",
+        "text": "A team can exist without belonging to any organization"
+      },
+      {
+        "letter": "d",
+        "text": "Every organization can have only one team"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 40,
+    "text": "Which file is conventionally used to explain what a project is and how to use it, and is displayed on a repository's main page?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "LICENSE"
+      },
+      {
+        "letter": "b",
+        "text": "README.md"
+      },
+      {
+        "letter": "c",
+        "text": "CODEOWNERS"
+      },
+      {
+        "letter": "d",
+        "text": ".gitignore"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 41,
+    "text": "What is the purpose of a LICENSE file in a repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It lists people who can review pull requests"
+      },
+      {
+        "letter": "b",
+        "text": "It states the legal terms under which others may use, modify, or distribute the project"
+      },
+      {
+        "letter": "c",
+        "text": "It stores environment variables for GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "It configures branch protection rules"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 42,
+    "text": "What is the purpose of a CODEOWNERS file?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It lists the repository's dependencies"
+      },
+      {
+        "letter": "b",
+        "text": "It defines individuals or teams responsible for code in specific parts of the repository, so they're automatically requested for review"
+      },
+      {
+        "letter": "c",
+        "text": "It stores secrets used by GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "It lists all forks of the repository"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 43,
+    "text": "What is a CONTRIBUTING file typically used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To automatically merge pull requests"
+      },
+      {
+        "letter": "b",
+        "text": "To document guidelines for how others should contribute to the project (coding standards, PR process, etc.)"
+      },
+      {
+        "letter": "c",
+        "text": "To list the repository's security vulnerabilities"
+      },
+      {
+        "letter": "d",
+        "text": "To store the repository's Markdown theme"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 44,
+    "text": "What is the purpose of a SECURITY.md file in a repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To store passwords used for deployment"
+      },
+      {
+        "letter": "b",
+        "text": "To describe the project's supported versions and how to responsibly report security vulnerabilities"
+      },
+      {
+        "letter": "c",
+        "text": "To list all repository collaborators"
+      },
+      {
+        "letter": "d",
+        "text": "To disable GitHub Actions"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 45,
+    "text": "What does a 'repository template' allow you to do on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Nothing different from a normal repository"
+      },
+      {
+        "letter": "b",
+        "text": "Create a new repository that starts with the same directory structure, files, and settings as the template"
+      },
+      {
+        "letter": "c",
+        "text": "Automatically delete old repositories"
+      },
+      {
+        "letter": "d",
+        "text": "Merge two unrelated repositories into one"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 46,
+    "text": "Which of these is true about creating a repository directly on GitHub.com?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "You must always upload files from your computer first"
+      },
+      {
+        "letter": "b",
+        "text": "You can create it empty or initialize it with a README, .gitignore, and license, directly through the web interface"
+      },
+      {
+        "letter": "c",
+        "text": "It automatically becomes a GitHub organization"
+      },
+      {
+        "letter": "d",
+        "text": "It requires GitHub Enterprise"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 47,
+    "text": "What does 'git clone' add locally that isn't present in a downloaded ZIP of the same repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Nothing, they are identical"
+      },
+      {
+        "letter": "b",
+        "text": "The full Git history and metadata (the .git folder), enabling version control operations"
+      },
+      {
+        "letter": "c",
+        "text": "The repository's issues and pull requests"
+      },
+      {
+        "letter": "d",
+        "text": "The repository's GitHub Actions secrets"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 48,
+    "text": "On GitHub, what is one common way to add a new file to a repository without using Git on the command line?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is not possible to add files without the command line"
+      },
+      {
+        "letter": "b",
+        "text": "Using the 'Add file' button on the repository's web page to create or upload a file directly"
+      },
+      {
+        "letter": "c",
+        "text": "Only through GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "Only through GitHub Copilot"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 49,
+    "text": "What does the repository 'Insights' tab on GitHub typically show?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only the repository's billing information"
+      },
+      {
+        "letter": "b",
+        "text": "Information such as contributors, traffic, commit activity, and dependency graph"
+      },
+      {
+        "letter": "c",
+        "text": "The private messages between collaborators"
+      },
+      {
+        "letter": "d",
+        "text": "The source code of GitHub itself"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 50,
+    "text": "What does 'starring' a repository on GitHub do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the repository"
+      },
+      {
+        "letter": "b",
+        "text": "Bookmarks it to your profile and can signal appreciation/popularity, without changing access permissions"
+      },
+      {
+        "letter": "c",
+        "text": "Automatically forks it"
+      },
+      {
+        "letter": "d",
+        "text": "Grants you write access to it"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 51,
+    "text": "What is the purpose of the dependency graph feature in a GitHub repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To visualize the organization's team hierarchy"
+      },
+      {
+        "letter": "b",
+        "text": "To show the packages and libraries a repository depends on (and what depends on it), helping track vulnerabilities and updates"
+      },
+      {
+        "letter": "c",
+        "text": "To show which branches have been merged"
+      },
+      {
+        "letter": "d",
+        "text": "To display the repository's Markdown rendering pipeline"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 52,
+    "text": "What happens to open issues and pull requests when you archive a GitHub repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They are all automatically deleted"
+      },
+      {
+        "letter": "b",
+        "text": "The repository becomes read-only, and existing issues/PRs remain but cannot be commented on or changed"
+      },
+      {
+        "letter": "c",
+        "text": "They are automatically merged"
+      },
+      {
+        "letter": "d",
+        "text": "They are transferred to a different repository"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 53,
+    "text": "Which repository visibility option allows access only to members of a specific GitHub Enterprise, but not the general public?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Public"
+      },
+      {
+        "letter": "b",
+        "text": "Private"
+      },
+      {
+        "letter": "c",
+        "text": "Internal"
+      },
+      {
+        "letter": "d",
+        "text": "Draft"
+      }
+    ],
+    "answer": "c",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 54,
+    "text": "What is the effect of changing a repository's default branch on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It deletes all other branches"
+      },
+      {
+        "letter": "b",
+        "text": "New clones, pull requests, and the repository's default view will use the newly selected branch"
+      },
+      {
+        "letter": "c",
+        "text": "It renames the repository itself"
+      },
+      {
+        "letter": "d",
+        "text": "It disables Git entirely for that repository"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 55,
+    "text": "What is the purpose of a '.gitignore' file in a repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It lists files that should never be deleted"
+      },
+      {
+        "letter": "b",
+        "text": "It tells Git which files or folders to exclude from tracking (e.g. build artifacts, secrets, dependencies)"
+      },
+      {
+        "letter": "c",
+        "text": "It lists the repository's collaborators"
+      },
+      {
+        "letter": "d",
+        "text": "It configures GitHub Pages"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 56,
+    "text": "Best practice for maintaining a healthy public repository includes which of the following?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Avoiding a README so newcomers must ask questions directly"
+      },
+      {
+        "letter": "b",
+        "text": "Providing a clear README, license, and contribution guidelines, and keeping branches organized"
+      },
+      {
+        "letter": "c",
+        "text": "Disabling issues so nobody can report bugs"
+      },
+      {
+        "letter": "d",
+        "text": "Keeping the repository private so it appears more prestigious"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 57,
+    "text": "Which feature lets you see exactly which commit last modified each line of a file, directly from the GitHub web UI?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Insights"
+      },
+      {
+        "letter": "b",
+        "text": "Blame view"
+      },
+      {
+        "letter": "c",
+        "text": "Discussions"
+      },
+      {
+        "letter": "d",
+        "text": "Projects"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 58,
+    "text": "What is the maximum recommended way to view a file's revision history on GitHub.com?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Using the 'History' view/button available on a file's page"
+      },
+      {
+        "letter": "b",
+        "text": "There is no way to see file history on GitHub.com"
+      },
+      {
+        "letter": "c",
+        "text": "Only by cloning the repository and using the command line"
+      },
+      {
+        "letter": "d",
+        "text": "Only through GitHub Actions logs"
+      }
+    ],
+    "answer": "a",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 59,
+    "text": "What does renaming a file directly on GitHub.com (via the file editor) do in terms of Git history?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It erases the file's prior history completely"
+      },
+      {
+        "letter": "b",
+        "text": "It creates a commit that records the rename, and Git can often still detect it as a rename in history/diffs"
+      },
+      {
+        "letter": "c",
+        "text": "It automatically creates a new repository"
+      },
+      {
+        "letter": "d",
+        "text": "It is not possible to rename files on GitHub.com"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 60,
+    "text": "Which of these files, if present, is used by GitHub to automatically request reviews from the right people or teams on a pull request?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "README.md"
+      },
+      {
+        "letter": "b",
+        "text": "CODEOWNERS"
+      },
+      {
+        "letter": "c",
+        "text": ".gitignore"
+      },
+      {
+        "letter": "d",
+        "text": "SECURITY.md"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 61,
+    "text": "What is a common reason to use repository 'topics' on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To restrict who can clone the repository"
+      },
+      {
+        "letter": "b",
+        "text": "To label a repository with keywords that improve discoverability and categorization"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically run GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "To rename the default branch"
+      }
+    ],
+    "answer": "b",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 62,
+    "text": "What is a GitHub 'issue' primarily used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deploying an application to production"
+      },
+      {
+        "letter": "b",
+        "text": "Tracking a task, enhancement request, or bug report related to the repository"
+      },
+      {
+        "letter": "c",
+        "text": "Storing secrets for GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "Hosting static documentation websites"
+      }
+    ],
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 63,
+    "text": "What is a GitHub 'pull request' (PR)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A request to download a repository"
+      },
+      {
+        "letter": "b",
+        "text": "A proposal to merge changes from one branch (or fork) into another, with room for discussion and review"
+      },
+      {
+        "letter": "c",
+        "text": "A request to delete a branch"
+      },
+      {
+        "letter": "d",
+        "text": "An automated security scan"
+      }
+    ],
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 64,
+    "text": "How can you automatically link a pull request to an issue so that merging the PR closes the issue?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Rename the pull request to match the issue title exactly"
+      },
+      {
+        "letter": "b",
+        "text": "Include a keyword like 'Closes #12' or 'Fixes #12' in the PR description or a linked commit message"
+      },
+      {
+        "letter": "c",
+        "text": "Add the issue as a reviewer"
+      },
+      {
+        "letter": "d",
+        "text": "It happens automatically for every PR with no action needed"
+      }
+    ],
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 65,
+    "text": "What is the purpose of requiring pull request reviews before merging on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To slow down development for no benefit"
+      },
+      {
+        "letter": "b",
+        "text": "To ensure code changes are checked by teammates before becoming part of the codebase, improving quality and catching issues"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically deploy the code to production"
+      },
+      {
+        "letter": "d",
+        "text": "To generate release notes automatically"
+      }
+    ],
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 66,
+    "text": "Which of the following are common pull request merge strategies on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Merge commit, squash and merge, rebase and merge"
+      },
+      {
+        "letter": "b",
+        "text": "Clone, fork, and archive"
+      },
+      {
+        "letter": "c",
+        "text": "Push, pull, and fetch"
+      },
+      {
+        "letter": "d",
+        "text": "Stage, commit, and tag"
+      }
+    ],
+    "answer": "a",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 67,
+    "text": "What does 'squash and merge' do when merging a pull request on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deletes the pull request without merging"
+      },
+      {
+        "letter": "b",
+        "text": "Combines all the commits in the pull request into a single commit on the base branch"
+      },
+      {
+        "letter": "c",
+        "text": "Splits a single commit into many"
+      },
+      {
+        "letter": "d",
+        "text": "Automatically force-pushes over the base branch's history"
+      }
+    ],
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 68,
-    "text": "Which command reapplies the most recently stashed changes and removes them from the stash list?",
+    "text": "What is a 'draft pull request' used for?",
     "options": [
       {
         "letter": "a",
-        "text": "git stash pop"
+        "text": "A pull request that has already been merged"
       },
       {
         "letter": "b",
-        "text": "git stash list"
+        "text": "Signaling that a pull request is still a work in progress and not yet ready for full review or merging"
       },
       {
         "letter": "c",
-        "text": "git stash apply --keep"
+        "text": "A pull request visible only to repository administrators"
       },
       {
         "letter": "d",
-        "text": "git stash restore"
+        "text": "A pull request that automatically deletes itself after 24 hours"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 69,
-    "text": "What is the difference between 'git stash apply' and 'git stash pop'?",
+    "text": "What is the purpose of GitHub 'Discussions'?",
     "options": [
       {
         "letter": "a",
-        "text": "'apply' reapplies the stash and keeps it in the stash list; 'pop' reapplies it and removes it from the list"
+        "text": "Hosting private one-on-one direct messages"
       },
       {
         "letter": "b",
-        "text": "They are exactly the same"
+        "text": "Providing a forum-like space for open-ended conversations, Q&A, and announcements separate from issues and PRs"
       },
       {
         "letter": "c",
-        "text": "'pop' only works on the main branch"
+        "text": "Replacing pull requests entirely"
       },
       {
         "letter": "d",
-        "text": "'apply' deletes the stash without reapplying it"
+        "text": "Storing GitHub Actions workflow logs"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 70,
-    "text": "Which command lists all currently stashed changesets?",
+    "text": "What is a GitHub 'Gist'?",
     "options": [
       {
         "letter": "a",
-        "text": "git stash list"
+        "text": "A private chat channel"
       },
       {
         "letter": "b",
-        "text": "git stash show -all"
+        "text": "A simple way to share individual snippets of code or text, which can be public or secret and optionally version controlled"
       },
       {
         "letter": "c",
-        "text": "git stash log"
+        "text": "A type of GitHub Actions runner"
       },
       {
         "letter": "d",
-        "text": "git list stash"
+        "text": "A repository template"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 71,
-    "text": "What is a Git tag typically used for?",
+    "text": "What is the primary purpose of a repository's 'Wiki' feature on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Marking a specific commit as important, such as a release version (e.g. v1.0.0)"
+        "text": "To automatically generate API documentation from code comments"
       },
       {
         "letter": "b",
-        "text": "Renaming a branch"
+        "text": "To host additional project documentation that can be collaboratively edited, separate from the main codebase"
       },
       {
         "letter": "c",
-        "text": "Deleting old commits"
+        "text": "To store GitHub Actions secrets"
       },
       {
         "letter": "d",
-        "text": "Creating a pull request"
+        "text": "To manage repository permissions"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 72,
-    "text": "Which command creates an annotated tag named 'v1.0' with a message?",
+    "text": "What is GitHub Pages typically used for?",
     "options": [
       {
         "letter": "a",
-        "text": "git tag v1.0"
+        "text": "Running scheduled background jobs"
       },
       {
         "letter": "b",
-        "text": "git tag -a v1.0 -m \"Release 1.0\""
+        "text": "Hosting static websites (such as documentation or a project landing page) directly from a GitHub repository"
       },
       {
         "letter": "c",
-        "text": "git commit --tag v1.0"
+        "text": "Storing private encrypted secrets"
       },
       {
         "letter": "d",
-        "text": "git branch --tag v1.0"
+        "text": "Managing team permissions"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 73,
-    "text": "What is the difference between a lightweight tag and an annotated tag?",
+    "text": "What can you do with 'labels' on issues and pull requests?",
     "options": [
       {
         "letter": "a",
-        "text": "A lightweight tag is just a pointer to a commit; an annotated tag is a full object with a message, author, and date"
+        "text": "Permanently lock the issue from further comments"
       },
       {
         "letter": "b",
-        "text": "Lightweight tags can only be created on the main branch"
+        "text": "Categorize and filter them (e.g. 'bug', 'enhancement', 'question') for easier organization"
       },
       {
         "letter": "c",
-        "text": "Annotated tags cannot be pushed to a remote"
+        "text": "Automatically merge them"
       },
       {
         "letter": "d",
-        "text": "There is no real difference"
+        "text": "Change the repository's visibility"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 74,
-    "text": "Which command pushes all local tags to the remote repository?",
+    "text": "What does 'assigning' an issue or pull request to someone do?",
     "options": [
       {
         "letter": "a",
-        "text": "git push --tags"
+        "text": "Automatically closes it"
       },
       {
         "letter": "b",
-        "text": "git tag --push-all"
+        "text": "Indicates that person is responsible for working on it, and it appears in their assigned items list"
       },
       {
         "letter": "c",
-        "text": "git push origin --all-tags"
+        "text": "Grants them administrator rights on the repository"
       },
       {
         "letter": "d",
-        "text": "git send tags"
+        "text": "Deletes it from the repository"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 75,
-    "text": "If a file matches a pattern in '.gitignore' but was already tracked by Git before the pattern was added, what happens?",
+    "text": "What is the purpose of a 'milestone' on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Git automatically stops tracking it"
+        "text": "To automatically generate a changelog"
       },
       {
         "letter": "b",
-        "text": "Git continues to track it; .gitignore only affects previously untracked files"
+        "text": "To group related issues and pull requests together and track progress toward a goal, often with a due date"
       },
       {
         "letter": "c",
-        "text": "The file is deleted from disk"
+        "text": "To create a new branch"
       },
       {
         "letter": "d",
-        "text": ".gitignore is ignored entirely if any tracked files match"
+        "text": "To assign code owners"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 76,
-    "text": "Which command shows a compact, one-line-per-commit history with a branch graph?",
+    "text": "What does subscribing (watching) a repository on GitHub do?",
     "options": [
       {
         "letter": "a",
-        "text": "git log --oneline --graph"
+        "text": "Grants you write access to the code"
       },
       {
         "letter": "b",
-        "text": "git log --tree"
+        "text": "Sends you notifications about activity such as new issues, pull requests, and discussions"
       },
       {
         "letter": "c",
-        "text": "git history --compact"
+        "text": "Automatically forks the repository to your account"
       },
       {
         "letter": "d",
-        "text": "git show --short"
+        "text": "Adds you as a code owner"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 77,
-    "text": "What does 'git show <commit-hash>' display?",
+    "text": "What is a 'suggested change' in a GitHub pull request review?",
     "options": [
       {
         "letter": "a",
-        "text": "Only the commit message"
+        "text": "A change that is applied automatically without review"
       },
       {
         "letter": "b",
-        "text": "The metadata and the actual changes (diff) introduced by that specific commit"
+        "text": "A reviewer's proposed edit to specific lines of code that the PR author can accept with one click"
       },
       {
         "letter": "c",
-        "text": "A list of all branches containing that commit"
+        "text": "A request to delete the whole pull request"
       },
       {
         "letter": "d",
-        "text": "The remote URL"
+        "text": "A required security scan"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 78,
-    "text": "What is 'git blame <file>' used for?",
+    "text": "What is the purpose of a 'saved reply' on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Deleting a file and blaming the last author"
+        "text": "To automatically approve pull requests"
       },
       {
         "letter": "b",
-        "text": "Showing which commit and author last modified each line of a file"
+        "text": "To store a reusable canned response you can quickly insert into issue or pull request comments"
       },
       {
         "letter": "c",
-        "text": "Reverting a file to its original state"
+        "text": "To save a draft commit"
       },
       {
         "letter": "d",
-        "text": "Reporting bugs to GitHub support"
+        "text": "To back up a repository"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 79,
-    "text": "What does 'git cherry-pick <commit-hash>' do?",
+    "text": "Which of the following best describes GitHub notification settings?",
     "options": [
       {
         "letter": "a",
-        "text": "Deletes the specified commit from history"
+        "text": "Notifications cannot be customized"
       },
       {
         "letter": "b",
-        "text": "Applies the changes introduced by a specific commit from another branch onto the current branch"
+        "text": "You can customize how and when you're notified, such as by watching specific repositories, threads, or only for mentions"
       },
       {
         "letter": "c",
-        "text": "Creates a tag pointing to that commit"
+        "text": "Notifications are only sent via SMS"
       },
       {
         "letter": "d",
-        "text": "Merges two entire branches together"
+        "text": "Only repository owners can receive notifications"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 80,
-    "text": "What is the purpose of 'git bisect'?",
+    "text": "What is a common way to review someone's code changes in a pull request?",
     "options": [
       {
         "letter": "a",
-        "text": "To split a branch into two new branches"
+        "text": "Open the 'Files changed' tab and add line-level or general comments, then submit an approval, comment, or change request"
       },
       {
         "letter": "b",
-        "text": "To perform a binary search through commit history to find which commit introduced a bug"
+        "text": "Delete their branch and rewrite it yourself"
       },
       {
         "letter": "c",
-        "text": "To merge two unrelated repositories"
+        "text": "Only communicate outside of GitHub"
       },
       {
         "letter": "d",
-        "text": "To compress the .git folder"
+        "text": "Merge it immediately without looking at the diff"
       }
     ],
-    "answer": "b"
+    "answer": "a",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 81,
-    "text": "What is the 'reflog' in Git?",
+    "text": "Which review outcome on a pull request blocks merging until addressed (when required reviews are enabled)?",
     "options": [
       {
         "letter": "a",
-        "text": "A log of all files ever ignored by .gitignore"
+        "text": "Comment"
       },
       {
         "letter": "b",
-        "text": "A local record of where HEAD and branch references have pointed over time, useful for recovering lost commits"
+        "text": "Approve"
       },
       {
         "letter": "c",
-        "text": "The commit history shown on GitHub's website"
+        "text": "Request changes"
       },
       {
         "letter": "d",
-        "text": "A list of all remote repositories"
+        "text": "Watch"
       }
     ],
-    "answer": "b"
+    "answer": "c",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 82,
-    "text": "A commit was accidentally lost after a 'git reset --hard'. Which tool can often help recover it?",
+    "text": "What does linking a Gist as 'secret' (rather than public) mean?",
     "options": [
       {
         "letter": "a",
-        "text": "git gc"
+        "text": "It is encrypted and unreadable by anyone"
       },
       {
         "letter": "b",
-        "text": "git reflog"
+        "text": "It is not listed in search or discovery, but anyone with the direct link can still view it"
       },
       {
         "letter": "c",
-        "text": "git fsck --delete"
+        "text": "Only the author can ever view it, even with the link"
       },
       {
         "letter": "d",
-        "text": "git clean -fd"
+        "text": "It automatically expires after a week"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
   },
   {
     "number": 83,
-    "text": "What does 'git log --author=\"name\"' do?",
+    "text": "What is GitHub Actions primarily used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Changes the author of all commits to 'name'"
+        "text": "Hosting static websites only"
       },
       {
         "letter": "b",
-        "text": "Filters the commit history to show only commits by the given author"
+        "text": "Automating workflows such as building, testing, and deploying code directly from a GitHub repository"
       },
       {
         "letter": "c",
-        "text": "Deletes commits by that author"
+        "text": "Managing billing for GitHub organizations"
       },
       {
         "letter": "d",
-        "text": "Creates a new branch owned by that author"
+        "text": "Replacing the need for pull requests"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 84,
-    "text": "In a typical feature-branch workflow, what is a 'pull request' (or 'merge request')?",
+    "text": "In which format are GitHub Actions workflows typically defined?",
     "options": [
       {
         "letter": "a",
-        "text": "A Git command that pulls changes from a remote"
+        "text": "YAML files stored in .github/workflows/"
       },
       {
         "letter": "b",
-        "text": "A request, usually made on a hosting platform like GitHub, to merge changes from one branch into another, often with review and discussion"
+        "text": "JSON files stored in .git/"
       },
       {
         "letter": "c",
-        "text": "A synonym for 'git pull'"
+        "text": "XML files stored in /actions/"
       },
       {
         "letter": "d",
-        "text": "A way to delete a remote branch"
+        "text": "Plain text files anywhere in the repo"
       }
     ],
-    "answer": "b"
+    "answer": "a",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 85,
-    "text": "What does 'forking' a repository on a platform like GitHub mean?",
+    "text": "Which of the following can trigger a GitHub Actions workflow?",
     "options": [
       {
         "letter": "a",
-        "text": "Deleting the original repository"
+        "text": "Only a manual button click, nothing else"
       },
       {
         "letter": "b",
-        "text": "Creating your own personal copy of someone else's repository on the platform, so you can make changes independently"
+        "text": "Events such as a push, pull request, scheduled time (cron), or manual dispatch"
       },
       {
         "letter": "c",
-        "text": "Splitting one repository into two unrelated ones locally"
+        "text": "Only when a repository is starred"
       },
       {
         "letter": "d",
-        "text": "Merging two repositories into one"
+        "text": "Only when the repository is renamed"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 86,
-    "text": "What is a Git 'submodule'?",
+    "text": "What is a 'runner' in GitHub Actions?",
     "options": [
       {
         "letter": "a",
-        "text": "A smaller branch inside the main branch"
+        "text": "A person who reviews pull requests"
       },
       {
         "letter": "b",
-        "text": "A reference to another Git repository embedded at a specific path and commit within a parent repository"
+        "text": "The server (GitHub-hosted or self-hosted) that executes the jobs defined in a workflow"
       },
       {
         "letter": "c",
-        "text": "A private, encrypted section of a repository"
+        "text": "A type of branch protection rule"
       },
       {
         "letter": "d",
-        "text": "A type of Git hook"
+        "text": "A GitHub Copilot feature"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 87,
-    "text": "What are Git 'hooks'?",
+    "text": "What is the GitHub Actions Marketplace?",
     "options": [
       {
         "letter": "a",
-        "text": "Remote servers that store repositories"
+        "text": "A store for purchasing GitHub organization seats"
       },
       {
         "letter": "b",
-        "text": "Scripts that Git runs automatically before or after events like commit, push, or merge"
+        "text": "A place to find and share reusable, pre-built actions that can be used in workflows"
       },
       {
         "letter": "c",
-        "text": "Special branches used only for releases"
+        "text": "A marketplace for buying repositories"
       },
       {
         "letter": "d",
-        "text": "A way to hide files from 'git status'"
+        "text": "A place to sell GitHub Copilot licenses"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 88,
-    "text": "Which command shows only the file names that differ between two commits, without the full diff content?",
+    "text": "How can sensitive values like API keys be safely used inside a GitHub Actions workflow?",
     "options": [
       {
         "letter": "a",
-        "text": "git diff --name-only"
+        "text": "Hard-code them directly in the workflow YAML file"
       },
       {
         "letter": "b",
-        "text": "git log --files"
+        "text": "Store them as encrypted 'Secrets' in the repository or organization settings and reference them in the workflow"
       },
       {
         "letter": "c",
-        "text": "git status --short-names"
+        "text": "Post them in a public issue for the runner to read"
       },
       {
         "letter": "d",
-        "text": "git show --list"
+        "text": "Email them to the runner"
       }
     ],
-    "answer": "a"
+    "answer": "b",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 89,
-    "text": "What does 'git log -p' show in addition to the commit list?",
+    "text": "What does GitHub Copilot primarily provide?",
     "options": [
       {
         "letter": "a",
-        "text": "Only the parent commit hashes"
+        "text": "Automated infrastructure billing"
       },
       {
         "letter": "b",
-        "text": "The full patch (diff) introduced by each commit"
+        "text": "AI-powered code suggestions and chat assistance directly inside supported editors and GitHub itself"
       },
       {
         "letter": "c",
-        "text": "A performance report of the repository"
+        "text": "A replacement for GitHub Actions"
       },
       {
         "letter": "d",
-        "text": "The list of pull requests"
+        "text": "Automatic repository backups"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Apply modern development practices"
   },
   {
     "number": 90,
-    "text": "Why is it good practice to write a clear, descriptive commit message?",
+    "text": "What is a key difference between GitHub Copilot for Individuals and GitHub Copilot for Business/Enterprise?",
     "options": [
       {
         "letter": "a",
-        "text": "Git requires a minimum message length or it rejects the commit"
+        "text": "There is no difference in features or licensing"
       },
       {
         "letter": "b",
-        "text": "It helps collaborators (and your future self) understand the history and reason behind each change"
+        "text": "Business/Enterprise plans add organization-wide policy management, licensing controls, and additional administrative/security features"
       },
       {
         "letter": "c",
-        "text": "Commit messages are compiled into the application"
+        "text": "Individuals plan is only available to companies with 500+ employees"
       },
       {
         "letter": "d",
-        "text": "It automatically fixes any bugs introduced"
+        "text": "Copilot for Individuals cannot suggest code at all"
       }
     ],
-    "answer": "b"
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 91,
+    "text": "What is GitHub Copilot 'Chat' used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sending direct messages between organization members"
+      },
+      {
+        "letter": "b",
+        "text": "Letting a developer ask natural-language questions about their code and get AI-generated explanations or suggestions"
+      },
+      {
+        "letter": "c",
+        "text": "Chatting with GitHub support only"
+      },
+      {
+        "letter": "d",
+        "text": "Reviewing billing invoices"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 92,
+    "text": "What is GitHub Codespaces?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A local-only IDE with no cloud component"
+      },
+      {
+        "letter": "b",
+        "text": "A cloud-hosted development environment that lets you code directly from a browser or local editor, pre-configured via dev containers"
+      },
+      {
+        "letter": "c",
+        "text": "A static site hosting service"
+      },
+      {
+        "letter": "d",
+        "text": "A billing dashboard for organizations"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 93,
+    "text": "What file is typically used to configure a GitHub Codespace's development environment (tools, extensions, settings)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "package.json"
+      },
+      {
+        "letter": "b",
+        "text": "devcontainer.json"
+      },
+      {
+        "letter": "c",
+        "text": "README.md"
+      },
+      {
+        "letter": "d",
+        "text": "CODEOWNERS"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 94,
+    "text": "What is a 'prebuild' in the context of GitHub Codespaces?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A finished pull request"
+      },
+      {
+        "letter": "b",
+        "text": "A pre-configured, cached version of a codespace's environment that speeds up the time it takes to create a new codespace"
+      },
+      {
+        "letter": "c",
+        "text": "A type of GitHub Actions secret"
+      },
+      {
+        "letter": "d",
+        "text": "An automatically generated README"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 95,
+    "text": "What is the key difference between github.dev and GitHub Codespaces?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They are identical in every way"
+      },
+      {
+        "letter": "b",
+        "text": "github.dev is a lightweight, browser-based code editor with no compute/terminal access, while Codespaces provides a full cloud development environment with compute resources"
+      },
+      {
+        "letter": "c",
+        "text": "github.dev requires a paid plan, while Codespaces is always free"
+      },
+      {
+        "letter": "d",
+        "text": "Codespaces can only be used for documentation, not code"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 96,
+    "text": "How do you quickly open a repository in the github.dev editor from GitHub.com?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Press the '.' (period) key while viewing the repository"
+      },
+      {
+        "letter": "b",
+        "text": "Delete the repository and recreate it"
+      },
+      {
+        "letter": "c",
+        "text": "It is only accessible via a paid Enterprise plan"
+      },
+      {
+        "letter": "d",
+        "text": "Rename the default branch to 'dev'"
+      }
+    ],
+    "answer": "a",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 97,
+    "text": "What is a common use case for scheduled (cron) triggers in GitHub Actions?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Automatically deleting all issues every day"
+      },
+      {
+        "letter": "b",
+        "text": "Running periodic tasks such as nightly builds, cleanup jobs, or scheduled report generation"
+      },
+      {
+        "letter": "c",
+        "text": "Automatically approving every pull request"
+      },
+      {
+        "letter": "d",
+        "text": "Disabling the repository at a set time"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 98,
+    "text": "What best describes a GitHub Actions 'workflow'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A single line of code executed on push"
+      },
+      {
+        "letter": "b",
+        "text": "An automated, configurable process made up of one or more jobs, defined in a YAML file, triggered by events"
+      },
+      {
+        "letter": "c",
+        "text": "A pull request template"
+      },
+      {
+        "letter": "d",
+        "text": "A branch naming convention"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 99,
+    "text": "Within a GitHub Actions workflow, what is a 'job'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A single command with no context"
+      },
+      {
+        "letter": "b",
+        "text": "A set of steps that execute on the same runner, and can run in parallel or depend on other jobs"
+      },
+      {
+        "letter": "c",
+        "text": "A GitHub organization role"
+      },
+      {
+        "letter": "d",
+        "text": "A type of issue label"
+      }
+    ],
+    "answer": "b",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 100,
+    "text": "What is GitHub Projects primarily used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Hosting a project's static website"
+      },
+      {
+        "letter": "b",
+        "text": "Planning and tracking work (issues, pull requests, and notes) using customizable views like tables, boards, and roadmaps"
+      },
+      {
+        "letter": "c",
+        "text": "Running automated tests"
+      },
+      {
+        "letter": "d",
+        "text": "Managing billing across organizations"
+      }
+    ],
+    "answer": "b",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 101,
+    "text": "Which of these is a view type available in the modern GitHub Projects experience?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Board (Kanban-style) view"
+      },
+      {
+        "letter": "b",
+        "text": "Firewall view"
+      },
+      {
+        "letter": "c",
+        "text": "Dependency graph view"
+      },
+      {
+        "letter": "d",
+        "text": "Insights view"
+      }
+    ],
+    "answer": "a",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 102,
+    "text": "What can custom fields in a GitHub Project be used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only storing the project's name"
+      },
+      {
+        "letter": "b",
+        "text": "Tracking additional information about items, such as priority, status, or a custom date, beyond the built-in fields"
+      },
+      {
+        "letter": "c",
+        "text": "Changing repository visibility"
+      },
+      {
+        "letter": "d",
+        "text": "Managing GitHub Actions secrets"
+      }
+    ],
+    "answer": "b",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 103,
+    "text": "What is a key difference between the current GitHub Projects and 'Projects (classic)'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They are exactly the same feature under two names"
+      },
+      {
+        "letter": "b",
+        "text": "The current Projects experience offers more flexible views, custom fields, and works across multiple repositories, while Projects (classic) used a simpler, repository-scoped board"
+      },
+      {
+        "letter": "c",
+        "text": "Projects (classic) supports AI features that current Projects does not"
+      },
+      {
+        "letter": "d",
+        "text": "Current Projects can only be used with private repositories"
+      }
+    ],
+    "answer": "b",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 104,
+    "text": "How can you filter items within a GitHub Project view?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Filtering is not supported in GitHub Projects"
+      },
+      {
+        "letter": "b",
+        "text": "By fields such as label, assignee, milestone, or status, using the filter bar"
+      },
+      {
+        "letter": "c",
+        "text": "Only by repository name"
+      },
+      {
+        "letter": "d",
+        "text": "Only by the creation date of the project itself"
+      }
+    ],
+    "answer": "b",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 105,
+    "text": "What is the purpose of the 'Roadmap' view in GitHub Projects?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To display a Gantt-chart-like timeline of items using start and target dates"
+      },
+      {
+        "letter": "b",
+        "text": "To show a list of GitHub Actions runners"
+      },
+      {
+        "letter": "c",
+        "text": "To display repository security alerts"
+      },
+      {
+        "letter": "d",
+        "text": "To manage GitHub Copilot licenses"
+      }
+    ],
+    "answer": "a",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 106,
+    "text": "Which built-in status values are commonly used to track items on a GitHub Projects board (table/board view)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Todo, In Progress, Done"
+      },
+      {
+        "letter": "b",
+        "text": "Draft, Published, Archived"
+      },
+      {
+        "letter": "c",
+        "text": "Open, Closed, Locked"
+      },
+      {
+        "letter": "d",
+        "text": "Public, Private, Internal"
+      }
+    ],
+    "answer": "a",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 107,
+    "text": "What is the purpose of 'workflows' (automation rules) within GitHub Projects?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To run GitHub Actions builds"
+      },
+      {
+        "letter": "b",
+        "text": "To automatically perform actions like setting an item's status when it is added, closed, or reopened"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically merge pull requests"
+      },
+      {
+        "letter": "d",
+        "text": "To automatically create new repositories"
+      }
+    ],
+    "answer": "b",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 108,
+    "text": "Who can typically be given access to manage (write to) a GitHub Project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only the single person who created it, forever"
+      },
+      {
+        "letter": "b",
+        "text": "Collaborators can be granted read or write roles to view or edit the project, similar to repository permissions"
+      },
+      {
+        "letter": "c",
+        "text": "Every GitHub user globally, by default"
+      },
+      {
+        "letter": "d",
+        "text": "Nobody; projects cannot be shared"
+      }
+    ],
+    "answer": "b",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 109,
+    "text": "What kind of items can be added to a GitHub Project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only issues"
+      },
+      {
+        "letter": "b",
+        "text": "Only pull requests"
+      },
+      {
+        "letter": "c",
+        "text": "Issues, pull requests, and draft/plain text items"
+      },
+      {
+        "letter": "d",
+        "text": "Only repository files"
+      }
+    ],
+    "answer": "c",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 110,
+    "text": "What does enabling two-factor authentication (2FA) on a GitHub account do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Requires a second person to approve every commit"
+      },
+      {
+        "letter": "b",
+        "text": "Adds an extra verification step (like an authenticator app code) beyond just a password when signing in"
+      },
+      {
+        "letter": "c",
+        "text": "Automatically encrypts all repositories"
+      },
+      {
+        "letter": "d",
+        "text": "Disables password-based login entirely with no alternative"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 111,
+    "text": "Which of these is an alternative, often more secure, sign-in method to passwords that GitHub supports?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Passkeys"
+      },
+      {
+        "letter": "b",
+        "text": "Plain text tokens emailed on every login"
+      },
+      {
+        "letter": "c",
+        "text": "Sharing a single shared password among a team"
+      },
+      {
+        "letter": "d",
+        "text": "Disabling authentication entirely"
+      }
+    ],
+    "answer": "a",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 112,
+    "text": "Which repository permission level generally allows a user to push code and manage some settings but not delete the repository or manage collaborator access?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Read"
+      },
+      {
+        "letter": "b",
+        "text": "Write"
+      },
+      {
+        "letter": "c",
+        "text": "Admin"
+      },
+      {
+        "letter": "d",
+        "text": "Triage"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 113,
+    "text": "Which repository permission level is typically read-only, but also allows managing issues and pull requests without write access to code (e.g. applying labels)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Admin"
+      },
+      {
+        "letter": "b",
+        "text": "Maintain"
+      },
+      {
+        "letter": "c",
+        "text": "Triage"
+      },
+      {
+        "letter": "d",
+        "text": "Write"
+      }
+    ],
+    "answer": "c",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 114,
+    "text": "Which repository role generally grants the most control, including deleting the repository and managing all settings and access?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Read"
+      },
+      {
+        "letter": "b",
+        "text": "Triage"
+      },
+      {
+        "letter": "c",
+        "text": "Write"
+      },
+      {
+        "letter": "d",
+        "text": "Admin"
+      }
+    ],
+    "answer": "d",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 115,
+    "text": "In a GitHub organization, which role has the broadest administrative control by default?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Outside collaborator"
+      },
+      {
+        "letter": "b",
+        "text": "Member"
+      },
+      {
+        "letter": "c",
+        "text": "Owner"
+      },
+      {
+        "letter": "d",
+        "text": "Billing manager (alone)"
+      }
+    ],
+    "answer": "c",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 116,
+    "text": "What does an 'outside collaborator' mean in the context of a GitHub organization?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Any member of the organization"
+      },
+      {
+        "letter": "b",
+        "text": "A person who has access to one or more of the organization's repositories but is not a member of the organization itself"
+      },
+      {
+        "letter": "c",
+        "text": "A bot account used only for GitHub Actions"
+      },
+      {
+        "letter": "d",
+        "text": "Someone who can only view public repositories"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 117,
+    "text": "What is the purpose of a branch protection rule on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To prevent a branch from ever being deleted, with no exceptions"
+      },
+      {
+        "letter": "b",
+        "text": "To enforce requirements before changes can be merged into a branch, such as required reviews or passing status checks"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically hide a branch from other collaborators"
+      },
+      {
+        "letter": "d",
+        "text": "To rename the branch automatically"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 118,
+    "text": "Which of these is a common branch protection requirement you can enable before allowing a merge?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Require pull request reviews before merging"
+      },
+      {
+        "letter": "b",
+        "text": "Require the repository to be renamed"
+      },
+      {
+        "letter": "c",
+        "text": "Require the branch to be public"
+      },
+      {
+        "letter": "d",
+        "text": "Require GitHub Copilot to write the code"
+      }
+    ],
+    "answer": "a",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 119,
+    "text": "What is Dependabot primarily used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Automatically writing new features"
+      },
+      {
+        "letter": "b",
+        "text": "Automatically detecting outdated or vulnerable dependencies and opening pull requests to update them"
+      },
+      {
+        "letter": "c",
+        "text": "Managing organization billing"
+      },
+      {
+        "letter": "d",
+        "text": "Hosting a repository's website"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 120,
+    "text": "What is 'secret scanning' on GitHub designed to detect?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Hidden Easter eggs in code"
+      },
+      {
+        "letter": "b",
+        "text": "Accidentally committed sensitive information such as API keys, tokens, or credentials"
+      },
+      {
+        "letter": "c",
+        "text": "Unused variables in code"
+      },
+      {
+        "letter": "d",
+        "text": "Slow-running GitHub Actions jobs"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 121,
+    "text": "What is 'code scanning' on GitHub used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Counting the number of lines of code in a repository"
+      },
+      {
+        "letter": "b",
+        "text": "Automatically analyzing code for security vulnerabilities and coding errors"
+      },
+      {
+        "letter": "c",
+        "text": "Formatting code according to a style guide"
+      },
+      {
+        "letter": "d",
+        "text": "Generating documentation from code comments"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 122,
+    "text": "What are Enterprise Managed Users (EMU) designed for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Allowing anyone on the internet to self-register for an enterprise's repositories"
+      },
+      {
+        "letter": "b",
+        "text": "Letting an enterprise centrally provision and control GitHub accounts for its members, typically via an identity provider"
+      },
+      {
+        "letter": "c",
+        "text": "Replacing the need for repository permissions entirely"
+      },
+      {
+        "letter": "d",
+        "text": "Managing GitHub Actions runners only"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 123,
+    "text": "What is the purpose of SSO (Single Sign-On) integration with a GitHub organization or enterprise?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To prevent all external contributions"
+      },
+      {
+        "letter": "b",
+        "text": "To let members authenticate using their existing corporate identity provider credentials to access the organization's resources"
+      },
+      {
+        "letter": "c",
+        "text": "To disable two-factor authentication"
+      },
+      {
+        "letter": "d",
+        "text": "To automatically generate commit messages"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 124,
+    "text": "What does a GitHub organization or enterprise 'audit log' record?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Only failed login attempts"
+      },
+      {
+        "letter": "b",
+        "text": "A history of actions taken by members and the organization/enterprise, such as permission changes, repository creation, and settings updates"
+      },
+      {
+        "letter": "c",
+        "text": "The content of every private message"
+      },
+      {
+        "letter": "d",
+        "text": "Only GitHub Actions billing charges"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 125,
+    "text": "Which repository visibility setting means only explicitly invited collaborators (and organization members with access) can view it?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Public"
+      },
+      {
+        "letter": "b",
+        "text": "Private"
+      },
+      {
+        "letter": "c",
+        "text": "Internal"
+      },
+      {
+        "letter": "d",
+        "text": "Archived"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 126,
+    "text": "What is a security advisory on GitHub used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Advertising paid GitHub plans"
+      },
+      {
+        "letter": "b",
+        "text": "Privately discussing, fixing, and disclosing a security vulnerability in a repository before publishing details"
+      },
+      {
+        "letter": "c",
+        "text": "Automatically banning a contributor"
+      },
+      {
+        "letter": "d",
+        "text": "Requesting a new feature"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 127,
+    "text": "Why might an organization require 2FA for all of its members?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It has no security benefit, it's purely cosmetic"
+      },
+      {
+        "letter": "b",
+        "text": "It significantly reduces the risk of account compromise from stolen or guessed passwords"
+      },
+      {
+        "letter": "c",
+        "text": "It is required to create any repository at all, even without an organization"
+      },
+      {
+        "letter": "d",
+        "text": "It disables the ability to use SSH keys"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 128,
+    "text": "What is the general purpose of GitHub's 'require status checks to pass before merging' branch protection option?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To require that automated checks like CI tests or linters succeed before a pull request can be merged"
+      },
+      {
+        "letter": "b",
+        "text": "To require the branch name to follow a specific pattern"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically assign a reviewer"
+      },
+      {
+        "letter": "d",
+        "text": "To disable GitHub Actions on that branch"
+      }
+    ],
+    "answer": "a",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 129,
+    "text": "Who is typically able to bypass certain branch protection rules if an admin explicitly allows it?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "No one, ever, under any configuration"
+      },
+      {
+        "letter": "b",
+        "text": "Repository administrators, if the branch protection rule is configured to permit it"
+      },
+      {
+        "letter": "c",
+        "text": "Any user with read access"
+      },
+      {
+        "letter": "d",
+        "text": "Only GitHub support staff"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 130,
+    "text": "What best describes the principle of least privilege as applied to repository/organization access on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Giving every collaborator admin access by default for convenience"
+      },
+      {
+        "letter": "b",
+        "text": "Granting users only the minimum level of access they need to do their job"
+      },
+      {
+        "letter": "c",
+        "text": "Making all repositories public so permissions don't matter"
+      },
+      {
+        "letter": "d",
+        "text": "Disabling all permission levels except Owner"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 131,
+    "text": "What generally defines an 'open source' project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Its source code is kept completely secret"
+      },
+      {
+        "letter": "b",
+        "text": "Its source code is made publicly available under a license that permits others to view, use, modify, and often redistribute it"
+      },
+      {
+        "letter": "c",
+        "text": "It can only be used by the original author"
+      },
+      {
+        "letter": "d",
+        "text": "It requires a paid subscription to view the code"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 132,
+    "text": "What is the purpose of choosing a license (e.g. MIT, Apache 2.0, GPL) for an open-source project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Licenses are purely decorative and have no legal effect"
+      },
+      {
+        "letter": "b",
+        "text": "It defines the legal terms under which others can use, modify, and distribute the project's code"
+      },
+      {
+        "letter": "c",
+        "text": "It determines the repository's default branch name"
+      },
+      {
+        "letter": "d",
+        "text": "It controls which programming language must be used"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 133,
+    "text": "What is GitHub Sponsors?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A feature for organizations to sponsor GitHub Actions runners only"
+      },
+      {
+        "letter": "b",
+        "text": "A program that lets individuals and organizations financially support open-source contributors and maintainers directly through GitHub"
+      },
+      {
+        "letter": "c",
+        "text": "A marketing partnership program between companies"
+      },
+      {
+        "letter": "d",
+        "text": "A way to pay for GitHub Enterprise licenses only"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 134,
+    "text": "What is a common first step for contributing to someone else's open-source project on GitHub, when you don't have direct write access?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ask GitHub Support to grant you admin rights"
+      },
+      {
+        "letter": "b",
+        "text": "Fork the repository, make your changes on a branch, and open a pull request back to the original project"
+      },
+      {
+        "letter": "c",
+        "text": "Delete the original repository and create your own"
+      },
+      {
+        "letter": "d",
+        "text": "Directly push to their main branch"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 135,
+    "text": "What does 'InnerSource' refer to?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Selling proprietary source code to competitors"
+      },
+      {
+        "letter": "b",
+        "text": "Applying open-source-style collaboration practices (like pull requests and open contribution) within an organization's private/internal projects"
+      },
+      {
+        "letter": "c",
+        "text": "A GitHub Actions runner type"
+      },
+      {
+        "letter": "d",
+        "text": "A type of repository license"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 136,
+    "text": "What can following a user or organization on GitHub let you do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Automatically gain write access to all of their repositories"
+      },
+      {
+        "letter": "b",
+        "text": "See updates from them, such as new public repositories or activity, typically via your GitHub feed"
+      },
+      {
+        "letter": "c",
+        "text": "Force them to review your pull requests"
+      },
+      {
+        "letter": "d",
+        "text": "Automatically merge their pull requests"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 137,
+    "text": "What is the purpose of a CODE_OF_CONDUCT file in an open-source repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To define the software license"
+      },
+      {
+        "letter": "b",
+        "text": "To set expectations for respectful behavior and community standards among contributors"
+      },
+      {
+        "letter": "c",
+        "text": "To list required GitHub Actions secrets"
+      },
+      {
+        "letter": "d",
+        "text": "To configure branch protection rules"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 138,
+    "text": "What is the purpose of GitHub 'Topics' in the context of community discoverability?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To restrict repository access"
+      },
+      {
+        "letter": "b",
+        "text": "To help users discover related repositories by browsing or searching by subject/keyword"
+      },
+      {
+        "letter": "c",
+        "text": "To automatically translate a repository into other languages"
+      },
+      {
+        "letter": "d",
+        "text": "To manage billing for an organization"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 139,
+    "text": "Why might a maintainer add a 'good first issue' label to certain issues in an open-source project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To mark issues that should never be worked on"
+      },
+      {
+        "letter": "b",
+        "text": "To highlight beginner-friendly tasks that welcome new contributors to the project"
+      },
+      {
+        "letter": "c",
+        "text": "To indicate the issue is a security vulnerability"
+      },
+      {
+        "letter": "d",
+        "text": "To automatically close the issue"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 140,
+    "text": "What is a benefit of engaging with the broader GitHub community (Discussions, forums, open-source projects)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It has no practical benefit for a developer's growth"
+      },
+      {
+        "letter": "b",
+        "text": "It provides opportunities to learn from others, get feedback, build a public portfolio, and collaborate across organizational boundaries"
+      },
+      {
+        "letter": "c",
+        "text": "It requires disabling all repository privacy settings"
+      },
+      {
+        "letter": "d",
+        "text": "It automatically grants administrative access to popular projects"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
   }
 ]
