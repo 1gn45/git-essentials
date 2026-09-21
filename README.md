@@ -1,20 +1,23 @@
 # GitHub Foundations Practice Test
 
 A self-check practice quiz for preparing for the **GitHub Foundations (GH-900)** certification.
-159 original questions, written from scratch and mapped to the seven official exam domains and
+161 original questions, written from scratch and mapped to the seven official exam domains and
 their published weightings from Microsoft Learn's public
 [GH-900 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 (the *current*, post-January-2026 domain structure -- several other prep sites still test the
-older pre-2026 domain names/weights):
+older pre-2026 domain names/weights), cross-checked against the official
+[GH-900T00 training course](https://learn.microsoft.com/en-us/training/courses/gh-900t00)
+syllabus (code scanning/CodeQL, Copilot, Codespaces, Projects, Markdown, open source,
+InnerSource, secure repository practices):
 
 | Domain | Weight | Questions here |
 |---|---|---|
 | Understand Git and GitHub basics | 25–30% | 44 |
 | Work with GitHub repositories | 10–15% | 24 |
 | Collaborate using GitHub | 10–15% | 23 |
-| Apply modern development practices | 10–15% | 22 |
+| Apply modern development practices | 10–15% | 23 |
 | Manage projects with GitHub | 5–10% | 11 |
-| Understand privacy, security, and administration | 10–15% | 24 |
+| Understand privacy, security, and administration | 10–15% | 25 |
 | Explore the GitHub community | 5–10% | 11 |
 
 Each question shows which domain it belongs to, so you can see where you're weak. Like the real
@@ -28,7 +31,7 @@ sample questions (e.g. CertSafari, TheServerSide) -- never from leaked/real exam
 "exam dump" sites, which were deliberately excluded. Treat this as a study aid for the topics,
 not a guarantee of the exact questions you'll see on exam day.
 
-Pick how many questions you want (15 to all 159), answer them one at a time, and get instant
+Pick how many questions you want (15 to all 161), answer them one at a time, and get instant
 feedback with the correct answer. At the end you can see your score and retry only the
 questions you got wrong.
 

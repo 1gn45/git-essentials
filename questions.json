@@ -2281,6 +2281,30 @@
   },
   {
     "number": 96,
+    "text": "Which of these correctly describes part of a Codespace's lifecycle?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A Codespace can be stopped to pause billing for compute while keeping its state, then resumed later"
+      },
+      {
+        "letter": "b",
+        "text": "A Codespace cannot ever be stopped once created, only permanently deleted"
+      },
+      {
+        "letter": "c",
+        "text": "A Codespace automatically becomes a new repository when stopped"
+      },
+      {
+        "letter": "d",
+        "text": "Stopping a Codespace immediately deletes all uncommitted changes with no warning"
+      }
+    ],
+    "answer": "a",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 97,
     "text": "What file is typically used to configure a GitHub Codespace's development environment (tools, extensions, settings)?",
     "options": [
       {
@@ -2304,7 +2328,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 97,
+    "number": 98,
     "text": "What is a 'prebuild' in the context of GitHub Codespaces?",
     "options": [
       {
@@ -2328,7 +2352,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 98,
+    "number": 99,
     "text": "What is the key difference between github.dev and GitHub Codespaces?",
     "options": [
       {
@@ -2352,7 +2376,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 99,
+    "number": 100,
     "text": "How do you quickly open a repository in the github.dev editor from GitHub.com?",
     "options": [
       {
@@ -2376,7 +2400,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 100,
+    "number": 101,
     "text": "What is a common use case for scheduled (cron) triggers in GitHub Actions?",
     "options": [
       {
@@ -2400,7 +2424,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 101,
+    "number": 102,
     "text": "What best describes a GitHub Actions 'workflow'?",
     "options": [
       {
@@ -2424,7 +2448,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 102,
+    "number": 103,
     "text": "Within a GitHub Actions workflow, what is a 'job'?",
     "options": [
       {
@@ -2448,7 +2472,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 103,
+    "number": 104,
     "text": "What is GitHub Projects primarily used for?",
     "options": [
       {
@@ -2472,7 +2496,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 104,
+    "number": 105,
     "text": "Which of these is a view type available in the modern GitHub Projects experience?",
     "options": [
       {
@@ -2496,7 +2520,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 105,
+    "number": 106,
     "text": "What can custom fields in a GitHub Project be used for?",
     "options": [
       {
@@ -2520,7 +2544,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 106,
+    "number": 107,
     "text": "What is a key difference between the current GitHub Projects and 'Projects (classic)'?",
     "options": [
       {
@@ -2544,7 +2568,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 107,
+    "number": 108,
     "text": "How can you filter items within a GitHub Project view?",
     "options": [
       {
@@ -2568,7 +2592,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 108,
+    "number": 109,
     "text": "What is the purpose of the 'Roadmap' view in GitHub Projects?",
     "options": [
       {
@@ -2592,7 +2616,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 109,
+    "number": 110,
     "text": "Which built-in status values are commonly used to track items on a GitHub Projects board (table/board view)?",
     "options": [
       {
@@ -2616,7 +2640,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 110,
+    "number": 111,
     "text": "What is the purpose of 'workflows' (automation rules) within GitHub Projects?",
     "options": [
       {
@@ -2640,7 +2664,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 111,
+    "number": 112,
     "text": "Who can typically be given access to manage (write to) a GitHub Project?",
     "options": [
       {
@@ -2664,7 +2688,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 112,
+    "number": 113,
     "text": "What kind of items can be added to a GitHub Project?",
     "options": [
       {
@@ -2688,7 +2712,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 113,
+    "number": 114,
     "text": "What does enabling two-factor authentication (2FA) on a GitHub account do?",
     "options": [
       {
@@ -2712,7 +2736,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 114,
+    "number": 115,
     "text": "Which of these is an alternative, often more secure, sign-in method to passwords that GitHub supports?",
     "options": [
       {
@@ -2736,7 +2760,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 115,
+    "number": 116,
     "text": "Which repository permission level generally allows a user to push code and manage some settings but not delete the repository or manage collaborator access?",
     "options": [
       {
@@ -2760,7 +2784,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 116,
+    "number": 117,
     "text": "Which repository permission level is typically read-only, but also allows managing issues and pull requests without write access to code (e.g. applying labels)?",
     "options": [
       {
@@ -2784,7 +2808,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 117,
+    "number": 118,
     "text": "Which repository role generally grants the most control, including deleting the repository and managing all settings and access?",
     "options": [
       {
@@ -2808,7 +2832,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 118,
+    "number": 119,
     "text": "In a GitHub organization, which role has the broadest administrative control by default?",
     "options": [
       {
@@ -2832,7 +2856,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 119,
+    "number": 120,
     "text": "What does an 'outside collaborator' mean in the context of a GitHub organization?",
     "options": [
       {
@@ -2856,7 +2880,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 120,
+    "number": 121,
     "text": "What is the purpose of a branch protection rule on GitHub?",
     "options": [
       {
@@ -2880,7 +2904,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 121,
+    "number": 122,
     "text": "Which of these is a common branch protection requirement you can enable before allowing a merge?",
     "options": [
       {
@@ -2904,7 +2928,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 122,
+    "number": 123,
     "text": "What is Dependabot primarily used for?",
     "options": [
       {
@@ -2928,7 +2952,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 123,
+    "number": 124,
     "text": "What is 'secret scanning' on GitHub designed to detect?",
     "options": [
       {
@@ -2952,7 +2976,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 124,
+    "number": 125,
     "text": "What is 'code scanning' on GitHub used for?",
     "options": [
       {
@@ -2976,7 +3000,31 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 125,
+    "number": 126,
+    "text": "What technology powers GitHub's built-in code scanning feature?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "CodeQL, a semantic code analysis engine"
+      },
+      {
+        "letter": "b",
+        "text": "Dependabot"
+      },
+      {
+        "letter": "c",
+        "text": "GitHub Copilot"
+      },
+      {
+        "letter": "d",
+        "text": "GitHub Pages"
+      }
+    ],
+    "answer": "a",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 127,
     "text": "What are Enterprise Managed Users (EMU) designed for?",
     "options": [
       {
@@ -3000,7 +3048,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 126,
+    "number": 128,
     "text": "What can an enterprise typically control through organization-wide GitHub Copilot policy management?",
     "options": [
       {
@@ -3024,7 +3072,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 127,
+    "number": 129,
     "text": "What is the purpose of SSO (Single Sign-On) integration with a GitHub organization or enterprise?",
     "options": [
       {
@@ -3048,7 +3096,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 128,
+    "number": 130,
     "text": "What does a GitHub organization or enterprise 'audit log' record?",
     "options": [
       {
@@ -3072,7 +3120,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 129,
+    "number": 131,
     "text": "Which repository visibility setting means only explicitly invited collaborators (and organization members with access) can view it?",
     "options": [
       {
@@ -3096,7 +3144,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 130,
+    "number": 132,
     "text": "What is a security advisory on GitHub used for?",
     "options": [
       {
@@ -3120,7 +3168,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 131,
+    "number": 133,
     "text": "Why might an organization require 2FA for all of its members?",
     "options": [
       {
@@ -3144,7 +3192,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 132,
+    "number": 134,
     "text": "What is the general purpose of GitHub's 'require status checks to pass before merging' branch protection option?",
     "options": [
       {
@@ -3168,7 +3216,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 133,
+    "number": 135,
     "text": "Who is typically able to bypass certain branch protection rules if an admin explicitly allows it?",
     "options": [
       {
@@ -3192,7 +3240,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 134,
+    "number": 136,
     "text": "What best describes the principle of least privilege as applied to repository/organization access on GitHub?",
     "options": [
       {
@@ -3216,7 +3264,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 135,
+    "number": 137,
     "text": "What generally defines an 'open source' project?",
     "options": [
       {
@@ -3240,7 +3288,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 136,
+    "number": 138,
     "text": "What is the purpose of choosing a license (e.g. MIT, Apache 2.0, GPL) for an open-source project?",
     "options": [
       {
@@ -3264,7 +3312,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 137,
+    "number": 139,
     "text": "What is GitHub Sponsors?",
     "options": [
       {
@@ -3288,7 +3336,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 138,
+    "number": 140,
     "text": "What is a common first step for contributing to someone else's open-source project on GitHub, when you don't have direct write access?",
     "options": [
       {
@@ -3312,7 +3360,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 139,
+    "number": 141,
     "text": "What does 'InnerSource' refer to?",
     "options": [
       {
@@ -3336,7 +3384,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 140,
+    "number": 142,
     "text": "What can following a user or organization on GitHub let you do?",
     "options": [
       {
@@ -3360,7 +3408,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 141,
+    "number": 143,
     "text": "What is the purpose of a CODE_OF_CONDUCT file in an open-source repository?",
     "options": [
       {
@@ -3384,7 +3432,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 142,
+    "number": 144,
     "text": "What is the purpose of GitHub 'Topics' in the context of community discoverability?",
     "options": [
       {
@@ -3408,7 +3456,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 143,
+    "number": 145,
     "text": "Why might a maintainer add a 'good first issue' label to certain issues in an open-source project?",
     "options": [
       {
@@ -3432,7 +3480,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 144,
+    "number": 146,
     "text": "What is a benefit of engaging with the broader GitHub community (Discussions, forums, open-source projects)?",
     "options": [
       {
@@ -3456,7 +3504,7 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 145,
+    "number": 147,
     "text": "Which of the following are core areas Git uses to track changes to your project? (Select 2)",
     "options": [
       {
@@ -3483,7 +3531,7 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 146,
+    "number": 148,
     "text": "Which of these are valid ways to get a local copy of a GitHub repository onto your computer? (Select 2)",
     "options": [
       {
@@ -3510,7 +3558,7 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 147,
+    "number": 149,
     "text": "Which of the following are valid GitHub account types? (Select 2)",
     "options": [
       {
@@ -3537,7 +3585,7 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 148,
+    "number": 150,
     "text": "Which of the following are true about Git as a distributed version control system? (Select 2)",
     "options": [
       {
@@ -3564,7 +3612,7 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 149,
+    "number": 151,
     "text": "Which of these Git terms describe moving commits between a local repository and a remote one? (Select 2)",
     "options": [
       {
@@ -3591,7 +3639,7 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 150,
+    "number": 152,
     "text": "Which of the following are commonly recommended files to include in a well-maintained GitHub repository? (Select 2)",
     "options": [
       {
@@ -3618,7 +3666,7 @@
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 151,
+    "number": 153,
     "text": "Which of these are ways to create a new file in a GitHub repository directly from the web interface? (Select 2)",
     "options": [
       {
@@ -3645,7 +3693,7 @@
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 152,
+    "number": 154,
     "text": "Which of the following are valid pull request merge strategies on GitHub? (Select 2)",
     "options": [
       {
@@ -3672,7 +3720,7 @@
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 153,
+    "number": 155,
     "text": "Which of these features primarily help teams collaborate directly within a GitHub repository? (Select 2)",
     "options": [
       {
@@ -3699,7 +3747,7 @@
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 154,
+    "number": 156,
     "text": "Which of the following are part of GitHub's modern development toolset? (Select 2)",
     "options": [
       {
@@ -3726,7 +3774,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 155,
+    "number": 157,
     "text": "Which of these can trigger a GitHub Actions workflow? (Select 2)",
     "options": [
       {
@@ -3753,7 +3801,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 156,
+    "number": 158,
     "text": "Which of the following are view types available in the modern GitHub Projects experience? (Select 2)",
     "options": [
       {
@@ -3780,7 +3828,7 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 157,
+    "number": 159,
     "text": "Which of the following help protect a GitHub account from unauthorized access? (Select 2)",
     "options": [
       {
@@ -3807,7 +3855,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 158,
+    "number": 160,
     "text": "Which of these are examples of branch protection requirements you can enable before allowing a merge? (Select 2)",
     "options": [
       {
@@ -3834,7 +3882,7 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 159,
+    "number": 161,
     "text": "Which of the following are generally true about open-source projects on GitHub? (Select 2)",
     "options": [
       {
