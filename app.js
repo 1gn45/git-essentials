@@ -3,7 +3,6 @@ const scoreEl = document.getElementById('score');
 const questionNumberEl = document.getElementById('question-number');
 const domainEl = document.getElementById('question-domain');
 const questionTextEl = document.getElementById('question-text');
-const hintEl = document.getElementById('question-hint');
 const optionsForm = document.getElementById('options-form');
 const feedbackEl = document.getElementById('feedback');
 const submitBtn = document.getElementById('submit-btn');
@@ -55,9 +54,6 @@ const renderQuestion = () => {
   questionTextEl.textContent = question.text;
 
   const multi = isMulti(question);
-  hintEl.textContent = multi
-    ? `Select ${correctLetters(question).length} answers.`
-    : '';
 
   optionsForm.innerHTML = '';
   question.options.forEach((option) => {
@@ -86,7 +82,6 @@ const showSummary = () => {
   questionNumberEl.textContent = 'Test complete';
   domainEl.textContent = '';
   questionTextEl.textContent = '';
-  hintEl.textContent = '';
   optionsForm.innerHTML = '';
   feedbackEl.className = 'feedback success summary';
   feedbackEl.innerHTML = `<p>Your score: ${correctCount} out of ${questions.length}.</p>`;

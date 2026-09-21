@@ -3505,7 +3505,7 @@
   },
   {
     "number": 147,
-    "text": "Which of the following are core areas Git uses to track changes to your project? (Select 2)",
+    "text": "Which of the following are core areas Git uses to track changes to your project?",
     "options": [
       {
         "letter": "a",
@@ -3532,7 +3532,7 @@
   },
   {
     "number": 148,
-    "text": "Which of these are valid ways to get a local copy of a GitHub repository onto your computer? (Select 2)",
+    "text": "Which of these are valid ways to get a local copy of a GitHub repository onto your computer?",
     "options": [
       {
         "letter": "a",
@@ -3559,7 +3559,7 @@
   },
   {
     "number": 149,
-    "text": "Which of the following are valid GitHub account types? (Select 2)",
+    "text": "Which of the following are valid GitHub account types?",
     "options": [
       {
         "letter": "a",
@@ -3586,7 +3586,7 @@
   },
   {
     "number": 150,
-    "text": "Which of the following are true about Git as a distributed version control system? (Select 2)",
+    "text": "Which of the following are true about Git as a distributed version control system?",
     "options": [
       {
         "letter": "a",
@@ -3613,7 +3613,7 @@
   },
   {
     "number": 151,
-    "text": "Which of these Git terms describe moving commits between a local repository and a remote one? (Select 2)",
+    "text": "Which of these Git terms describe moving commits between a local repository and a remote one?",
     "options": [
       {
         "letter": "a",
@@ -3640,7 +3640,7 @@
   },
   {
     "number": 152,
-    "text": "Which of the following are commonly recommended files to include in a well-maintained GitHub repository? (Select 2)",
+    "text": "Which of the following are commonly recommended files to include in a well-maintained GitHub repository?",
     "options": [
       {
         "letter": "a",
@@ -3667,7 +3667,7 @@
   },
   {
     "number": 153,
-    "text": "Which of these are ways to create a new file in a GitHub repository directly from the web interface? (Select 2)",
+    "text": "Which of these are ways to create a new file in a GitHub repository directly from the web interface?",
     "options": [
       {
         "letter": "a",
@@ -3694,7 +3694,7 @@
   },
   {
     "number": 154,
-    "text": "Which of the following are valid pull request merge strategies on GitHub? (Select 2)",
+    "text": "Which of the following are valid pull request merge strategies on GitHub?",
     "options": [
       {
         "letter": "a",
@@ -3721,7 +3721,7 @@
   },
   {
     "number": 155,
-    "text": "Which of these features primarily help teams collaborate directly within a GitHub repository? (Select 2)",
+    "text": "Which of these features primarily help teams collaborate directly within a GitHub repository?",
     "options": [
       {
         "letter": "a",
@@ -3748,7 +3748,7 @@
   },
   {
     "number": 156,
-    "text": "Which of the following are part of GitHub's modern development toolset? (Select 2)",
+    "text": "Which of the following are part of GitHub's modern development toolset?",
     "options": [
       {
         "letter": "a",
@@ -3775,7 +3775,7 @@
   },
   {
     "number": 157,
-    "text": "Which of these can trigger a GitHub Actions workflow? (Select 2)",
+    "text": "Which of these can trigger a GitHub Actions workflow?",
     "options": [
       {
         "letter": "a",
@@ -3802,7 +3802,7 @@
   },
   {
     "number": 158,
-    "text": "Which of the following are view types available in the modern GitHub Projects experience? (Select 2)",
+    "text": "Which of the following are view types available in the modern GitHub Projects experience?",
     "options": [
       {
         "letter": "a",
@@ -3829,7 +3829,7 @@
   },
   {
     "number": 159,
-    "text": "Which of the following help protect a GitHub account from unauthorized access? (Select 2)",
+    "text": "Which of the following help protect a GitHub account from unauthorized access?",
     "options": [
       {
         "letter": "a",
@@ -3856,7 +3856,7 @@
   },
   {
     "number": 160,
-    "text": "Which of these are examples of branch protection requirements you can enable before allowing a merge? (Select 2)",
+    "text": "Which of these are examples of branch protection requirements you can enable before allowing a merge?",
     "options": [
       {
         "letter": "a",
@@ -3883,7 +3883,7 @@
   },
   {
     "number": 161,
-    "text": "Which of the following are generally true about open-source projects on GitHub? (Select 2)",
+    "text": "Which of the following are generally true about open-source projects on GitHub?",
     "options": [
       {
         "letter": "a",

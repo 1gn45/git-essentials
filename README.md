@@ -21,8 +21,9 @@ InnerSource, secure repository practices):
 | Explore the GitHub community | 5–10% | 11 |
 
 Each question shows which domain it belongs to, so you can see where you're weak. Like the real
-exam, most questions are single-choice, but 15 are "select two" multiple-answer questions —
-you'll see a "Select N answers." hint and checkboxes instead of radio buttons for those.
+exam, most questions are single-choice, but 15 are multiple-answer ("select all that apply")
+questions — you'll see checkboxes instead of radio buttons for those, and (by design, for extra
+practice difficulty) the app doesn't tell you in advance how many answers are correct.
 
 **Note on sourcing:** GH-900 is a proctored certification exam under NDA. These questions are
 original and written from the *public, official exam objectives* plus general GitHub product
