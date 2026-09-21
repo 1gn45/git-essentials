@@ -3358,5 +3358,410 @@
     ],
     "answer": "b",
     "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 141,
+    "text": "Which of the following are core areas Git uses to track changes to your project? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Working directory"
+      },
+      {
+        "letter": "b",
+        "text": "Staging area (index)"
+      },
+      {
+        "letter": "c",
+        "text": "GitHub Marketplace"
+      },
+      {
+        "letter": "d",
+        "text": "Billing dashboard"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 142,
+    "text": "Which of these are valid ways to get a local copy of a GitHub repository onto your computer? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Run 'git clone' on the repository"
+      },
+      {
+        "letter": "b",
+        "text": "Download the repository as a ZIP file"
+      },
+      {
+        "letter": "c",
+        "text": "Star the repository"
+      },
+      {
+        "letter": "d",
+        "text": "Fork the repository without downloading anything"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 143,
+    "text": "Which of the following are valid GitHub account types? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Personal account"
+      },
+      {
+        "letter": "b",
+        "text": "Organization account"
+      },
+      {
+        "letter": "c",
+        "text": "Milestone account"
+      },
+      {
+        "letter": "d",
+        "text": "Workflow account"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 144,
+    "text": "Which of the following are true about Git as a distributed version control system? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Every clone contains the full project history"
+      },
+      {
+        "letter": "b",
+        "text": "You can create commits locally without a network connection"
+      },
+      {
+        "letter": "c",
+        "text": "Only the central GitHub server stores commit history"
+      },
+      {
+        "letter": "d",
+        "text": "You must be online to create a commit"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 145,
+    "text": "Which of these Git terms describe moving commits between a local repository and a remote one? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "push"
+      },
+      {
+        "letter": "b",
+        "text": "pull"
+      },
+      {
+        "letter": "c",
+        "text": "label"
+      },
+      {
+        "letter": "d",
+        "text": "milestone"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 146,
+    "text": "Which of the following are commonly recommended files to include in a well-maintained GitHub repository? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "README.md"
+      },
+      {
+        "letter": "b",
+        "text": "LICENSE"
+      },
+      {
+        "letter": "c",
+        "text": "A randomly named file with no extension"
+      },
+      {
+        "letter": "d",
+        "text": "An empty file called 'temp'"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 147,
+    "text": "Which of these are ways to create a new file in a GitHub repository directly from the web interface? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Click 'Add file' and choose 'Create new file'"
+      },
+      {
+        "letter": "b",
+        "text": "Click 'Add file' and choose 'Upload files'"
+      },
+      {
+        "letter": "c",
+        "text": "Delete the .git folder"
+      },
+      {
+        "letter": "d",
+        "text": "Rename the organization"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 148,
+    "text": "Which of the following are valid pull request merge strategies on GitHub? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Squash and merge"
+      },
+      {
+        "letter": "b",
+        "text": "Rebase and merge"
+      },
+      {
+        "letter": "c",
+        "text": "Fork and merge"
+      },
+      {
+        "letter": "d",
+        "text": "Clone and merge"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 149,
+    "text": "Which of these features primarily help teams collaborate directly within a GitHub repository? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Pull requests"
+      },
+      {
+        "letter": "b",
+        "text": "Issues"
+      },
+      {
+        "letter": "c",
+        "text": "Organization billing settings"
+      },
+      {
+        "letter": "d",
+        "text": "Enterprise audit log"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 150,
+    "text": "Which of the following are part of GitHub's modern development toolset? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "GitHub Actions"
+      },
+      {
+        "letter": "b",
+        "text": "GitHub Copilot"
+      },
+      {
+        "letter": "c",
+        "text": "Two-factor authentication"
+      },
+      {
+        "letter": "d",
+        "text": "Organization audit log"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 151,
+    "text": "Which of these can trigger a GitHub Actions workflow? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A push to the repository"
+      },
+      {
+        "letter": "b",
+        "text": "A scheduled cron time"
+      },
+      {
+        "letter": "c",
+        "text": "Starring the repository"
+      },
+      {
+        "letter": "d",
+        "text": "Renaming an organization"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 152,
+    "text": "Which of the following are view types available in the modern GitHub Projects experience? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Table view"
+      },
+      {
+        "letter": "b",
+        "text": "Board view"
+      },
+      {
+        "letter": "c",
+        "text": "Audit log view"
+      },
+      {
+        "letter": "d",
+        "text": "Blame view"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 153,
+    "text": "Which of the following help protect a GitHub account from unauthorized access? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Two-factor authentication"
+      },
+      {
+        "letter": "b",
+        "text": "Passkeys"
+      },
+      {
+        "letter": "c",
+        "text": "Making all of your repositories public"
+      },
+      {
+        "letter": "d",
+        "text": "Disabling all notifications"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 154,
+    "text": "Which of these are examples of branch protection requirements you can enable before allowing a merge? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Require pull request reviews before merging"
+      },
+      {
+        "letter": "b",
+        "text": "Require status checks to pass before merging"
+      },
+      {
+        "letter": "c",
+        "text": "Require the repository to be starred"
+      },
+      {
+        "letter": "d",
+        "text": "Require the default branch to be deleted"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 155,
+    "text": "Which of the following are generally true about open-source projects on GitHub? (Select 2)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Their source code is publicly viewable"
+      },
+      {
+        "letter": "b",
+        "text": "They are typically released under a license granting usage/modification rights"
+      },
+      {
+        "letter": "c",
+        "text": "They cannot accept external contributions"
+      },
+      {
+        "letter": "d",
+        "text": "They require a paid GitHub plan to exist"
+      }
+    ],
+    "answer": [
+      "a",
+      "b"
+    ],
+    "domain": "Explore the GitHub community"
   }
 ]

@@ -3,6 +3,7 @@ const scoreEl = document.getElementById('score');
 const questionNumberEl = document.getElementById('question-number');
 const domainEl = document.getElementById('question-domain');
 const questionTextEl = document.getElementById('question-text');
+const hintEl = document.getElementById('question-hint');
 const optionsForm = document.getElementById('options-form');
 const feedbackEl = document.getElementById('feedback');
 const submitBtn = document.getElementById('submit-btn');
@@ -19,6 +20,9 @@ let correctCount = 0;
 let submitted = false;
 let wrongAnswers = [];
 let selectedQuestionCount = 0;
+
+const isMulti = (question) => Array.isArray(question.answer);
+const correctLetters = (question) => (isMulti(question) ? question.answer : [question.answer]);
 
 const shuffle = (items) => {
   const array = [...items];
@@ -50,6 +54,11 @@ const renderQuestion = () => {
   domainEl.textContent = question.domain || '';
   questionTextEl.textContent = question.text;
 
+  const multi = isMulti(question);
+  hintEl.textContent = multi
+    ? `Select ${correctLetters(question).length} answers.`
+    : '';
+
   optionsForm.innerHTML = '';
   question.options.forEach((option) => {
     const optionId = `option-${question.number}-${option.letter}`;
@@ -58,7 +67,7 @@ const renderQuestion = () => {
     wrapper.dataset.letter = option.letter;
 
     const input = document.createElement('input');
-    input.type = 'radio';
+    input.type = multi ? 'checkbox' : 'radio';
     input.name = 'answer';
     input.value = option.letter;
     input.id = optionId;
@@ -77,6 +86,7 @@ const showSummary = () => {
   questionNumberEl.textContent = 'Test complete';
   domainEl.textContent = '';
   questionTextEl.textContent = '';
+  hintEl.textContent = '';
   optionsForm.innerHTML = '';
   feedbackEl.className = 'feedback success summary';
   feedbackEl.innerHTML = `<p>Your score: ${correctCount} out of ${questions.length}.</p>`;
@@ -102,7 +112,12 @@ const showSummary = () => {
   }
 };
 
-const setFeedback = ({ correct, correctOption, selectedOption }) => {
+const describeOptions = (question, letters) =>
+  letters
+    .map((letter) => question.options.find((option) => option.letter === letter))
+    .map((option) => `${option.letter}) ${option.text}`);
+
+const setFeedback = ({ correct, question, correctSet, selectedSet }) => {
   feedbackEl.innerHTML = '';
   feedbackEl.className = `feedback ${correct ? 'success' : 'error'}`;
 
@@ -112,21 +127,24 @@ const setFeedback = ({ correct, correctOption, selectedOption }) => {
 
   if (!correct) {
     const correctLine = document.createElement('p');
-    correctLine.textContent = `Correct answer: ${correctOption.letter}) ${correctOption.text}`;
+    correctLine.textContent = `Correct answer: ${describeOptions(question, correctSet).join('; ')}`;
     feedbackEl.appendChild(correctLine);
   }
 
   const selectedLine = document.createElement('p');
-  selectedLine.textContent = `Your answer: ${selectedOption.letter}) ${selectedOption.text}`;
+  const selectedText = describeOptions(question, selectedSet);
+  selectedLine.textContent = `Your answer: ${selectedText.length ? selectedText.join('; ') : '(none selected)'}`;
   feedbackEl.appendChild(selectedLine);
 };
+
+const sameSet = (a, b) => a.length === b.length && a.every((letter) => b.includes(letter));
 
 const handleSubmit = () => {
   if (submitted) {
     return;
   }
-  const selectedInput = optionsForm.querySelector('input[name="answer"]:checked');
-  if (!selectedInput) {
+  const selectedInputs = [...optionsForm.querySelectorAll('input[name="answer"]:checked')];
+  if (selectedInputs.length === 0) {
     feedbackEl.className = 'feedback error';
     feedbackEl.textContent = 'Choose an answer before checking.';
     return;
@@ -134,22 +152,24 @@ const handleSubmit = () => {
 
   submitted = true;
   const question = questions[currentIndex];
-  const selectedLetter = selectedInput.value;
-  const correctLetter = question.answer;
-  const selectedOption = question.options.find((option) => option.letter === selectedLetter);
-  const correctOption = question.options.find((option) => option.letter === correctLetter);
+  const selectedSet = selectedInputs.map((input) => input.value);
+  const correctSet = correctLetters(question);
+  const correct = sameSet(selectedSet, correctSet);
 
   optionsForm.querySelectorAll('.option').forEach((optionEl) => {
     const letter = optionEl.dataset.letter;
-    if (letter === correctLetter) {
+    if (correctSet.includes(letter)) {
       optionEl.classList.add('correct');
     }
-    if (letter === selectedLetter && selectedLetter !== correctLetter) {
+    if (selectedSet.includes(letter) && !correctSet.includes(letter)) {
       optionEl.classList.add('incorrect');
     }
   });
+  optionsForm.querySelectorAll('input[name="answer"]').forEach((input) => {
+    input.disabled = true;
+  });
 
-  if (selectedLetter === correctLetter) {
+  if (correct) {
     correctCount += 1;
     scoreEl.textContent = `Correct: ${correctCount}`;
   } else {
@@ -157,11 +177,7 @@ const handleSubmit = () => {
     wrongAnswers.push(question);
   }
 
-  setFeedback({
-    correct: selectedLetter === correctLetter,
-    correctOption,
-    selectedOption,
-  });
+  setFeedback({ correct, question, correctSet, selectedSet });
 
   submitBtn.disabled = true;
   nextBtn.disabled = false;

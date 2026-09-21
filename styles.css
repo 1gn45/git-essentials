@@ -89,8 +89,20 @@ h1 {
 }
 
 #question-text {
-  margin: 0 0 20px;
+  margin: 0 0 8px;
   font-size: 18px;
+}
+
+.hint {
+  margin: 0 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.hint:empty {
+  display: none;
 }
 
 .options {
