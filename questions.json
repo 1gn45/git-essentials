@@ -601,23 +601,23 @@
   },
   {
     "number": 26,
-    "text": "In GitHub Markdown, what does typing '@username' in a comment do?",
+    "text": "What slash command inserts a code block in Markdown?",
     "options": [
       {
         "letter": "a",
-        "text": "Deletes that user's comment"
+        "text": "/markdown"
       },
       {
         "letter": "b",
-        "text": "Blocks the user from the repo"
+        "text": "/md"
       },
       {
         "letter": "c",
-        "text": "Mentions and notifies the user"
+        "text": "/code"
       },
       {
         "letter": "d",
-        "text": "Auto-assigns the issue to them"
+        "text": "/insertcode"
       }
     ],
     "answer": "c",
@@ -625,6 +625,30 @@
   },
   {
     "number": 27,
+    "text": "In GitHub Markdown, what does typing '@username' in a comment do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Blocks the user from the repo"
+      },
+      {
+        "letter": "b",
+        "text": "Auto-assigns the issue to them"
+      },
+      {
+        "letter": "c",
+        "text": "Deletes that user's comment"
+      },
+      {
+        "letter": "d",
+        "text": "Mentions and notifies the user"
+      }
+    ],
+    "answer": "d",
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 28,
     "text": "In GitHub Markdown, what does typing '#123' in a comment or commit message usually do (within the same repository)?",
     "options": [
       {
@@ -648,7 +672,7 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 28,
+    "number": 29,
     "text": "What is a Git commit SHA (hash) used for?",
     "options": [
       {
@@ -657,7 +681,7 @@
       },
       {
         "letter": "b",
-        "text": "Identifying the repo's billing plan"
+        "text": "Uniquely identifying a specific commit"
       },
       {
         "letter": "c",
@@ -665,79 +689,55 @@
       },
       {
         "letter": "d",
-        "text": "Uniquely identifying a specific commit"
+        "text": "Identifying the repo's billing plan"
       }
     ],
-    "answer": "d",
+    "answer": "b",
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 29,
+    "number": 30,
     "text": "Which of these is NOT one of Git's three core areas for tracking changes?",
     "options": [
       {
         "letter": "a",
-        "text": "GitHub Marketplace"
+        "text": "Working directory"
       },
       {
         "letter": "b",
-        "text": "Staging area"
+        "text": "GitHub Marketplace"
       },
       {
         "letter": "c",
-        "text": "Working directory"
+        "text": "Staging area"
       },
       {
         "letter": "d",
         "text": "Repository (commit history)"
       }
     ],
-    "answer": "a",
-    "domain": "Understand Git and GitHub basics"
-  },
-  {
-    "number": 30,
-    "text": "What does 'checkout' generally mean in Git?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Permanently deleting a branch and its history"
-      },
-      {
-        "letter": "b",
-        "text": "Approving and merging an open pull request"
-      },
-      {
-        "letter": "c",
-        "text": "Switching to a different branch or commit"
-      },
-      {
-        "letter": "d",
-        "text": "Publishing a tagged release to GitHub"
-      }
-    ],
-    "answer": "c",
+    "answer": "b",
     "domain": "Understand Git and GitHub basics"
   },
   {
     "number": 31,
-    "text": "Which of the following is an example of a valid Git remote URL protocol?",
+    "text": "What does 'checkout' generally mean in Git?",
     "options": [
       {
         "letter": "a",
-        "text": "https://"
+        "text": "Switching to a different branch or commit"
       },
       {
         "letter": "b",
-        "text": "ftp://"
+        "text": "Permanently deleting a branch and its history"
       },
       {
         "letter": "c",
-        "text": "imap://"
+        "text": "Approving and merging an open pull request"
       },
       {
         "letter": "d",
-        "text": "smtp://"
+        "text": "Publishing a tagged release to GitHub"
       }
     ],
     "answer": "a",
@@ -745,23 +745,23 @@
   },
   {
     "number": 32,
-    "text": "What is the general recommended name for the default/main branch in newer Git and GitHub repositories?",
+    "text": "Which of the following is an example of a valid Git remote URL protocol?",
     "options": [
       {
         "letter": "a",
-        "text": "release"
+        "text": "imap://"
       },
       {
         "letter": "b",
-        "text": "master"
+        "text": "ftp://"
       },
       {
         "letter": "c",
-        "text": "trunk"
+        "text": "smtp://"
       },
       {
         "letter": "d",
-        "text": "main"
+        "text": "https://"
       }
     ],
     "answer": "d",
@@ -769,11 +769,35 @@
   },
   {
     "number": 33,
+    "text": "What is the general recommended name for the default/main branch in newer Git and GitHub repositories?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "master"
+      },
+      {
+        "letter": "b",
+        "text": "main"
+      },
+      {
+        "letter": "c",
+        "text": "trunk"
+      },
+      {
+        "letter": "d",
+        "text": "release"
+      }
+    ],
+    "answer": "b",
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 34,
     "text": "What best describes a 'commit message'?",
     "options": [
       {
         "letter": "a",
-        "text": "A private note only the owner can read"
+        "text": "An auto-generated project-wide changelog"
       },
       {
         "letter": "b",
@@ -781,7 +805,7 @@
       },
       {
         "letter": "c",
-        "text": "An auto-generated project-wide changelog"
+        "text": "A private note only the owner can read"
       },
       {
         "letter": "d",
@@ -792,16 +816,16 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 34,
+    "number": 35,
     "text": "Which GitHub feature lets you browse and edit a repository's code directly in a lightweight, web-based editor without cloning it locally?",
     "options": [
       {
         "letter": "a",
-        "text": "GitHub Desktop, a local application"
+        "text": "github.dev, opened by pressing '.'"
       },
       {
         "letter": "b",
-        "text": "github.dev, opened by pressing '.'"
+        "text": "GitHub Mobile, a phone and tablet app"
       },
       {
         "letter": "c",
@@ -809,14 +833,14 @@
       },
       {
         "letter": "d",
-        "text": "GitHub Mobile, a phone and tablet app"
+        "text": "GitHub Desktop, a local application"
       }
     ],
-    "answer": "b",
+    "answer": "a",
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 35,
+    "number": 36,
     "text": "What best describes 'version control' benefits for a team?",
     "options": [
       {
@@ -825,11 +849,11 @@
       },
       {
         "letter": "b",
-        "text": "Removes the need for code review"
+        "text": "Prevents two people from ever editing a file"
       },
       {
         "letter": "c",
-        "text": "Prevents two people from ever editing a file"
+        "text": "Removes the need for code review"
       },
       {
         "letter": "d",
@@ -840,36 +864,36 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 36,
+    "number": 37,
     "text": "What is the difference between a public and a private repository on GitHub, at a basic level?",
     "options": [
       {
         "letter": "a",
-        "text": "Public is visible to all; private is restricted"
+        "text": "Private repos can't use Git at all"
       },
       {
         "letter": "b",
-        "text": "Public repos can't have issues enabled"
+        "text": "Public is visible to all; private is restricted"
       },
       {
         "letter": "c",
-        "text": "There is no real functional difference"
+        "text": "Public repos can't have issues enabled"
       },
       {
         "letter": "d",
-        "text": "Private repos can't use Git at all"
+        "text": "There is no real functional difference"
       }
     ],
-    "answer": "a",
+    "answer": "b",
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 37,
+    "number": 38,
     "text": "Which of the following is true about GitHub's free plan for public repositories?",
     "options": [
       {
         "letter": "a",
-        "text": "Only one public repository is allowed"
+        "text": "Public repositories aren't allowed on it"
       },
       {
         "letter": "b",
@@ -877,7 +901,7 @@
       },
       {
         "letter": "c",
-        "text": "Public repositories aren't allowed on it"
+        "text": "Only one public repository is allowed"
       },
       {
         "letter": "d",
@@ -888,16 +912,16 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 38,
+    "number": 39,
     "text": "What is the purpose of the 'git status' command?",
     "options": [
       {
         "letter": "a",
-        "text": "Discarding uncommitted changes"
+        "text": "Showing staged, unstaged, and untracked files"
       },
       {
         "letter": "b",
-        "text": "Showing staged, unstaged, and untracked files"
+        "text": "Listing your GitHub organizations"
       },
       {
         "letter": "c",
@@ -905,14 +929,14 @@
       },
       {
         "letter": "d",
-        "text": "Listing your GitHub organizations"
+        "text": "Discarding uncommitted changes"
       }
     ],
-    "answer": "b",
+    "answer": "a",
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 39,
+    "number": 40,
     "text": "What does 'tracked' mean for a file in Git?",
     "options": [
       {
@@ -936,16 +960,16 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 40,
+    "number": 41,
     "text": "Which of these is an accurate general description of GitHub Copilot from an account-type perspective?",
     "options": [
       {
         "letter": "a",
-        "text": "Offered in Individual, Business, and Enterprise plans"
+        "text": "Usable only inside a Codespace"
       },
       {
         "letter": "b",
-        "text": "Usable only inside a Codespace"
+        "text": "Only available on GitHub Enterprise"
       },
       {
         "letter": "c",
@@ -953,27 +977,27 @@
       },
       {
         "letter": "d",
-        "text": "Only available on GitHub Enterprise"
+        "text": "Offered in Individual, Business, and Enterprise plans"
       }
     ],
-    "answer": "a",
+    "answer": "d",
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 41,
+    "number": 42,
     "text": "Which best describes the relationship between a GitHub 'organization' and 'teams' within it?",
     "options": [
       {
         "letter": "a",
-        "text": "An organization can only have one team"
-      },
-      {
-        "letter": "b",
         "text": "Unrelated, independent concepts"
       },
       {
-        "letter": "c",
+        "letter": "b",
         "text": "Teams can exist outside any organization"
+      },
+      {
+        "letter": "c",
+        "text": "An organization can only have one team"
       },
       {
         "letter": "d",
@@ -984,12 +1008,12 @@
     "domain": "Understand Git and GitHub basics"
   },
   {
-    "number": 42,
+    "number": 43,
     "text": "Which file is conventionally used to explain what a project is and how to use it, and is displayed on a repository's main page?",
     "options": [
       {
         "letter": "a",
-        "text": "LICENSE"
+        "text": ".gitignore"
       },
       {
         "letter": "b",
@@ -997,35 +1021,11 @@
       },
       {
         "letter": "c",
-        "text": ".gitignore"
-      },
-      {
-        "letter": "d",
         "text": "README.md"
-      }
-    ],
-    "answer": "d",
-    "domain": "Work with GitHub repositories"
-  },
-  {
-    "number": 43,
-    "text": "What is the purpose of a LICENSE file in a repository?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Configures required status checks"
-      },
-      {
-        "letter": "b",
-        "text": "Defines environment variables for workflows"
-      },
-      {
-        "letter": "c",
-        "text": "States the legal terms for using the project"
       },
       {
         "letter": "d",
-        "text": "Lists who reviews pull requests"
+        "text": "LICENSE"
       }
     ],
     "answer": "c",
@@ -1033,23 +1033,23 @@
   },
   {
     "number": 44,
-    "text": "What is the purpose of a CODEOWNERS file?",
+    "text": "What is the purpose of a LICENSE file in a repository?",
     "options": [
       {
         "letter": "a",
-        "text": "Lists the project's external dependencies"
+        "text": "Lists who reviews pull requests"
       },
       {
         "letter": "b",
-        "text": "Assigns owners so reviews are auto-requested"
+        "text": "States the legal terms for using the project"
       },
       {
         "letter": "c",
-        "text": "Lists every fork of the repository"
+        "text": "Configures required status checks"
       },
       {
         "letter": "d",
-        "text": "Stores Actions secrets"
+        "text": "Defines environment variables for workflows"
       }
     ],
     "answer": "b",
@@ -1057,19 +1057,43 @@
   },
   {
     "number": 45,
+    "text": "What is the purpose of a CODEOWNERS file?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Lists every fork of the repository"
+      },
+      {
+        "letter": "b",
+        "text": "Lists the project's external dependencies"
+      },
+      {
+        "letter": "c",
+        "text": "Stores Actions secrets"
+      },
+      {
+        "letter": "d",
+        "text": "Assigns owners so reviews are auto-requested"
+      }
+    ],
+    "answer": "d",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 46,
     "text": "What is a CONTRIBUTING file typically used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Setting the Markdown color theme"
+        "text": "Listing known security vulnerabilities"
       },
       {
         "letter": "b",
-        "text": "Automatically merging matching pull requests"
+        "text": "Setting the Markdown color theme"
       },
       {
         "letter": "c",
-        "text": "Listing known security vulnerabilities"
+        "text": "Automatically merging matching pull requests"
       },
       {
         "letter": "d",
@@ -1080,7 +1104,7 @@
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 46,
+    "number": 47,
     "text": "What is the purpose of a SECURITY.md file in a repository?",
     "options": [
       {
@@ -1089,39 +1113,15 @@
       },
       {
         "letter": "b",
+        "text": "Explaining how to report vulnerabilities responsibly"
+      },
+      {
+        "letter": "c",
         "text": "Disabling GitHub Actions for that specific repository"
       },
       {
-        "letter": "c",
+        "letter": "d",
         "text": "Storing the credentials used to deploy the app"
-      },
-      {
-        "letter": "d",
-        "text": "Explaining how to report vulnerabilities responsibly"
-      }
-    ],
-    "answer": "d",
-    "domain": "Work with GitHub repositories"
-  },
-  {
-    "number": 47,
-    "text": "What does a 'repository template' allow you to do on GitHub?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Merge two unrelated repositories together"
-      },
-      {
-        "letter": "b",
-        "text": "Start a new repo with the same structure and files"
-      },
-      {
-        "letter": "c",
-        "text": "Convert an existing repo into an organization"
-      },
-      {
-        "letter": "d",
-        "text": "Automatically delete stale repositories"
       }
     ],
     "answer": "b",
@@ -1129,6 +1129,30 @@
   },
   {
     "number": 48,
+    "text": "What does a 'repository template' allow you to do on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Automatically delete stale repositories"
+      },
+      {
+        "letter": "b",
+        "text": "Merge two unrelated repositories together"
+      },
+      {
+        "letter": "c",
+        "text": "Convert an existing repo into an organization"
+      },
+      {
+        "letter": "d",
+        "text": "Start a new repo with the same structure and files"
+      }
+    ],
+    "answer": "d",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 49,
     "text": "Which of these is true about creating a repository directly on GitHub.com?",
     "options": [
       {
@@ -1137,7 +1161,7 @@
       },
       {
         "letter": "b",
-        "text": "It automatically becomes an organization"
+        "text": "It can be created empty or pre-initialized via the web UI"
       },
       {
         "letter": "c",
@@ -1145,14 +1169,14 @@
       },
       {
         "letter": "d",
-        "text": "It can be created empty or pre-initialized via the web UI"
+        "text": "It automatically becomes an organization"
       }
     ],
-    "answer": "d",
+    "answer": "b",
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 49,
+    "number": 50,
     "text": "What does 'git clone' add locally that isn't present in a downloaded ZIP of the same repository?",
     "options": [
       {
@@ -1161,22 +1185,22 @@
       },
       {
         "letter": "b",
-        "text": "The full Git history and metadata"
-      },
-      {
-        "letter": "c",
         "text": "The repository's Actions secrets"
       },
       {
-        "letter": "d",
+        "letter": "c",
         "text": "The repository's issues and pull requests"
+      },
+      {
+        "letter": "d",
+        "text": "The full Git history and metadata"
       }
     ],
-    "answer": "b",
+    "answer": "d",
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 50,
+    "number": 51,
     "text": "On GitHub, what is one common way to add a new file to a repository without using Git on the command line?",
     "options": [
       {
@@ -1185,39 +1209,15 @@
       },
       {
         "letter": "b",
-        "text": "Only via a Copilot chat command"
-      },
-      {
-        "letter": "c",
         "text": "Only via a GitHub Actions workflow"
       },
       {
-        "letter": "d",
-        "text": "Using the 'Add file' button on the web page"
-      }
-    ],
-    "answer": "d",
-    "domain": "Work with GitHub repositories"
-  },
-  {
-    "number": 51,
-    "text": "What does the repository 'Insights' tab on GitHub typically show?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Only the repository's current billing information"
-      },
-      {
-        "letter": "b",
-        "text": "Private direct messages between collaborators only"
-      },
-      {
         "letter": "c",
-        "text": "Contributors, traffic, activity, and dependency graph"
+        "text": "Using the 'Add file' button on the web page"
       },
       {
         "letter": "d",
-        "text": "The internal source code that powers GitHub itself"
+        "text": "Only via a Copilot chat command"
       }
     ],
     "answer": "c",
@@ -1225,23 +1225,23 @@
   },
   {
     "number": 52,
-    "text": "What does 'starring' a repository on GitHub do?",
+    "text": "What does the repository 'Insights' tab on GitHub typically show?",
     "options": [
       {
         "letter": "a",
-        "text": "Bookmarks it and signals appreciation"
+        "text": "Contributors, traffic, activity, and dependency graph"
       },
       {
         "letter": "b",
-        "text": "Permanently deletes the repository at once"
+        "text": "Only the repository's current billing information"
       },
       {
         "letter": "c",
-        "text": "Automatically creates a fork under your account"
+        "text": "Private direct messages between collaborators only"
       },
       {
         "letter": "d",
-        "text": "Grants you write access to push changes"
+        "text": "The internal source code that powers GitHub itself"
       }
     ],
     "answer": "a",
@@ -1249,23 +1249,23 @@
   },
   {
     "number": 53,
-    "text": "What is the purpose of the dependency graph feature in a GitHub repository?",
+    "text": "What does 'starring' a repository on GitHub do?",
     "options": [
       {
         "letter": "a",
-        "text": "Visualizing a team's reporting structure"
+        "text": "Permanently deletes the repository at once"
       },
       {
         "letter": "b",
-        "text": "Showing which branches are merged"
+        "text": "Automatically creates a fork under your account"
       },
       {
         "letter": "c",
-        "text": "Displaying GitHub's Markdown pipeline"
+        "text": "Grants you write access to push changes"
       },
       {
         "letter": "d",
-        "text": "Showing what a repo depends on, and what depends on it"
+        "text": "Bookmarks it and signals appreciation"
       }
     ],
     "answer": "d",
@@ -1273,6 +1273,30 @@
   },
   {
     "number": 54,
+    "text": "What is the purpose of the dependency graph feature in a GitHub repository?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Displaying GitHub's Markdown pipeline"
+      },
+      {
+        "letter": "b",
+        "text": "Showing which branches are merged"
+      },
+      {
+        "letter": "c",
+        "text": "Showing what a repo depends on, and what depends on it"
+      },
+      {
+        "letter": "d",
+        "text": "Visualizing a team's reporting structure"
+      }
+    ],
+    "answer": "c",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 55,
     "text": "What happens to open issues and pull requests when you archive a GitHub repository?",
     "options": [
       {
@@ -1296,60 +1320,60 @@
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 55,
+    "number": 56,
     "text": "Which repository visibility option allows access only to members of a specific GitHub Enterprise, but not the general public?",
     "options": [
       {
         "letter": "a",
-        "text": "Draft"
-      },
-      {
-        "letter": "b",
-        "text": "Internal"
-      },
-      {
-        "letter": "c",
         "text": "Private"
       },
       {
-        "letter": "d",
-        "text": "Public"
-      }
-    ],
-    "answer": "b",
-    "domain": "Work with GitHub repositories"
-  },
-  {
-    "number": 56,
-    "text": "What is the effect of changing a repository's default branch on GitHub?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "New clones and PRs use the new branch by default"
-      },
-      {
         "letter": "b",
-        "text": "Every other branch in the repo is deleted"
+        "text": "Public"
       },
       {
         "letter": "c",
-        "text": "Git is disabled entirely for that repository"
+        "text": "Draft"
       },
       {
         "letter": "d",
-        "text": "The repository itself gets renamed to match"
+        "text": "Internal"
       }
     ],
-    "answer": "a",
+    "answer": "d",
     "domain": "Work with GitHub repositories"
   },
   {
     "number": 57,
+    "text": "What is the effect of changing a repository's default branch on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Every other branch in the repo is deleted"
+      },
+      {
+        "letter": "b",
+        "text": "Git is disabled entirely for that repository"
+      },
+      {
+        "letter": "c",
+        "text": "The repository itself gets renamed to match"
+      },
+      {
+        "letter": "d",
+        "text": "New clones and PRs use the new branch by default"
+      }
+    ],
+    "answer": "d",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 58,
     "text": "What is the purpose of a '.gitignore' file in a repository?",
     "options": [
       {
         "letter": "a",
-        "text": "Lists files that can never be deleted"
+        "text": "Tells Git which files to exclude from tracking"
       },
       {
         "letter": "b",
@@ -1361,14 +1385,14 @@
       },
       {
         "letter": "d",
-        "text": "Tells Git which files to exclude from tracking"
+        "text": "Lists files that can never be deleted"
       }
     ],
-    "answer": "d",
+    "answer": "a",
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 58,
+    "number": 59,
     "text": "Best practice for maintaining a healthy public repository includes which of the following?",
     "options": [
       {
@@ -1377,11 +1401,11 @@
       },
       {
         "letter": "b",
-        "text": "Keeping the repository private so it seems exclusive"
+        "text": "Disabling issues entirely so bugs can't be reported"
       },
       {
         "letter": "c",
-        "text": "Disabling issues entirely so bugs can't be reported"
+        "text": "Keeping the repository private so it seems exclusive"
       },
       {
         "letter": "d",
@@ -1392,96 +1416,72 @@
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 59,
+    "number": 60,
     "text": "Which feature lets you see exactly which commit last modified each line of a file, directly from the GitHub web UI?",
     "options": [
       {
         "letter": "a",
-        "text": "Blame view"
-      },
-      {
-        "letter": "b",
         "text": "Discussions"
       },
       {
-        "letter": "c",
+        "letter": "b",
         "text": "Projects"
+      },
+      {
+        "letter": "c",
+        "text": "Blame view"
       },
       {
         "letter": "d",
         "text": "Insights"
       }
     ],
-    "answer": "a",
-    "domain": "Work with GitHub repositories"
-  },
-  {
-    "number": 60,
-    "text": "What is the recommended way to view a file's revision history on GitHub.com?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Only via Actions logs"
-      },
-      {
-        "letter": "b",
-        "text": "Only by contacting GitHub Support"
-      },
-      {
-        "letter": "c",
-        "text": "There is no way without cloning"
-      },
-      {
-        "letter": "d",
-        "text": "The file's 'History' view/button"
-      }
-    ],
-    "answer": "d",
+    "answer": "c",
     "domain": "Work with GitHub repositories"
   },
   {
     "number": 61,
-    "text": "What does renaming a file directly on GitHub.com (via the file editor) do in terms of Git history?",
+    "text": "What is the recommended way to view a file's revision history on GitHub.com?",
     "options": [
       {
         "letter": "a",
-        "text": "Creates a commit recording the rename"
+        "text": "There is no way without cloning"
       },
       {
         "letter": "b",
-        "text": "Erases the file's prior history"
+        "text": "The file's 'History' view/button"
       },
       {
         "letter": "c",
-        "text": "Automatically creates a new repository"
+        "text": "Only via Actions logs"
       },
       {
         "letter": "d",
-        "text": "It cannot be done on GitHub.com"
+        "text": "Only by contacting GitHub Support"
       }
     ],
-    "answer": "a",
+    "answer": "b",
     "domain": "Work with GitHub repositories"
   },
   {
     "number": 62,
-    "text": "Which of these files, if present, is used by GitHub to automatically request reviews from the right people or teams on a pull request?",
+    "text": "What does renaming a file directly on GitHub.com (via the file editor) do in terms of Git history?",
     "options": [
       {
         "letter": "a",
-        "text": ".gitignore"
+        "text": "Automatically creates a new repository"
       },
       {
         "letter": "b",
-        "text": "CODEOWNERS"
+        "text": "Creates a commit recording the rename"
       },
       {
         "letter": "c",
-        "text": "README.md"
+        "text": "Erases the file's prior history"
       },
       {
         "letter": "d",
-        "text": "SECURITY.md"
+        "text": "It cannot be done on GitHub.com"
       }
     ],
     "answer": "b",
@@ -1489,11 +1489,35 @@
   },
   {
     "number": 63,
+    "text": "Which of these files, if present, is used by GitHub to automatically request reviews from the right people or teams on a pull request?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "README.md"
+      },
+      {
+        "letter": "b",
+        "text": "SECURITY.md"
+      },
+      {
+        "letter": "c",
+        "text": ".gitignore"
+      },
+      {
+        "letter": "d",
+        "text": "CODEOWNERS"
+      }
+    ],
+    "answer": "d",
+    "domain": "Work with GitHub repositories"
+  },
+  {
+    "number": 64,
     "text": "What is a common reason to use repository 'topics' on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Restricting who can clone the repo"
+        "text": "Labeling it with keywords for discoverability"
       },
       {
         "letter": "b",
@@ -1505,23 +1529,23 @@
       },
       {
         "letter": "d",
-        "text": "Labeling it with keywords for discoverability"
+        "text": "Restricting who can clone the repo"
       }
     ],
-    "answer": "d",
+    "answer": "a",
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 64,
+    "number": 65,
     "text": "What is a GitHub 'issue' primarily used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Tracking a task, request, or bug report"
+        "text": "Hosting a documentation website"
       },
       {
         "letter": "b",
-        "text": "Hosting a documentation website"
+        "text": "Tracking a task, request, or bug report"
       },
       {
         "letter": "c",
@@ -1532,35 +1556,35 @@
         "text": "Deploying an app to production"
       }
     ],
-    "answer": "a",
-    "domain": "Collaborate using GitHub"
-  },
-  {
-    "number": 65,
-    "text": "What is a GitHub 'pull request' (PR)?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "An automated scan for security vulnerabilities"
-      },
-      {
-        "letter": "b",
-        "text": "A proposal to merge changes, with room for review"
-      },
-      {
-        "letter": "c",
-        "text": "A formal request to permanently delete a branch"
-      },
-      {
-        "letter": "d",
-        "text": "A request to download a read-only repository copy"
-      }
-    ],
     "answer": "b",
     "domain": "Collaborate using GitHub"
   },
   {
     "number": 66,
+    "text": "What is a GitHub 'pull request' (PR)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A request to download a read-only repository copy"
+      },
+      {
+        "letter": "b",
+        "text": "An automated scan for security vulnerabilities"
+      },
+      {
+        "letter": "c",
+        "text": "A proposal to merge changes, with room for review"
+      },
+      {
+        "letter": "d",
+        "text": "A formal request to permanently delete a branch"
+      }
+    ],
+    "answer": "c",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 67,
     "text": "How can you automatically link a pull request to an issue so that merging the PR closes the issue?",
     "options": [
       {
@@ -1569,22 +1593,22 @@
       },
       {
         "letter": "b",
-        "text": "It happens for every PR automatically"
+        "text": "Include a keyword like 'Closes #12' in the PR"
       },
       {
         "letter": "c",
-        "text": "Include a keyword like 'Closes #12' in the PR"
+        "text": "It happens for every PR automatically"
       },
       {
         "letter": "d",
         "text": "Add the issue as a reviewer"
       }
     ],
-    "answer": "c",
+    "answer": "b",
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 67,
+    "number": 68,
     "text": "What is the purpose of linking an activity to a Pull Request?",
     "options": [
       {
@@ -1597,51 +1621,51 @@
       },
       {
         "letter": "c",
-        "text": "It creates connections between PR discussions, issues, and other relevant entities"
+        "text": "It makes code reviews more complex and confusing"
       },
       {
         "letter": "d",
-        "text": "It makes code reviews more complex and confusing"
+        "text": "It creates connections between PR discussions, issues, and other relevant entities"
+      }
+    ],
+    "answer": "d",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 69,
+    "text": "What is the purpose of requiring pull request reviews before merging on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To auto-deploy the code to production"
+      },
+      {
+        "letter": "b",
+        "text": "To auto-generate release notes"
+      },
+      {
+        "letter": "c",
+        "text": "To catch issues via teammate review before merging"
+      },
+      {
+        "letter": "d",
+        "text": "To slow releases with no real benefit"
       }
     ],
     "answer": "c",
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 68,
-    "text": "What is the purpose of requiring pull request reviews before merging on GitHub?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "To slow releases with no real benefit"
-      },
-      {
-        "letter": "b",
-        "text": "To catch issues via teammate review before merging"
-      },
-      {
-        "letter": "c",
-        "text": "To auto-deploy the code to production"
-      },
-      {
-        "letter": "d",
-        "text": "To auto-generate release notes"
-      }
-    ],
-    "answer": "b",
-    "domain": "Collaborate using GitHub"
-  },
-  {
-    "number": 69,
+    "number": 70,
     "text": "Which of the following are common pull request merge strategies on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Push directly, then pull and fetch again"
+        "text": "Stage the files, commit them, then tag"
       },
       {
         "letter": "b",
-        "text": "Stage the files, commit them, then tag"
+        "text": "Merge commit, squash and merge, rebase and merge"
       },
       {
         "letter": "c",
@@ -1649,38 +1673,38 @@
       },
       {
         "letter": "d",
-        "text": "Merge commit, squash and merge, rebase and merge"
+        "text": "Push directly, then pull and fetch again"
       }
     ],
-    "answer": "d",
-    "domain": "Collaborate using GitHub"
-  },
-  {
-    "number": 70,
-    "text": "What does 'squash and merge' do when merging a pull request on GitHub?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Forces the base branch's history to be overwritten"
-      },
-      {
-        "letter": "b",
-        "text": "Discards the pull request without merging anything"
-      },
-      {
-        "letter": "c",
-        "text": "Combines all its commits into one on the base branch"
-      },
-      {
-        "letter": "d",
-        "text": "Splits a single commit into several smaller ones"
-      }
-    ],
-    "answer": "c",
+    "answer": "b",
     "domain": "Collaborate using GitHub"
   },
   {
     "number": 71,
+    "text": "What does 'squash and merge' do when merging a pull request on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Combines all its commits into one on the base branch"
+      },
+      {
+        "letter": "b",
+        "text": "Splits a single commit into several smaller ones"
+      },
+      {
+        "letter": "c",
+        "text": "Discards the pull request without merging anything"
+      },
+      {
+        "letter": "d",
+        "text": "Forces the base branch's history to be overwritten"
+      }
+    ],
+    "answer": "a",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 72,
     "text": "What is a 'draft pull request' used for?",
     "options": [
       {
@@ -1693,35 +1717,11 @@
       },
       {
         "letter": "c",
-        "text": "A pull request that has already merged"
-      },
-      {
-        "letter": "d",
         "text": "A PR that gets deleted after 24 hours"
-      }
-    ],
-    "answer": "a",
-    "domain": "Collaborate using GitHub"
-  },
-  {
-    "number": 72,
-    "text": "What is the purpose of GitHub 'Discussions'?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Open-ended conversation and Q&A, separate from issues/PRs"
-      },
-      {
-        "letter": "b",
-        "text": "A full replacement for pull requests on a repository"
-      },
-      {
-        "letter": "c",
-        "text": "Storing the log output from Actions workflow runs"
       },
       {
         "letter": "d",
-        "text": "Private, one-on-one direct messages between two users"
+        "text": "A pull request that has already merged"
       }
     ],
     "answer": "a",
@@ -1729,23 +1729,23 @@
   },
   {
     "number": 73,
-    "text": "What is a GitHub 'Gist'?",
+    "text": "What is the purpose of GitHub 'Discussions'?",
     "options": [
       {
         "letter": "a",
-        "text": "A dedicated Actions runner type"
+        "text": "A full replacement for pull requests on a repository"
       },
       {
         "letter": "b",
-        "text": "A private, repo-scoped chat channel"
+        "text": "Private, one-on-one direct messages between two users"
       },
       {
         "letter": "c",
-        "text": "A simple way to share code/text snippets"
+        "text": "Open-ended conversation and Q&A, separate from issues/PRs"
       },
       {
         "letter": "d",
-        "text": "A starter template for new repos"
+        "text": "Storing the log output from Actions workflow runs"
       }
     ],
     "answer": "c",
@@ -1753,23 +1753,23 @@
   },
   {
     "number": 74,
-    "text": "What is the primary purpose of a repository's 'Wiki' feature on GitHub?",
+    "text": "What is a GitHub 'Gist'?",
     "options": [
       {
         "letter": "a",
-        "text": "Hosting editable project documentation"
+        "text": "A simple way to share code/text snippets"
       },
       {
         "letter": "b",
-        "text": "Auto-generating docs from code comments"
+        "text": "A private, repo-scoped chat channel"
       },
       {
         "letter": "c",
-        "text": "Storing Actions secrets"
+        "text": "A dedicated Actions runner type"
       },
       {
         "letter": "d",
-        "text": "Managing collaborator access"
+        "text": "A starter template for new repos"
       }
     ],
     "answer": "a",
@@ -1777,23 +1777,23 @@
   },
   {
     "number": 75,
-    "text": "What is GitHub Pages typically used for?",
+    "text": "What is the primary purpose of a repository's 'Wiki' feature on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Managing team access"
+        "text": "Managing collaborator access"
       },
       {
         "letter": "b",
-        "text": "Storing private, encrypted secrets"
+        "text": "Storing Actions secrets"
       },
       {
         "letter": "c",
-        "text": "Running scheduled background jobs"
+        "text": "Auto-generating docs from code comments"
       },
       {
         "letter": "d",
-        "text": "Hosting a static site from a repository"
+        "text": "Hosting editable project documentation"
       }
     ],
     "answer": "d",
@@ -1801,23 +1801,23 @@
   },
   {
     "number": 76,
-    "text": "What can you do with 'labels' on issues and pull requests?",
+    "text": "What is GitHub Pages typically used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Categorize and filter them for organization"
+        "text": "Hosting a static site from a repository"
       },
       {
         "letter": "b",
-        "text": "Permanently lock them from comments"
+        "text": "Running scheduled background jobs"
       },
       {
         "letter": "c",
-        "text": "Automatically merge them"
+        "text": "Storing private, encrypted secrets"
       },
       {
         "letter": "d",
-        "text": "Change the repo's visibility"
+        "text": "Managing team access"
       }
     ],
     "answer": "a",
@@ -1825,23 +1825,23 @@
   },
   {
     "number": 77,
-    "text": "What does 'assigning' an issue or pull request to someone do?",
+    "text": "What can you do with 'labels' on issues and pull requests?",
     "options": [
       {
         "letter": "a",
-        "text": "Grants them admin rights"
+        "text": "Automatically merge them"
       },
       {
         "letter": "b",
-        "text": "Automatically closes it"
+        "text": "Permanently lock them from comments"
       },
       {
         "letter": "c",
-        "text": "Removes it from the repository"
+        "text": "Change the repo's visibility"
       },
       {
         "letter": "d",
-        "text": "Marks them as responsible for the work"
+        "text": "Categorize and filter them for organization"
       }
     ],
     "answer": "d",
@@ -1849,23 +1849,23 @@
   },
   {
     "number": 78,
-    "text": "What is the purpose of a 'milestone' on GitHub?",
+    "text": "What does 'assigning' an issue or pull request to someone do?",
     "options": [
       {
         "letter": "a",
-        "text": "Grouping issues/PRs toward a shared goal"
+        "text": "Marks them as responsible for the work"
       },
       {
         "letter": "b",
-        "text": "Assigning code owners to specific files or folders"
+        "text": "Removes it from the repository"
       },
       {
         "letter": "c",
-        "text": "Automatically generating a project-wide changelog"
+        "text": "Automatically closes it"
       },
       {
         "letter": "d",
-        "text": "Creating a brand-new branch from the current commit"
+        "text": "Grants them admin rights"
       }
     ],
     "answer": "a",
@@ -1873,23 +1873,23 @@
   },
   {
     "number": 79,
-    "text": "What does subscribing (watching) a repository on GitHub do?",
+    "text": "What is the purpose of a 'milestone' on GitHub?",
     "options": [
       {
         "letter": "a",
-        "text": "Adds you as a code owner"
+        "text": "Assigning code owners to specific files or folders"
       },
       {
         "letter": "b",
-        "text": "Automatically forks it to your account"
+        "text": "Creating a brand-new branch from the current commit"
       },
       {
         "letter": "c",
-        "text": "Grants you write access"
+        "text": "Automatically generating a project-wide changelog"
       },
       {
         "letter": "d",
-        "text": "Sends you notifications about its activity"
+        "text": "Grouping issues/PRs toward a shared goal"
       }
     ],
     "answer": "d",
@@ -1897,6 +1897,30 @@
   },
   {
     "number": 80,
+    "text": "What does subscribing (watching) a repository on GitHub do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sends you notifications about its activity"
+      },
+      {
+        "letter": "b",
+        "text": "Automatically forks it to your account"
+      },
+      {
+        "letter": "c",
+        "text": "Adds you as a code owner"
+      },
+      {
+        "letter": "d",
+        "text": "Grants you write access"
+      }
+    ],
+    "answer": "a",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 81,
     "text": "What is a 'suggested change' in a GitHub pull request review?",
     "options": [
       {
@@ -1905,11 +1929,11 @@
       },
       {
         "letter": "b",
-        "text": "A formal request to close the whole PR"
+        "text": "A required automated security scan before merge"
       },
       {
         "letter": "c",
-        "text": "A required automated security scan before merge"
+        "text": "A formal request to close the whole PR"
       },
       {
         "letter": "d",
@@ -1920,7 +1944,7 @@
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 81,
+    "number": 82,
     "text": "What is the purpose of a 'saved reply' on GitHub?",
     "options": [
       {
@@ -1929,7 +1953,7 @@
       },
       {
         "letter": "b",
-        "text": "Creating a scheduled repo backup"
+        "text": "Auto-approving matching pull requests"
       },
       {
         "letter": "c",
@@ -1937,31 +1961,7 @@
       },
       {
         "letter": "d",
-        "text": "Auto-approving matching pull requests"
-      }
-    ],
-    "answer": "a",
-    "domain": "Collaborate using GitHub"
-  },
-  {
-    "number": 82,
-    "text": "Which of the following best describes GitHub notification settings?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Customizable by repo, thread, or mentions only"
-      },
-      {
-        "letter": "b",
-        "text": "Fixed, with no customization possible"
-      },
-      {
-        "letter": "c",
-        "text": "Delivered only by text message"
-      },
-      {
-        "letter": "d",
-        "text": "Received only by the repo owner"
+        "text": "Creating a scheduled repo backup"
       }
     ],
     "answer": "a",
@@ -1969,59 +1969,83 @@
   },
   {
     "number": 83,
-    "text": "What is a common way to review someone's code changes in a pull request?",
+    "text": "Which of the following best describes GitHub notification settings?",
     "options": [
       {
         "letter": "a",
-        "text": "Merge the pull request immediately without opening the diff to look at it"
+        "text": "Received only by the repo owner"
       },
       {
         "letter": "b",
-        "text": "Comment on the 'Files changed' diff, then approve or request changes"
+        "text": "Fixed, with no customization possible"
       },
       {
         "letter": "c",
-        "text": "Delete their branch and rewrite the whole feature yourself from scratch"
+        "text": "Customizable by repo, thread, or mentions only"
       },
       {
         "letter": "d",
-        "text": "Discuss the change entirely outside GitHub and never comment on the PR"
-      }
-    ],
-    "answer": "b",
-    "domain": "Collaborate using GitHub"
-  },
-  {
-    "number": 84,
-    "text": "Which review outcome on a pull request blocks merging until addressed (when required reviews are enabled)?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Comment"
-      },
-      {
-        "letter": "b",
-        "text": "Approve"
-      },
-      {
-        "letter": "c",
-        "text": "Request changes"
-      },
-      {
-        "letter": "d",
-        "text": "Watch"
+        "text": "Delivered only by text message"
       }
     ],
     "answer": "c",
     "domain": "Collaborate using GitHub"
   },
   {
+    "number": 84,
+    "text": "What is a common way to review someone's code changes in a pull request?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Comment on the 'Files changed' diff, then approve or request changes"
+      },
+      {
+        "letter": "b",
+        "text": "Delete their branch and rewrite the whole feature yourself from scratch"
+      },
+      {
+        "letter": "c",
+        "text": "Discuss the change entirely outside GitHub and never comment on the PR"
+      },
+      {
+        "letter": "d",
+        "text": "Merge the pull request immediately without opening the diff to look at it"
+      }
+    ],
+    "answer": "a",
+    "domain": "Collaborate using GitHub"
+  },
+  {
     "number": 85,
+    "text": "Which review outcome on a pull request blocks merging until addressed (when required reviews are enabled)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Approve"
+      },
+      {
+        "letter": "b",
+        "text": "Request changes"
+      },
+      {
+        "letter": "c",
+        "text": "Comment"
+      },
+      {
+        "letter": "d",
+        "text": "Watch"
+      }
+    ],
+    "answer": "b",
+    "domain": "Collaborate using GitHub"
+  },
+  {
+    "number": 86,
     "text": "What does linking a Gist as 'secret' (rather than public) mean?",
     "options": [
       {
         "letter": "a",
-        "text": "It's unlisted, but viewable by anyone with the link"
+        "text": "It automatically expires after one week"
       },
       {
         "letter": "b",
@@ -2029,23 +2053,23 @@
       },
       {
         "letter": "c",
-        "text": "It is fully encrypted and unreadable by anyone"
+        "text": "It's unlisted, but viewable by anyone with the link"
       },
       {
         "letter": "d",
-        "text": "It automatically expires after one week"
+        "text": "It is fully encrypted and unreadable by anyone"
       }
     ],
-    "answer": "a",
+    "answer": "c",
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 86,
+    "number": 87,
     "text": "What is GitHub Actions primarily used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Replacing the need to open pull requests"
+        "text": "Automating build, test, and deploy workflows"
       },
       {
         "letter": "b",
@@ -2053,23 +2077,23 @@
       },
       {
         "letter": "c",
-        "text": "Automating build, test, and deploy workflows"
+        "text": "Hosting a project's static documentation site"
       },
       {
         "letter": "d",
-        "text": "Hosting a project's static documentation site"
+        "text": "Replacing the need to open pull requests"
       }
     ],
-    "answer": "c",
+    "answer": "a",
     "domain": "Apply modern development practices"
   },
   {
-    "number": 87,
+    "number": 88,
     "text": "In which format are GitHub Actions workflows typically defined?",
     "options": [
       {
         "letter": "a",
-        "text": "JSON files inside .git"
+        "text": "YAML files in .github/workflows/"
       },
       {
         "letter": "b",
@@ -2077,27 +2101,27 @@
       },
       {
         "letter": "c",
-        "text": "YAML files in .github/workflows/"
+        "text": "JSON files inside .git"
       },
       {
         "letter": "d",
         "text": "Plain text files anywhere in the repo"
       }
     ],
-    "answer": "c",
+    "answer": "a",
     "domain": "Apply modern development practices"
   },
   {
-    "number": 88,
+    "number": 89,
     "text": "Which of the following can trigger a GitHub Actions workflow?",
     "options": [
       {
         "letter": "a",
-        "text": "Only a manual button click"
+        "text": "Only starring the repository"
       },
       {
         "letter": "b",
-        "text": "Only starring the repository"
+        "text": "Only renaming the repository"
       },
       {
         "letter": "c",
@@ -2105,31 +2129,7 @@
       },
       {
         "letter": "d",
-        "text": "Only renaming the repository"
-      }
-    ],
-    "answer": "c",
-    "domain": "Apply modern development practices"
-  },
-  {
-    "number": 89,
-    "text": "What is a 'runner' in GitHub Actions?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "A branch protection rule"
-      },
-      {
-        "letter": "b",
-        "text": "A Copilot suggestion feature"
-      },
-      {
-        "letter": "c",
-        "text": "The server that executes a workflow's jobs"
-      },
-      {
-        "letter": "d",
-        "text": "A person who reviews pull requests"
+        "text": "Only a manual button click"
       }
     ],
     "answer": "c",
@@ -2137,23 +2137,23 @@
   },
   {
     "number": 90,
-    "text": "What is the GitHub Actions Marketplace?",
+    "text": "What is a 'runner' in GitHub Actions?",
     "options": [
       {
         "letter": "a",
-        "text": "A storefront for Copilot licenses"
+        "text": "A Copilot suggestion feature"
       },
       {
         "letter": "b",
-        "text": "A store for organization seats"
+        "text": "A person who reviews pull requests"
       },
       {
         "letter": "c",
-        "text": "A place to find reusable, pre-built actions"
+        "text": "The server that executes a workflow's jobs"
       },
       {
         "letter": "d",
-        "text": "A marketplace for buying repositories"
+        "text": "A branch protection rule"
       }
     ],
     "answer": "c",
@@ -2161,6 +2161,30 @@
   },
   {
     "number": 91,
+    "text": "What is the GitHub Actions Marketplace?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A store for organization seats"
+      },
+      {
+        "letter": "b",
+        "text": "A storefront for Copilot licenses"
+      },
+      {
+        "letter": "c",
+        "text": "A marketplace for buying repositories"
+      },
+      {
+        "letter": "d",
+        "text": "A place to find reusable, pre-built actions"
+      }
+    ],
+    "answer": "d",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 92,
     "text": "What are the two types of custom GitHub Actions?",
     "options": [
       {
@@ -2184,12 +2208,12 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 92,
+    "number": 93,
     "text": "How can sensitive values like API keys be safely used inside a GitHub Actions workflow?",
     "options": [
       {
         "letter": "a",
-        "text": "Hard-coded directly into the workflow's YAML file"
+        "text": "Stored as encrypted 'Secrets' and referenced"
       },
       {
         "letter": "b",
@@ -2197,18 +2221,18 @@
       },
       {
         "letter": "c",
-        "text": "Posted in a public issue for the runner"
+        "text": "Hard-coded directly into the workflow's YAML file"
       },
       {
         "letter": "d",
-        "text": "Stored as encrypted 'Secrets' and referenced"
+        "text": "Posted in a public issue for the runner"
       }
     ],
-    "answer": "d",
+    "answer": "a",
     "domain": "Apply modern development practices"
   },
   {
-    "number": 93,
+    "number": 94,
     "text": "What does GitHub Copilot primarily provide?",
     "options": [
       {
@@ -2217,7 +2241,7 @@
       },
       {
         "letter": "b",
-        "text": "Automatic repository backups"
+        "text": "A replacement for GitHub Actions"
       },
       {
         "letter": "c",
@@ -2225,31 +2249,7 @@
       },
       {
         "letter": "d",
-        "text": "A replacement for GitHub Actions"
-      }
-    ],
-    "answer": "a",
-    "domain": "Apply modern development practices"
-  },
-  {
-    "number": 94,
-    "text": "What is a key difference between GitHub Copilot for Individuals and GitHub Copilot for Business/Enterprise?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Business/Enterprise add org-wide policy and admin controls"
-      },
-      {
-        "letter": "b",
-        "text": "Individuals is only sold to large companies"
-      },
-      {
-        "letter": "c",
-        "text": "No meaningful difference exists between the plans"
-      },
-      {
-        "letter": "d",
-        "text": "Individuals can't suggest any code whatsoever"
+        "text": "Automatic repository backups"
       }
     ],
     "answer": "a",
@@ -2257,23 +2257,23 @@
   },
   {
     "number": 95,
-    "text": "What is GitHub Copilot 'Chat' used for?",
+    "text": "What is a key difference between GitHub Copilot for Individuals and GitHub Copilot for Business/Enterprise?",
     "options": [
       {
         "letter": "a",
-        "text": "Talking only to GitHub's support team"
+        "text": "Individuals is only sold to large companies"
       },
       {
         "letter": "b",
-        "text": "Reviewing an organization's billing invoices"
+        "text": "Individuals can't suggest any code whatsoever"
       },
       {
         "letter": "c",
-        "text": "Sending private messages between org members"
+        "text": "No meaningful difference exists between the plans"
       },
       {
         "letter": "d",
-        "text": "Asking natural-language questions about your code"
+        "text": "Business/Enterprise add org-wide policy and admin controls"
       }
     ],
     "answer": "d",
@@ -2281,23 +2281,23 @@
   },
   {
     "number": 96,
-    "text": "What does Copilot 'Agent Mode' let a developer do, compared to standard inline code completion?",
+    "text": "What is GitHub Copilot 'Chat' used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Skip needing a GitHub account"
+        "text": "Reviewing an organization's billing invoices"
       },
       {
         "letter": "b",
-        "text": "Auto-merge every open pull request"
+        "text": "Talking only to GitHub's support team"
       },
       {
         "letter": "c",
-        "text": "Delegate a multi-step, multi-file coding task"
+        "text": "Asking natural-language questions about your code"
       },
       {
         "letter": "d",
-        "text": "Nothing -- it's just a renamed feature"
+        "text": "Sending private messages between org members"
       }
     ],
     "answer": "c",
@@ -2305,23 +2305,23 @@
   },
   {
     "number": 97,
-    "text": "What does 'multi-model support' in GitHub Copilot refer to?",
+    "text": "What does Copilot 'Agent Mode' let a developer do, compared to standard inline code completion?",
     "options": [
       {
         "letter": "a",
-        "text": "Running one session on many computers"
+        "text": "Auto-merge every open pull request"
       },
       {
         "letter": "b",
-        "text": "Sharing a license across many orgs"
+        "text": "Skip needing a GitHub account"
       },
       {
         "letter": "c",
-        "text": "Being locked to one fixed AI model"
+        "text": "Nothing -- it's just a renamed feature"
       },
       {
         "letter": "d",
-        "text": "Choosing among several AI models for suggestions"
+        "text": "Delegate a multi-step, multi-file coding task"
       }
     ],
     "answer": "d",
@@ -2329,23 +2329,23 @@
   },
   {
     "number": 98,
-    "text": "What is a Copilot 'agent' in the context of GitHub Copilot's AI-assisted coding features?",
+    "text": "What does 'multi-model support' in GitHub Copilot refer to?",
     "options": [
       {
         "letter": "a",
-        "text": "An AI that autonomously handles a defined task"
+        "text": "Choosing among several AI models for suggestions"
       },
       {
         "letter": "b",
-        "text": "A human support representative"
+        "text": "Running one session on many computers"
       },
       {
         "letter": "c",
-        "text": "A branch protection rule"
+        "text": "Sharing a license across many orgs"
       },
       {
         "letter": "d",
-        "text": "An Actions runner for Copilot workloads"
+        "text": "Being locked to one fixed AI model"
       }
     ],
     "answer": "a",
@@ -2353,23 +2353,23 @@
   },
   {
     "number": 99,
-    "text": "What is GitHub Codespaces?",
+    "text": "What is a Copilot 'agent' in the context of GitHub Copilot's AI-assisted coding features?",
     "options": [
       {
         "letter": "a",
-        "text": "An org billing dashboard"
+        "text": "A branch protection rule"
       },
       {
         "letter": "b",
-        "text": "A static site hosting service"
+        "text": "A human support representative"
       },
       {
         "letter": "c",
-        "text": "A cloud dev environment via dev containers"
+        "text": "An AI that autonomously handles a defined task"
       },
       {
         "letter": "d",
-        "text": "A purely local IDE, no cloud component"
+        "text": "An Actions runner for Copilot workloads"
       }
     ],
     "answer": "c",
@@ -2377,11 +2377,35 @@
   },
   {
     "number": 100,
+    "text": "What is GitHub Codespaces?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A static site hosting service"
+      },
+      {
+        "letter": "b",
+        "text": "A purely local IDE, no cloud component"
+      },
+      {
+        "letter": "c",
+        "text": "A cloud dev environment via dev containers"
+      },
+      {
+        "letter": "d",
+        "text": "An org billing dashboard"
+      }
+    ],
+    "answer": "c",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 101,
     "text": "Which of these correctly describes part of a Codespace's lifecycle?",
     "options": [
       {
         "letter": "a",
-        "text": "Stopping it creates a new repository"
+        "text": "It can never be stopped, only deleted"
       },
       {
         "letter": "b",
@@ -2389,27 +2413,27 @@
       },
       {
         "letter": "c",
-        "text": "It can never be stopped, only deleted"
+        "text": "Stopping it deletes uncommitted changes"
       },
       {
         "letter": "d",
-        "text": "Stopping it deletes uncommitted changes"
+        "text": "Stopping it creates a new repository"
       }
     ],
     "answer": "b",
     "domain": "Apply modern development practices"
   },
   {
-    "number": 101,
+    "number": 102,
     "text": "What file is typically used to configure a GitHub Codespace's development environment (tools, extensions, settings)?",
     "options": [
       {
         "letter": "a",
-        "text": "devcontainer.json"
+        "text": "package.json"
       },
       {
         "letter": "b",
-        "text": "package.json"
+        "text": "README.md"
       },
       {
         "letter": "c",
@@ -2417,31 +2441,7 @@
       },
       {
         "letter": "d",
-        "text": "README.md"
-      }
-    ],
-    "answer": "a",
-    "domain": "Apply modern development practices"
-  },
-  {
-    "number": 102,
-    "text": "What is a 'prebuild' in the context of GitHub Codespaces?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "A pull request that has passed all required reviews"
-      },
-      {
-        "letter": "b",
-        "text": "A special type of GitHub Actions secret"
-      },
-      {
-        "letter": "c",
-        "text": "A README file generated automatically at startup"
-      },
-      {
-        "letter": "d",
-        "text": "A cached environment that speeds up creation"
+        "text": "devcontainer.json"
       }
     ],
     "answer": "d",
@@ -2449,6 +2449,30 @@
   },
   {
     "number": 103,
+    "text": "What is a 'prebuild' in the context of GitHub Codespaces?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A special type of GitHub Actions secret"
+      },
+      {
+        "letter": "b",
+        "text": "A README file generated automatically at startup"
+      },
+      {
+        "letter": "c",
+        "text": "A cached environment that speeds up creation"
+      },
+      {
+        "letter": "d",
+        "text": "A pull request that has passed all required reviews"
+      }
+    ],
+    "answer": "c",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 104,
     "text": "What is the key difference between github.dev and GitHub Codespaces?",
     "options": [
       {
@@ -2457,7 +2481,7 @@
       },
       {
         "letter": "b",
-        "text": "Codespaces can't be used to edit code"
+        "text": "They are functionally identical"
       },
       {
         "letter": "c",
@@ -2465,19 +2489,19 @@
       },
       {
         "letter": "d",
-        "text": "They are functionally identical"
+        "text": "Codespaces can't be used to edit code"
       }
     ],
     "answer": "c",
     "domain": "Apply modern development practices"
   },
   {
-    "number": 104,
+    "number": 105,
     "text": "How do you quickly open a repository in the github.dev editor from GitHub.com?",
     "options": [
       {
         "letter": "a",
-        "text": "Upgrade to GitHub Enterprise"
+        "text": "Delete and recreate the repository"
       },
       {
         "letter": "b",
@@ -2485,7 +2509,7 @@
       },
       {
         "letter": "c",
-        "text": "Delete and recreate the repository"
+        "text": "Upgrade to GitHub Enterprise"
       },
       {
         "letter": "d",
@@ -2496,7 +2520,7 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 105,
+    "number": 106,
     "text": "What is a common use case for scheduled (cron) triggers in GitHub Actions?",
     "options": [
       {
@@ -2505,11 +2529,11 @@
       },
       {
         "letter": "b",
-        "text": "Deleting every open issue nightly"
+        "text": "Auto-approving every pull request"
       },
       {
         "letter": "c",
-        "text": "Auto-approving every pull request"
+        "text": "Deleting every open issue nightly"
       },
       {
         "letter": "d",
@@ -2520,12 +2544,12 @@
     "domain": "Apply modern development practices"
   },
   {
-    "number": 106,
+    "number": 107,
     "text": "What best describes a GitHub Actions 'workflow'?",
     "options": [
       {
         "letter": "a",
-        "text": "An automated process of jobs defined in YAML"
+        "text": "A single line run after every push"
       },
       {
         "letter": "b",
@@ -2533,35 +2557,11 @@
       },
       {
         "letter": "c",
-        "text": "A single line run after every push"
+        "text": "An automated process of jobs defined in YAML"
       },
       {
         "letter": "d",
         "text": "A branch naming convention"
-      }
-    ],
-    "answer": "a",
-    "domain": "Apply modern development practices"
-  },
-  {
-    "number": 107,
-    "text": "Within a GitHub Actions workflow, what is a 'job'?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "A single, isolated command"
-      },
-      {
-        "letter": "b",
-        "text": "A role within an organization"
-      },
-      {
-        "letter": "c",
-        "text": "A set of steps run on one runner"
-      },
-      {
-        "letter": "d",
-        "text": "A category of issue label"
       }
     ],
     "answer": "c",
@@ -2569,35 +2569,59 @@
   },
   {
     "number": 108,
+    "text": "Within a GitHub Actions workflow, what is a 'job'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A category of issue label"
+      },
+      {
+        "letter": "b",
+        "text": "A single, isolated command"
+      },
+      {
+        "letter": "c",
+        "text": "A set of steps run on one runner"
+      },
+      {
+        "letter": "d",
+        "text": "A role within an organization"
+      }
+    ],
+    "answer": "c",
+    "domain": "Apply modern development practices"
+  },
+  {
+    "number": 109,
     "text": "What is GitHub Projects primarily used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Managing billing across several organizations"
-      },
-      {
-        "letter": "b",
-        "text": "Hosting a project's static marketing site"
-      },
-      {
-        "letter": "c",
         "text": "Planning and tracking work with custom views"
       },
       {
-        "letter": "d",
+        "letter": "b",
         "text": "Running a repository's automated test suite"
+      },
+      {
+        "letter": "c",
+        "text": "Hosting a project's static marketing site"
+      },
+      {
+        "letter": "d",
+        "text": "Managing billing across several organizations"
       }
     ],
-    "answer": "c",
+    "answer": "a",
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 109,
+    "number": 110,
     "text": "Which of these is a view type available in the modern GitHub Projects experience?",
     "options": [
       {
         "letter": "a",
-        "text": "Firewall configuration view"
+        "text": "Organization insights view"
       },
       {
         "letter": "b",
@@ -2605,23 +2629,23 @@
       },
       {
         "letter": "c",
-        "text": "Board (Kanban-style) view"
+        "text": "Firewall configuration view"
       },
       {
         "letter": "d",
-        "text": "Organization insights view"
+        "text": "Board (Kanban-style) view"
       }
     ],
-    "answer": "c",
+    "answer": "d",
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 110,
+    "number": 111,
     "text": "What can custom fields in a GitHub Project be used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Managing Actions secrets"
+        "text": "Only storing the project's title"
       },
       {
         "letter": "b",
@@ -2633,31 +2657,7 @@
       },
       {
         "letter": "d",
-        "text": "Only storing the project's title"
-      }
-    ],
-    "answer": "c",
-    "domain": "Manage projects with GitHub"
-  },
-  {
-    "number": 111,
-    "text": "What field can you use to create a priority grouping like High, Medium, and Low in your Project?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Date"
-      },
-      {
-        "letter": "b",
-        "text": "Iteration field"
-      },
-      {
-        "letter": "c",
-        "text": "Single select"
-      },
-      {
-        "letter": "d",
-        "text": "Issue"
+        "text": "Managing Actions secrets"
       }
     ],
     "answer": "c",
@@ -2665,23 +2665,23 @@
   },
   {
     "number": 112,
-    "text": "What is a key difference between the current GitHub Projects and 'Projects (classic)'?",
+    "text": "What field can you use to create a priority grouping like High, Medium, and Low in your Project?",
     "options": [
       {
         "letter": "a",
-        "text": "Current Projects is private-repo only"
+        "text": "Issue"
       },
       {
         "letter": "b",
-        "text": "Same feature, two different names"
+        "text": "Date"
       },
       {
         "letter": "c",
-        "text": "Classic includes AI features current lacks"
+        "text": "Iteration field"
       },
       {
         "letter": "d",
-        "text": "Current Projects adds flexible, cross-repo views"
+        "text": "Single select"
       }
     ],
     "answer": "d",
@@ -2689,6 +2689,30 @@
   },
   {
     "number": 113,
+    "text": "What is a key difference between the current GitHub Projects and 'Projects (classic)'?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Current Projects adds flexible, cross-repo views"
+      },
+      {
+        "letter": "b",
+        "text": "Current Projects is private-repo only"
+      },
+      {
+        "letter": "c",
+        "text": "Classic includes AI features current lacks"
+      },
+      {
+        "letter": "d",
+        "text": "Same feature, two different names"
+      }
+    ],
+    "answer": "a",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 114,
     "text": "How can you filter items within a GitHub Project view?",
     "options": [
       {
@@ -2712,12 +2736,12 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 114,
+    "number": 115,
     "text": "What is the purpose of the 'Roadmap' view in GitHub Projects?",
     "options": [
       {
         "letter": "a",
-        "text": "A list of available Actions runners"
+        "text": "A Gantt-style timeline using start/target dates"
       },
       {
         "letter": "b",
@@ -2725,35 +2749,11 @@
       },
       {
         "letter": "c",
+        "text": "A list of available Actions runners"
+      },
+      {
+        "letter": "d",
         "text": "A view of repository security alerts"
-      },
-      {
-        "letter": "d",
-        "text": "A Gantt-style timeline using start/target dates"
-      }
-    ],
-    "answer": "d",
-    "domain": "Manage projects with GitHub"
-  },
-  {
-    "number": 115,
-    "text": "Which built-in status values are commonly used to track items on a GitHub Projects board (table/board view)?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Todo, In Progress, Done"
-      },
-      {
-        "letter": "b",
-        "text": "Public, Private, Internal"
-      },
-      {
-        "letter": "c",
-        "text": "Draft, Published, Archived"
-      },
-      {
-        "letter": "d",
-        "text": "Open, Closed, Locked"
       }
     ],
     "answer": "a",
@@ -2761,47 +2761,47 @@
   },
   {
     "number": 116,
-    "text": "What is the purpose of 'workflows' (automation rules) within GitHub Projects?",
+    "text": "Which built-in status values are commonly used to track items on a GitHub Projects board (table/board view)?",
     "options": [
       {
         "letter": "a",
-        "text": "Auto-creating new repositories"
+        "text": "Public, Private, Internal"
       },
       {
         "letter": "b",
-        "text": "Auto-updating item status on events"
+        "text": "Draft, Published, Archived"
       },
       {
         "letter": "c",
-        "text": "Auto-merging linked pull requests"
+        "text": "Open, Closed, Locked"
       },
       {
         "letter": "d",
-        "text": "Running a repo's Actions builds"
+        "text": "Todo, In Progress, Done"
       }
     ],
-    "answer": "b",
+    "answer": "d",
     "domain": "Manage projects with GitHub"
   },
   {
     "number": 117,
-    "text": "Who can typically be given access to manage (write to) a GitHub Project?",
+    "text": "What is the purpose of 'workflows' (automation rules) within GitHub Projects?",
     "options": [
       {
         "letter": "a",
-        "text": "Only its original creator, forever"
+        "text": "Running a repo's Actions builds"
       },
       {
         "letter": "b",
-        "text": "No one -- projects can't be shared"
+        "text": "Auto-creating new repositories"
       },
       {
         "letter": "c",
-        "text": "Collaborators, via read or write roles"
+        "text": "Auto-updating item status on events"
       },
       {
         "letter": "d",
-        "text": "Every GitHub user, automatically"
+        "text": "Auto-merging linked pull requests"
       }
     ],
     "answer": "c",
@@ -2809,15 +2809,39 @@
   },
   {
     "number": 118,
+    "text": "Who can typically be given access to manage (write to) a GitHub Project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "No one -- projects can't be shared"
+      },
+      {
+        "letter": "b",
+        "text": "Only its original creator, forever"
+      },
+      {
+        "letter": "c",
+        "text": "Every GitHub user, automatically"
+      },
+      {
+        "letter": "d",
+        "text": "Collaborators, via read or write roles"
+      }
+    ],
+    "answer": "d",
+    "domain": "Manage projects with GitHub"
+  },
+  {
+    "number": 119,
     "text": "What kind of items can be added to a GitHub Project?",
     "options": [
       {
         "letter": "a",
-        "text": "Only files stored directly in the repository"
+        "text": "Only issues, nothing else is supported"
       },
       {
         "letter": "b",
-        "text": "Only issues, nothing else is supported"
+        "text": "Only pull requests, nothing else is supported"
       },
       {
         "letter": "c",
@@ -2825,14 +2849,14 @@
       },
       {
         "letter": "d",
-        "text": "Only pull requests, nothing else is supported"
+        "text": "Only files stored directly in the repository"
       }
     ],
     "answer": "c",
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 119,
+    "number": 120,
     "text": "What does enabling two-factor authentication (2FA) on a GitHub account do?",
     "options": [
       {
@@ -2856,36 +2880,36 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 120,
+    "number": 121,
     "text": "Which of these is an alternative, often more secure, sign-in method to passwords that GitHub supports?",
     "options": [
       {
         "letter": "a",
-        "text": "Passkeys"
-      },
-      {
-        "letter": "b",
         "text": "A password shared across the whole team"
       },
       {
-        "letter": "c",
+        "letter": "b",
         "text": "A plain-text token emailed each login"
+      },
+      {
+        "letter": "c",
+        "text": "Passkeys"
       },
       {
         "letter": "d",
         "text": "Disabling authentication entirely"
       }
     ],
-    "answer": "a",
+    "answer": "c",
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 121,
+    "number": 122,
     "text": "Which repository permission level generally allows a user to push code and manage some settings but not delete the repository or manage collaborator access?",
     "options": [
       {
         "letter": "a",
-        "text": "Write"
+        "text": "Triage"
       },
       {
         "letter": "b",
@@ -2897,19 +2921,19 @@
       },
       {
         "letter": "d",
-        "text": "Triage"
+        "text": "Write"
       }
     ],
-    "answer": "a",
+    "answer": "d",
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 122,
+    "number": 123,
     "text": "Which repository permission level is typically read-only, but also allows managing issues and pull requests without write access to code (e.g. applying labels)?",
     "options": [
       {
         "letter": "a",
-        "text": "Write"
+        "text": "Admin"
       },
       {
         "letter": "b",
@@ -2917,18 +2941,18 @@
       },
       {
         "letter": "c",
-        "text": "Admin"
+        "text": "Maintain"
       },
       {
         "letter": "d",
-        "text": "Maintain"
+        "text": "Write"
       }
     ],
     "answer": "b",
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 123,
+    "number": 124,
     "text": "Which repository role generally grants the most control, including deleting the repository and managing all settings and access?",
     "options": [
       {
@@ -2952,55 +2976,55 @@
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 124,
+    "number": 125,
     "text": "In a GitHub organization, which role has the broadest administrative control by default?",
     "options": [
       {
         "letter": "a",
-        "text": "Outside collaborator"
-      },
-      {
-        "letter": "b",
         "text": "Owner"
       },
       {
-        "letter": "c",
-        "text": "Member"
-      },
-      {
-        "letter": "d",
-        "text": "Billing manager"
-      }
-    ],
-    "answer": "b",
-    "domain": "Understand privacy, security, and administration"
-  },
-  {
-    "number": 125,
-    "text": "What does an 'outside collaborator' mean in the context of a GitHub organization?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "A bot account used only for Actions"
-      },
-      {
         "letter": "b",
-        "text": "Any full member of the organization"
+        "text": "Outside collaborator"
       },
       {
         "letter": "c",
-        "text": "Someone limited to public repos only"
+        "text": "Billing manager"
       },
       {
         "letter": "d",
-        "text": "Repo access without organization membership"
+        "text": "Member"
       }
     ],
-    "answer": "d",
+    "answer": "a",
     "domain": "Understand privacy, security, and administration"
   },
   {
     "number": 126,
+    "text": "What does an 'outside collaborator' mean in the context of a GitHub organization?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Any full member of the organization"
+      },
+      {
+        "letter": "b",
+        "text": "Someone limited to public repos only"
+      },
+      {
+        "letter": "c",
+        "text": "Repo access without organization membership"
+      },
+      {
+        "letter": "d",
+        "text": "A bot account used only for Actions"
+      }
+    ],
+    "answer": "c",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 127,
     "text": "What is the purpose of a branch protection rule on GitHub?",
     "options": [
       {
@@ -3009,31 +3033,31 @@
       },
       {
         "letter": "b",
-        "text": "Auto-renaming a branch on new commits"
-      },
-      {
-        "letter": "c",
         "text": "Enforcing requirements before a merge can happen"
       },
       {
-        "letter": "d",
+        "letter": "c",
         "text": "Hiding a branch from other collaborators"
+      },
+      {
+        "letter": "d",
+        "text": "Auto-renaming a branch on new commits"
       }
     ],
-    "answer": "c",
+    "answer": "b",
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 127,
+    "number": 128,
     "text": "Which of these is a common branch protection requirement you can enable before allowing a merge?",
     "options": [
       {
         "letter": "a",
-        "text": "Require pull request reviews before merging"
+        "text": "Require Copilot to author the change"
       },
       {
         "letter": "b",
-        "text": "Require the repository to be renamed"
+        "text": "Require pull request reviews before merging"
       },
       {
         "letter": "c",
@@ -3041,19 +3065,19 @@
       },
       {
         "letter": "d",
-        "text": "Require Copilot to author the change"
+        "text": "Require the repository to be renamed"
       }
     ],
-    "answer": "a",
+    "answer": "b",
     "domain": "Understand privacy, security, and administration"
   },
   {
-    "number": 128,
+    "number": 129,
     "text": "What is Dependabot primarily used for?",
     "options": [
       {
         "letter": "a",
-        "text": "Hosting a repository's website"
+        "text": "Flagging and updating vulnerable dependencies"
       },
       {
         "letter": "b",
@@ -3065,31 +3089,7 @@
       },
       {
         "letter": "d",
-        "text": "Flagging and updating vulnerable dependencies"
-      }
-    ],
-    "answer": "d",
-    "domain": "Understand privacy, security, and administration"
-  },
-  {
-    "number": 129,
-    "text": "What is 'secret scanning' on GitHub designed to detect?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Leaked credentials like API keys and tokens"
-      },
-      {
-        "letter": "b",
-        "text": "Hidden Easter eggs left in the code"
-      },
-      {
-        "letter": "c",
-        "text": "Variables declared but never actually used"
-      },
-      {
-        "letter": "d",
-        "text": "Actions jobs that run slower than expected"
+        "text": "Hosting a repository's website"
       }
     ],
     "answer": "a",
@@ -3097,23 +3097,23 @@
   },
   {
     "number": 130,
-    "text": "What is 'code scanning' on GitHub used for?",
+    "text": "What is 'secret scanning' on GitHub designed to detect?",
     "options": [
       {
         "letter": "a",
-        "text": "Counting the total lines of code in a repo"
+        "text": "Hidden Easter eggs left in the code"
       },
       {
         "letter": "b",
-        "text": "Generating documentation from a project's code comments"
+        "text": "Actions jobs that run slower than expected"
       },
       {
         "letter": "c",
-        "text": "Finding security vulnerabilities and coding errors"
+        "text": "Leaked credentials like API keys and tokens"
       },
       {
         "letter": "d",
-        "text": "Reformatting code to match a chosen style guide"
+        "text": "Variables declared but never actually used"
       }
     ],
     "answer": "c",
@@ -3121,6 +3121,30 @@
   },
   {
     "number": 131,
+    "text": "What is 'code scanning' on GitHub used for?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Reformatting code to match a chosen style guide"
+      },
+      {
+        "letter": "b",
+        "text": "Counting the total lines of code in a repo"
+      },
+      {
+        "letter": "c",
+        "text": "Finding security vulnerabilities and coding errors"
+      },
+      {
+        "letter": "d",
+        "text": "Generating documentation from a project's code comments"
+      }
+    ],
+    "answer": "c",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 132,
     "text": "What technology powers GitHub's built-in code scanning feature?",
     "options": [
       {
@@ -3129,63 +3153,39 @@
       },
       {
         "letter": "b",
-        "text": "CodeQL"
-      },
-      {
-        "letter": "c",
         "text": "Dependabot"
       },
       {
-        "letter": "d",
-        "text": "GitHub Pages"
-      }
-    ],
-    "answer": "b",
-    "domain": "Understand privacy, security, and administration"
-  },
-  {
-    "number": 132,
-    "text": "What are Enterprise Managed Users (EMU) designed for?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Replacing repository-level permissions entirely"
-      },
-      {
-        "letter": "b",
-        "text": "Centrally provisioning accounts via an identity provider"
-      },
-      {
         "letter": "c",
-        "text": "Managing only Actions runners"
+        "text": "GitHub Pages"
       },
       {
         "letter": "d",
-        "text": "Letting anyone self-register for enterprise repos"
+        "text": "CodeQL"
       }
     ],
-    "answer": "b",
+    "answer": "d",
     "domain": "Understand privacy, security, and administration"
   },
   {
     "number": 133,
-    "text": "What can an enterprise typically control through organization-wide GitHub Copilot policy management?",
+    "text": "What are Enterprise Managed Users (EMU) designed for?",
     "options": [
       {
         "letter": "a",
-        "text": "The enterprise's full list of repositories"
+        "text": "Managing only Actions runners"
       },
       {
         "letter": "b",
-        "text": "Nothing -- members always self-manage settings"
+        "text": "Letting anyone self-register for enterprise repos"
       },
       {
         "letter": "c",
-        "text": "Which Copilot features and models are enabled"
+        "text": "Centrally provisioning accounts via an identity provider"
       },
       {
         "letter": "d",
-        "text": "Only the Copilot UI's color theme"
+        "text": "Replacing repository-level permissions entirely"
       }
     ],
     "answer": "c",
@@ -3193,6 +3193,30 @@
   },
   {
     "number": 134,
+    "text": "What can an enterprise typically control through organization-wide GitHub Copilot policy management?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Nothing -- members always self-manage settings"
+      },
+      {
+        "letter": "b",
+        "text": "Only the Copilot UI's color theme"
+      },
+      {
+        "letter": "c",
+        "text": "Which Copilot features and models are enabled"
+      },
+      {
+        "letter": "d",
+        "text": "The enterprise's full list of repositories"
+      }
+    ],
+    "answer": "c",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 135,
     "text": "What is the purpose of SSO (Single Sign-On) integration with a GitHub organization or enterprise?",
     "options": [
       {
@@ -3205,35 +3229,11 @@
       },
       {
         "letter": "c",
-        "text": "Authenticating with an existing corporate identity provider"
-      },
-      {
-        "letter": "d",
         "text": "Automatically generating commit messages for members"
-      }
-    ],
-    "answer": "c",
-    "domain": "Understand privacy, security, and administration"
-  },
-  {
-    "number": 135,
-    "text": "What does a GitHub organization or enterprise 'audit log' record?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Only failed login attempts"
-      },
-      {
-        "letter": "b",
-        "text": "The full text of private messages"
-      },
-      {
-        "letter": "c",
-        "text": "Only Actions billing charges"
       },
       {
         "letter": "d",
-        "text": "A history of member and admin actions"
+        "text": "Authenticating with an existing corporate identity provider"
       }
     ],
     "answer": "d",
@@ -3241,11 +3241,35 @@
   },
   {
     "number": 136,
+    "text": "What does a GitHub organization or enterprise 'audit log' record?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A history of member and admin actions"
+      },
+      {
+        "letter": "b",
+        "text": "Only Actions billing charges"
+      },
+      {
+        "letter": "c",
+        "text": "The full text of private messages"
+      },
+      {
+        "letter": "d",
+        "text": "Only failed login attempts"
+      }
+    ],
+    "answer": "a",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 137,
     "text": "Which repository visibility setting means only explicitly invited collaborators (and organization members with access) can view it?",
     "options": [
       {
         "letter": "a",
-        "text": "Private"
+        "text": "Public"
       },
       {
         "letter": "b",
@@ -3257,31 +3281,7 @@
       },
       {
         "letter": "d",
-        "text": "Public"
-      }
-    ],
-    "answer": "a",
-    "domain": "Understand privacy, security, and administration"
-  },
-  {
-    "number": 137,
-    "text": "What is a security advisory on GitHub used for?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Advertising which paid GitHub plans are available"
-      },
-      {
-        "letter": "b",
-        "text": "Requesting a brand-new feature for a project"
-      },
-      {
-        "letter": "c",
-        "text": "Automatically banning a misbehaving contributor"
-      },
-      {
-        "letter": "d",
-        "text": "Privately fixing a vulnerability before disclosure"
+        "text": "Private"
       }
     ],
     "answer": "d",
@@ -3289,23 +3289,23 @@
   },
   {
     "number": 138,
-    "text": "Why might an organization require 2FA for all of its members?",
+    "text": "What is a security advisory on GitHub used for?",
     "options": [
       {
         "letter": "a",
-        "text": "It reduces the risk of account compromise"
+        "text": "Privately fixing a vulnerability before disclosure"
       },
       {
         "letter": "b",
-        "text": "It's required to create any repository"
+        "text": "Automatically banning a misbehaving contributor"
       },
       {
         "letter": "c",
-        "text": "It disables SSH key authentication"
+        "text": "Requesting a brand-new feature for a project"
       },
       {
         "letter": "d",
-        "text": "It has no real security benefit"
+        "text": "Advertising which paid GitHub plans are available"
       }
     ],
     "answer": "a",
@@ -3313,71 +3313,71 @@
   },
   {
     "number": 139,
-    "text": "What is the general purpose of GitHub's 'require status checks to pass before merging' branch protection option?",
+    "text": "Why might an organization require 2FA for all of its members?",
     "options": [
       {
         "letter": "a",
-        "text": "Disabling Actions on that branch"
+        "text": "It disables SSH key authentication"
       },
       {
         "letter": "b",
-        "text": "Requiring a specific branch naming pattern"
+        "text": "It reduces the risk of account compromise"
       },
       {
         "letter": "c",
-        "text": "Requiring CI/linter checks to pass first"
+        "text": "It has no real security benefit"
       },
       {
         "letter": "d",
-        "text": "Auto-assigning a specific reviewer"
+        "text": "It's required to create any repository"
       }
     ],
-    "answer": "c",
+    "answer": "b",
     "domain": "Understand privacy, security, and administration"
   },
   {
     "number": 140,
-    "text": "Who is typically able to bypass certain branch protection rules if an admin explicitly allows it?",
+    "text": "What is the general purpose of GitHub's 'require status checks to pass before merging' branch protection option?",
     "options": [
       {
         "letter": "a",
-        "text": "Repository administrators, if explicitly permitted"
+        "text": "Requiring a specific branch naming pattern"
       },
       {
         "letter": "b",
-        "text": "Only GitHub's own internal support staff members"
+        "text": "Disabling Actions on that branch"
       },
       {
         "letter": "c",
-        "text": "Any user who happens to have read access to it"
+        "text": "Auto-assigning a specific reviewer"
       },
       {
         "letter": "d",
-        "text": "No one, under any possible configuration at all"
+        "text": "Requiring CI/linter checks to pass first"
       }
     ],
-    "answer": "a",
+    "answer": "d",
     "domain": "Understand privacy, security, and administration"
   },
   {
     "number": 141,
-    "text": "What best describes the principle of least privilege as applied to repository/organization access on GitHub?",
+    "text": "Who is typically able to bypass certain branch protection rules if an admin explicitly allows it?",
     "options": [
       {
         "letter": "a",
-        "text": "Giving everyone admin access by default"
+        "text": "No one, under any possible configuration at all"
       },
       {
         "letter": "b",
-        "text": "Making all repositories public"
+        "text": "Any user who happens to have read access to it"
       },
       {
         "letter": "c",
-        "text": "Granting only the minimum access needed"
+        "text": "Repository administrators, if explicitly permitted"
       },
       {
         "letter": "d",
-        "text": "Disabling every role except Owner"
+        "text": "Only GitHub's own internal support staff members"
       }
     ],
     "answer": "c",
@@ -3385,15 +3385,39 @@
   },
   {
     "number": 142,
+    "text": "What best describes the principle of least privilege as applied to repository/organization access on GitHub?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Granting only the minimum access needed"
+      },
+      {
+        "letter": "b",
+        "text": "Disabling every role except Owner"
+      },
+      {
+        "letter": "c",
+        "text": "Making all repositories public"
+      },
+      {
+        "letter": "d",
+        "text": "Giving everyone admin access by default"
+      }
+    ],
+    "answer": "a",
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 143,
     "text": "What generally defines an 'open source' project?",
     "options": [
       {
         "letter": "a",
-        "text": "Its code is public under a permissive license"
+        "text": "Viewing it requires a subscription"
       },
       {
         "letter": "b",
-        "text": "Viewing it requires a subscription"
+        "text": "Its code is kept entirely secret"
       },
       {
         "letter": "c",
@@ -3401,23 +3425,23 @@
       },
       {
         "letter": "d",
-        "text": "Its code is kept entirely secret"
+        "text": "Its code is public under a permissive license"
       }
     ],
-    "answer": "a",
+    "answer": "d",
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 143,
+    "number": 144,
     "text": "What is the purpose of choosing a license (e.g. MIT, Apache 2.0, GPL) for an open-source project?",
     "options": [
       {
         "letter": "a",
-        "text": "It dictates the programming language used"
+        "text": "Licenses have no real legal effect"
       },
       {
         "letter": "b",
-        "text": "Licenses have no real legal effect"
+        "text": "It dictates the programming language used"
       },
       {
         "letter": "c",
@@ -3432,48 +3456,24 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 144,
+    "number": 145,
     "text": "What is GitHub Sponsors?",
     "options": [
       {
         "letter": "a",
-        "text": "Sponsoring an org's Actions runners"
-      },
-      {
-        "letter": "b",
         "text": "A discount on Enterprise licenses"
       },
       {
-        "letter": "c",
+        "letter": "b",
         "text": "A marketing partnership program"
       },
       {
-        "letter": "d",
-        "text": "Financially supporting open-source maintainers"
-      }
-    ],
-    "answer": "d",
-    "domain": "Explore the GitHub community"
-  },
-  {
-    "number": 145,
-    "text": "What is a common first step for contributing to someone else's open-source project on GitHub, when you don't have direct write access?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Push directly to its main branch"
-      },
-      {
-        "letter": "b",
-        "text": "Delete it and create your own"
-      },
-      {
         "letter": "c",
-        "text": "Fork it, branch, and open a pull request"
+        "text": "Financially supporting open-source maintainers"
       },
       {
         "letter": "d",
-        "text": "Ask GitHub Support for admin rights"
+        "text": "Sponsoring an org's Actions runners"
       }
     ],
     "answer": "c",
@@ -3481,23 +3481,23 @@
   },
   {
     "number": 146,
-    "text": "What does 'InnerSource' refer to?",
+    "text": "What is a common first step for contributing to someone else's open-source project on GitHub, when you don't have direct write access?",
     "options": [
       {
         "letter": "a",
-        "text": "Selling a company's proprietary code to a rival"
+        "text": "Ask GitHub Support for admin rights"
       },
       {
         "letter": "b",
-        "text": "Open-source-style collaboration inside an organization"
+        "text": "Fork it, branch, and open a pull request"
       },
       {
         "letter": "c",
-        "text": "A particular category of open-source license"
+        "text": "Push directly to its main branch"
       },
       {
         "letter": "d",
-        "text": "A specific type of GitHub Actions runner"
+        "text": "Delete it and create your own"
       }
     ],
     "answer": "b",
@@ -3505,23 +3505,23 @@
   },
   {
     "number": 147,
-    "text": "What can following a user or organization on GitHub let you do?",
+    "text": "What does 'InnerSource' refer to?",
     "options": [
       {
         "letter": "a",
-        "text": "Force them to review your PRs"
+        "text": "A specific type of GitHub Actions runner"
       },
       {
         "letter": "b",
-        "text": "Automatically gain write access to their repos"
+        "text": "Selling a company's proprietary code to a rival"
       },
       {
         "letter": "c",
-        "text": "See their public activity in your feed"
+        "text": "Open-source-style collaboration inside an organization"
       },
       {
         "letter": "d",
-        "text": "Automatically merge their pull requests"
+        "text": "A particular category of open-source license"
       }
     ],
     "answer": "c",
@@ -3529,11 +3529,35 @@
   },
   {
     "number": 148,
+    "text": "What can following a user or organization on GitHub let you do?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Automatically gain write access to their repos"
+      },
+      {
+        "letter": "b",
+        "text": "See their public activity in your feed"
+      },
+      {
+        "letter": "c",
+        "text": "Force them to review your PRs"
+      },
+      {
+        "letter": "d",
+        "text": "Automatically merge their pull requests"
+      }
+    ],
+    "answer": "b",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 149,
     "text": "What is the purpose of a CODE_OF_CONDUCT file in an open-source repository?",
     "options": [
       {
         "letter": "a",
-        "text": "Defining the project's software license"
+        "text": "Listing required Actions secrets"
       },
       {
         "letter": "b",
@@ -3541,7 +3565,7 @@
       },
       {
         "letter": "c",
-        "text": "Listing required Actions secrets"
+        "text": "Defining the project's software license"
       },
       {
         "letter": "d",
@@ -3552,48 +3576,24 @@
     "domain": "Explore the GitHub community"
   },
   {
-    "number": 149,
+    "number": 150,
     "text": "What is the purpose of GitHub 'Topics' in the context of community discoverability?",
     "options": [
       {
         "letter": "a",
-        "text": "Auto-translating a repo's content"
+        "text": "Managing an organization's billing"
       },
       {
         "letter": "b",
-        "text": "Helping users find related repos by keyword"
-      },
-      {
-        "letter": "c",
         "text": "Restricting who can access a repository"
       },
       {
-        "letter": "d",
-        "text": "Managing an organization's billing"
-      }
-    ],
-    "answer": "b",
-    "domain": "Explore the GitHub community"
-  },
-  {
-    "number": 150,
-    "text": "Why might a maintainer add a 'good first issue' label to certain issues in an open-source project?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "To auto-close the issue"
-      },
-      {
-        "letter": "b",
-        "text": "To flag issues that should never be worked on"
-      },
-      {
         "letter": "c",
-        "text": "To highlight beginner-friendly tasks"
+        "text": "Helping users find related repos by keyword"
       },
       {
         "letter": "d",
-        "text": "To flag a serious security vulnerability"
+        "text": "Auto-translating a repo's content"
       }
     ],
     "answer": "c",
@@ -3601,23 +3601,23 @@
   },
   {
     "number": 151,
-    "text": "What is a benefit of engaging with the broader GitHub community (Discussions, forums, open-source projects)?",
+    "text": "Why might a maintainer add a 'good first issue' label to certain issues in an open-source project?",
     "options": [
       {
         "letter": "a",
-        "text": "Requires disabling all privacy settings"
+        "text": "To flag a serious security vulnerability"
       },
       {
         "letter": "b",
-        "text": "Grants admin access to popular projects"
+        "text": "To auto-close the issue"
       },
       {
         "letter": "c",
-        "text": "Learning, feedback, and cross-team collaboration"
+        "text": "To highlight beginner-friendly tasks"
       },
       {
         "letter": "d",
-        "text": "No meaningful benefit exists"
+        "text": "To flag issues that should never be worked on"
       }
     ],
     "answer": "c",
@@ -3625,15 +3625,39 @@
   },
   {
     "number": 152,
+    "text": "What is a benefit of engaging with the broader GitHub community (Discussions, forums, open-source projects)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "No meaningful benefit exists"
+      },
+      {
+        "letter": "b",
+        "text": "Requires disabling all privacy settings"
+      },
+      {
+        "letter": "c",
+        "text": "Learning, feedback, and cross-team collaboration"
+      },
+      {
+        "letter": "d",
+        "text": "Grants admin access to popular projects"
+      }
+    ],
+    "answer": "c",
+    "domain": "Explore the GitHub community"
+  },
+  {
+    "number": 153,
     "text": "Which of the following are core areas Git uses to track changes to your project?",
     "options": [
       {
         "letter": "a",
-        "text": "Working directory"
+        "text": "GitHub Marketplace"
       },
       {
         "letter": "b",
-        "text": "GitHub Marketplace"
+        "text": "Working directory"
       },
       {
         "letter": "c",
@@ -3645,33 +3669,6 @@
       }
     ],
     "answer": [
-      "a",
-      "c"
-    ],
-    "domain": "Understand Git and GitHub basics"
-  },
-  {
-    "number": 153,
-    "text": "Which of these are valid ways to get a local copy of a GitHub repository onto your computer?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Star the repository"
-      },
-      {
-        "letter": "b",
-        "text": "Run 'git clone' on the repository"
-      },
-      {
-        "letter": "c",
-        "text": "Download the repository as a ZIP file"
-      },
-      {
-        "letter": "d",
-        "text": "Fork the repository without downloading anything"
-      }
-    ],
-    "answer": [
       "b",
       "c"
     ],
@@ -3679,6 +3676,33 @@
   },
   {
     "number": 154,
+    "text": "Which of these are valid ways to get a local copy of a GitHub repository onto your computer?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Download the repository as a ZIP file"
+      },
+      {
+        "letter": "b",
+        "text": "Star the repository"
+      },
+      {
+        "letter": "c",
+        "text": "Fork the repository without downloading anything"
+      },
+      {
+        "letter": "d",
+        "text": "Run 'git clone' on the repository"
+      }
+    ],
+    "answer": [
+      "a",
+      "d"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 155,
     "text": "Which of the following are valid GitHub account types?",
     "options": [
       {
@@ -3691,38 +3715,11 @@
       },
       {
         "letter": "c",
-        "text": "Workflow account"
-      },
-      {
-        "letter": "d",
         "text": "Personal account"
-      }
-    ],
-    "answer": [
-      "a",
-      "d"
-    ],
-    "domain": "Understand Git and GitHub basics"
-  },
-  {
-    "number": 155,
-    "text": "Which of the following are true about Git as a distributed version control system?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "You can create commits locally without a network connection"
-      },
-      {
-        "letter": "b",
-        "text": "Only the central GitHub server stores commit history"
-      },
-      {
-        "letter": "c",
-        "text": "Every clone contains the full project history"
       },
       {
         "letter": "d",
-        "text": "You must be online to create a commit"
+        "text": "Workflow account"
       }
     ],
     "answer": [
@@ -3733,23 +3730,23 @@
   },
   {
     "number": 156,
-    "text": "Which of these Git terms describe moving commits between a local repository and a remote one?",
+    "text": "Which of the following are true about Git as a distributed version control system?",
     "options": [
       {
         "letter": "a",
-        "text": "milestone"
+        "text": "You must be online to create a commit"
       },
       {
         "letter": "b",
-        "text": "label"
+        "text": "Only the central GitHub server stores commit history"
       },
       {
         "letter": "c",
-        "text": "pull"
+        "text": "You can create commits locally without a network connection"
       },
       {
         "letter": "d",
-        "text": "push"
+        "text": "Every clone contains the full project history"
       }
     ],
     "answer": [
@@ -3760,6 +3757,33 @@
   },
   {
     "number": 157,
+    "text": "Which of these Git terms describe moving commits between a local repository and a remote one?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "pull"
+      },
+      {
+        "letter": "b",
+        "text": "label"
+      },
+      {
+        "letter": "c",
+        "text": "milestone"
+      },
+      {
+        "letter": "d",
+        "text": "push"
+      }
+    ],
+    "answer": [
+      "a",
+      "d"
+    ],
+    "domain": "Understand Git and GitHub basics"
+  },
+  {
+    "number": 158,
     "text": "Which of the following are commonly recommended files to include in a well-maintained GitHub repository?",
     "options": [
       {
@@ -3768,11 +3792,11 @@
       },
       {
         "letter": "b",
-        "text": "A randomly named file with no extension"
+        "text": "An empty file called 'temp'"
       },
       {
         "letter": "c",
-        "text": "An empty file called 'temp'"
+        "text": "A randomly named file with no extension"
       },
       {
         "letter": "d",
@@ -3786,34 +3810,34 @@
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 158,
+    "number": 159,
     "text": "Which of these are ways to create a new file in a GitHub repository directly from the web interface?",
     "options": [
       {
         "letter": "a",
-        "text": "Click 'Add file' and choose 'Upload files'"
+        "text": "Click 'Add file' and choose 'Create new file'"
       },
       {
         "letter": "b",
-        "text": "Rename the organization"
+        "text": "Click 'Add file' and choose 'Upload files'"
       },
       {
         "letter": "c",
-        "text": "Delete the .git folder"
+        "text": "Rename the organization"
       },
       {
         "letter": "d",
-        "text": "Click 'Add file' and choose 'Create new file'"
+        "text": "Delete the .git folder"
       }
     ],
     "answer": [
       "a",
-      "d"
+      "b"
     ],
     "domain": "Work with GitHub repositories"
   },
   {
-    "number": 159,
+    "number": 160,
     "text": "Which of the following are valid pull request merge strategies on GitHub?",
     "options": [
       {
@@ -3840,20 +3864,20 @@
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 160,
+    "number": 161,
     "text": "Which of these features primarily help teams collaborate directly within a GitHub repository?",
     "options": [
       {
         "letter": "a",
-        "text": "Pull requests"
-      },
-      {
-        "letter": "b",
         "text": "Issues"
       },
       {
-        "letter": "c",
+        "letter": "b",
         "text": "Enterprise audit log"
+      },
+      {
+        "letter": "c",
+        "text": "Pull requests"
       },
       {
         "letter": "d",
@@ -3862,44 +3886,44 @@
     ],
     "answer": [
       "a",
-      "b"
+      "c"
     ],
     "domain": "Collaborate using GitHub"
   },
   {
-    "number": 161,
+    "number": 162,
     "text": "Which of the following are part of GitHub's modern development toolset?",
     "options": [
       {
         "letter": "a",
-        "text": "GitHub Copilot"
-      },
-      {
-        "letter": "b",
-        "text": "Organization audit log"
-      },
-      {
-        "letter": "c",
         "text": "GitHub Actions"
       },
       {
-        "letter": "d",
+        "letter": "b",
+        "text": "GitHub Copilot"
+      },
+      {
+        "letter": "c",
         "text": "Two-factor authentication"
+      },
+      {
+        "letter": "d",
+        "text": "Organization audit log"
       }
     ],
     "answer": [
       "a",
-      "c"
+      "b"
     ],
     "domain": "Apply modern development practices"
   },
   {
-    "number": 162,
+    "number": 163,
     "text": "Which of these can trigger a GitHub Actions workflow?",
     "options": [
       {
         "letter": "a",
-        "text": "A push to the repository"
+        "text": "Renaming an organization"
       },
       {
         "letter": "b",
@@ -3911,34 +3935,34 @@
       },
       {
         "letter": "d",
-        "text": "Renaming an organization"
+        "text": "A push to the repository"
       }
     ],
     "answer": [
-      "a",
-      "b"
+      "b",
+      "d"
     ],
     "domain": "Apply modern development practices"
   },
   {
-    "number": 163,
+    "number": 164,
     "text": "Which of the following are view types available in the modern GitHub Projects experience?",
     "options": [
       {
         "letter": "a",
-        "text": "Blame view"
-      },
-      {
-        "letter": "b",
-        "text": "Board view"
-      },
-      {
-        "letter": "c",
         "text": "Audit log view"
       },
       {
-        "letter": "d",
+        "letter": "b",
         "text": "Table view"
+      },
+      {
+        "letter": "c",
+        "text": "Blame view"
+      },
+      {
+        "letter": "d",
+        "text": "Board view"
       }
     ],
     "answer": [
@@ -3948,12 +3972,12 @@
     "domain": "Manage projects with GitHub"
   },
   {
-    "number": 164,
+    "number": 165,
     "text": "Which of the following help protect a GitHub account from unauthorized access?",
     "options": [
       {
         "letter": "a",
-        "text": "Making all of your repositories public"
+        "text": "Passkeys"
       },
       {
         "letter": "b",
@@ -3961,38 +3985,11 @@
       },
       {
         "letter": "c",
+        "text": "Making all of your repositories public"
+      },
+      {
+        "letter": "d",
         "text": "Disabling all notifications"
-      },
-      {
-        "letter": "d",
-        "text": "Passkeys"
-      }
-    ],
-    "answer": [
-      "b",
-      "d"
-    ],
-    "domain": "Understand privacy, security, and administration"
-  },
-  {
-    "number": 165,
-    "text": "Which of these are examples of branch protection requirements you can enable before allowing a merge?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Require status checks to pass before merging"
-      },
-      {
-        "letter": "b",
-        "text": "Require pull request reviews before merging"
-      },
-      {
-        "letter": "c",
-        "text": "Require the repository to be starred"
-      },
-      {
-        "letter": "d",
-        "text": "Require the default branch to be deleted"
       }
     ],
     "answer": [
@@ -4003,6 +4000,33 @@
   },
   {
     "number": 166,
+    "text": "Which of these are examples of branch protection requirements you can enable before allowing a merge?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Require status checks to pass before merging"
+      },
+      {
+        "letter": "b",
+        "text": "Require the default branch to be deleted"
+      },
+      {
+        "letter": "c",
+        "text": "Require the repository to be starred"
+      },
+      {
+        "letter": "d",
+        "text": "Require pull request reviews before merging"
+      }
+    ],
+    "answer": [
+      "a",
+      "d"
+    ],
+    "domain": "Understand privacy, security, and administration"
+  },
+  {
+    "number": 167,
     "text": "Which of the following are generally true about open-source projects on GitHub?",
     "options": [
       {
@@ -4011,7 +4035,7 @@
       },
       {
         "letter": "b",
-        "text": "They require a paid GitHub plan to exist"
+        "text": "Their source code is publicly viewable"
       },
       {
         "letter": "c",
@@ -4019,12 +4043,12 @@
       },
       {
         "letter": "d",
-        "text": "Their source code is publicly viewable"
+        "text": "They require a paid GitHub plan to exist"
       }
     ],
     "answer": [
       "a",
-      "d"
+      "b"
     ],
     "domain": "Explore the GitHub community"
   }

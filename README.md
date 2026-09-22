@@ -1,7 +1,7 @@
 # GitHub Foundations Practice Test
 
 A self-check practice quiz for preparing for the **GitHub Foundations (GH-900)** certification.
-166 original questions, written from scratch and mapped to the seven official exam domains and
+167 original questions, written from scratch and mapped to the seven official exam domains and
 their published weightings from Microsoft Learn's public
 [GH-900 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
 (the *current*, post-January-2026 domain structure -- several other prep sites still test the
@@ -12,7 +12,7 @@ InnerSource, secure repository practices):
 
 | Domain | Weight | Questions here |
 |---|---|---|
-| Understand Git and GitHub basics | 25–30% | 46 |
+| Understand Git and GitHub basics | 25–30% | 47 |
 | Work with GitHub repositories | 10–15% | 24 |
 | Collaborate using GitHub | 10–15% | 24 |
 | Apply modern development practices | 10–15% | 24 |
@@ -34,7 +34,7 @@ tool -- never from leaked/real exam questions or "exam dump" sites, which were d
 excluded. Treat this as a study aid for the topics, not a guarantee of the exact questions
 you'll see on exam day.
 
-Pick how many questions you want (15 to all 166), answer them one at a time, and get instant
+Pick how many questions you want (15 to all 167), answer them one at a time, and get instant
 feedback with the correct answer. At the end you can see your score and retry only the
 questions you got wrong.
 
